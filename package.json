@@ -1,0 +1,36 @@
+{
+  "name": "beaver-eats-backend",
+  "version": "1.0.0",
+  "description": "The backend server that interprets data and handles queries",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobyloki/BeaverEats.git"
+  },
+  "keywords": [
+    "server",
+    "parse",
+    "backend",
+    "data"
+  ],
+  "author": "theusaf (Daniel Lau)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobyloki/BeaverEats/issues"
+  },
+  "homepage": "https://github.com/tobyloki/BeaverEats#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
