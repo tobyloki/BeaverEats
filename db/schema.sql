@@ -22,6 +22,8 @@ CREATE TABLE MenuItem (
   name VARCHAR(255) NOT NULL,
   description TEXT,
   menuSection INTEGER NOT NULL,
-  PRIMARY KEY (menuSection, name),
+  locationName VARCHAR(255) NOT NULL,
+  PRIMARY KEY (locationName, menuSection, name),
   FOREIGN KEY (menuSection) REFERENCES MenuItemSection(id)
+  FOREIGN KEY (locationName) REFERENCES Location(name)
 );

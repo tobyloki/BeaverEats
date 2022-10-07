@@ -1,4 +1,6 @@
-declare module "beavereats" {}
+declare module "beavereats" {
+  export function getRestaurantsFullData(): Promise<ScrapeResults>;
+}
 
 interface MenuItem {
   /**
