@@ -2,7 +2,7 @@
 
 ## Fetch all locations
 
-`GET /locations`
+[`GET /locations`](https://beaver-eats-backend-demo.fly.dev/locations)
 
 ### Response
 
@@ -28,17 +28,17 @@
 
 `?sort=<field>`
 
-- `name`
+- [`name`](https://beaver-eats-backend-demo.fly.dev/locations?sort=name)
   - Sorts alphabetically by name
-- `area`
+- [`area`](https://beaver-eats-backend-demo.fly.dev/locations?sort=area)
   - Sorts alphabetically by area name
-- `usesDiningDollars`
+- [`usesDiningDollars`](https://beaver-eats-backend-demo.fly.dev/locations?sort=usesDiningDollars)
   - Sorts by name
   - Prioritizes locations that accept dining dollars
-- `startHours`
+- [`startHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=startHours)
   - Sorts by name
   - Prioritizes locations that open earlier
-- `endHours`
+- [`endHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=endHours)
   - Sorts by name
   - Prioritizes locations that close later
 
