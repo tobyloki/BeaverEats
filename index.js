@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
 main();
 
@@ -72,8 +73,53 @@ async function main() {
 		}
 	}
 
-	const restaurant = restaurants[0];
-	console.log(restaurant);
+	// const restaurant = restaurants[1];
+	// console.log(restaurant);
+
+	// const menu = await getMenu(page, restaurant);
+	// // console.log(menu.length);
+	// // console.log(JSON.stringify(menu, null, 2));
+	// restaurant.menu = menu;
+
+	// console.log(JSON.stringify(restaurant, null, 2));
+
+	// let pages = await browser.pages();
+	// console.log(pages.length);
+	// console.log(restaurants.length);
+
+	const promises = [];
+	for (restaurant of restaurants) {
+		promises.push(
+			new Promise(async (resolve, reject) => {
+				const menu = await getMenu(browser, restaurant);
+				restaurant.menu = menu;
+				// save this back to restaurants
+				resolve(restaurant);
+			})
+		);
+	}
+
+	restaurants = await Promise.all(promises);
+
+	console.log(JSON.stringify(restaurants[0], null, 2));
+
+	// save restaurants to a file
+	fs.writeFileSync(
+		'restaurants.json',
+		JSON.stringify(restaurants, null, 2),
+		(err) => {
+			if (err) {
+				console.log(err);
+			}
+		}
+	);
+
+	browser.close();
+	console.log('Done');
+}
+
+async function getMenu(browser, restaurant) {
+	const page = await browser.newPage();
 	await page.goto(restaurant.url);
 
 	// await page.goto('https://mu.oregonstate.edu/trader-bings-cafe');
@@ -149,11 +195,6 @@ async function main() {
 		}
 		return data;
 	});
-	// console.log(menu.length);
-	// console.log(JSON.stringify(menu, null, 2));
-	restaurant.menu = menu;
 
-	console.log(JSON.stringify(restaurant, null, 2));
-
-	browser.close();
+	return menu;
 }

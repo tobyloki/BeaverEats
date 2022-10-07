@@ -1,0 +1,7984 @@
+[
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Weatherford Hall",
+    "name": "Bing's Cafe",
+    "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
+    "diningDollars": 1,
+    "start": null,
+    "end": null,
+    "menu": [
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Espresso",
+        "items": [
+          {
+            "name": "Americano",
+            "description": []
+          },
+          {
+            "name": "Coffee",
+            "description": []
+          },
+          {
+            "name": "Cafe Au Lait",
+            "description": []
+          },
+          {
+            "name": "Cafe Mochae",
+            "description": []
+          },
+          {
+            "name": "Cappuccino",
+            "description": []
+          },
+          {
+            "name": "Latte",
+            "description": []
+          },
+          {
+            "name": "Mexican Mocha",
+            "description": []
+          },
+          {
+            "name": "Mocha",
+            "description": []
+          },
+          {
+            "name": "Shot in the Dark",
+            "description": []
+          },
+          {
+            "name": "White Chocolate Mocha",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Hot Drinks",
+        "items": [
+          {
+            "name": "Chai",
+            "description": []
+          },
+          {
+            "name": "Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Mexi Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "White Hot Chocolate",
+            "description": []
+          },
+          {
+            "name": "Hot Tea",
+            "description": []
+          },
+          {
+            "name": "Steamer with Syrup",
+            "description": []
+          },
+          {
+            "name": "Yerba Mate Latte",
+            "description": []
+          },
+          {
+            "name": "London Fog",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Flavored Syrup",
+            "description": []
+          },
+          {
+            "name": "Flavored Sauce",
+            "description": []
+          },
+          {
+            "name": "Extra Espresso Shot",
+            "description": []
+          },
+          {
+            "name": "Whip Cream",
+            "description": []
+          },
+          {
+            "name": "Breve",
+            "description": []
+          },
+          {
+            "name": "Milk Alternative",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          {
+            "name": "Iced Chai",
+            "description": []
+          },
+          {
+            "name": "Iced Coffee",
+            "description": []
+          },
+          {
+            "name": "Cold Brew",
+            "description": []
+          },
+          {
+            "name": "Italian Cream Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Soda",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda",
+            "description": []
+          },
+          {
+            "name": "Italian Rush",
+            "description": []
+          },
+          {
+            "name": "Choice Iced Tea",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Ghirardelli Blended Coffee",
+        "items": [
+          {
+            "name": "Mocha | White Mocha | Caramel",
+            "description": []
+          },
+          {
+            "name": "Add any flavor syrup",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Torani Fruit Smoothies",
+        "items": [
+          {
+            "name": "Peach",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Strawberry",
+            "description": []
+          },
+          {
+            "name": "Wildberry",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Monin Syrups",
+        "items": [
+          {
+            "name": "Caramel*",
+            "description": []
+          },
+          {
+            "name": "Peppermint",
+            "description": []
+          },
+          {
+            "name": "Hazelnut",
+            "description": []
+          },
+          {
+            "name": "Irish cream",
+            "description": []
+          },
+          {
+            "name": "Lavendar",
+            "description": []
+          },
+          {
+            "name": "Vanilla*",
+            "description": []
+          },
+          {
+            "name": "Cane sugar",
+            "description": []
+          },
+          {
+            "name": "Honey",
+            "description": []
+          },
+          {
+            "name": "Blackberry",
+            "description": []
+          },
+          {
+            "name": "Peach*",
+            "description": []
+          },
+          {
+            "name": "Mango",
+            "description": []
+          },
+          {
+            "name": "Pomegranate",
+            "description": []
+          },
+          {
+            "name": "Raspberry*",
+            "description": []
+          },
+          {
+            "name": "Strawberry*",
+            "description": []
+          },
+          {
+            "name": "*Sugar-free flavor available",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Fountain Drinks",
+        "items": [
+          {
+            "name": "Iced Tea",
+            "description": []
+          },
+          {
+            "name": "Lemonade",
+            "description": []
+          },
+          {
+            "name": "Arnold Palmer",
+            "description": []
+          },
+          {
+            "name": "Yerba Soda Lemonade",
+            "description": []
+          },
+          {
+            "name": "Lemonade with Syrup",
+            "description": []
+          },
+          {
+            "name": "Cold Milk",
+            "description": []
+          },
+          {
+            "name": "Sparklers",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Coffee is always ready",
+        "items": [
+          {
+            "name": "Serving Daily Portland House and Morning Blend",
+            "description": []
+          }
+        ]
+      },
+      {
+        "title": "Java to Go",
+        "items": [
+          {
+            "name": "Pump Pot - Serves 8",
+            "description": []
+          },
+          {
+            "name": "Includes cups, creamer, sweetener, stir sticks, and napkins",
+            "description": []
+          }
+        ]
+      }
+    ]
+  }
+]

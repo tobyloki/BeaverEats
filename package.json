@@ -19,5 +19,8 @@
   "homepage": "https://github.com/tobyloki/BeaverEats#readme",
   "dependencies": {
     "puppeteer": "^18.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
   }
 }
