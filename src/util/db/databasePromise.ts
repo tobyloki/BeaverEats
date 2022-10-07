@@ -19,6 +19,30 @@ export class Statement {
     });
   }
 
+  get<E>(...param: any): Promise<E> {
+    return new Promise((resolve, reject) => {
+      this._stmt.get(...param, (err: Error | null, row: E) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(row);
+        }
+      });
+    });
+  }
+
+  all<E>(...param: any): Promise<E[]> {
+    return new Promise((resolve, reject) => {
+      this._stmt.all(...param, (err: Error | null, rows: E[]) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(rows);
+        }
+      });
+    });
+  }
+
   finalize(): Promise<void> {
     return new Promise((resolve, reject) => {
       this._stmt.finalize((err) => {
@@ -39,13 +63,37 @@ export class Database {
     this._db = db;
   }
 
-  async run(sql: string): Promise<void> {
+  run(sql: string): Promise<void> {
     return new Promise((resolve, reject) => {
       this._db.run(sql, (error) => {
         if (error) {
           reject(error);
         } else {
           resolve();
+        }
+      });
+    });
+  }
+
+  get<E>(sql: string): Promise<E> {
+    return new Promise((resolve, reject) => {
+      this._db.get(sql, (error, row) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(row);
+        }
+      });
+    });
+  }
+
+  all<E>(sql: string): Promise<E[]> {
+    return new Promise((resolve, reject) => {
+      this._db.all(sql, (error, rows) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(rows);
         }
       });
     });

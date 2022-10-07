@@ -39,9 +39,9 @@ export default class SQLBuilder {
 
   order(order: string, direction: "ASC" | "DESC") {
     if (this._order) {
-      this._order = `${order} ${direction}`;
-    } else {
       this._order += `, ${order} ${direction}`;
+    } else {
+      this._order = `${order} ${direction}`;
     }
     return this;
   }

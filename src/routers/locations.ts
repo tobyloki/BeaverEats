@@ -26,7 +26,7 @@ function waitForDatabase(): Promise<void> {
         resolve();
       } else {
         tries++;
-        if (tries > 15) {
+        if (tries > 25) {
           clearInterval(interval);
           reject(new Error("Database not initialized."));
         }
@@ -43,7 +43,7 @@ locationsRouter.use(async (req, res, next) => {
   }
 });
 
-locationsRouter.get("/", (req, res) => {
+locationsRouter.get("/", async (req, res) => {
   const sqlbuilder = new databaseUtil.SQLBuilder(),
     { query } = req,
     order = query.order?.toString().toUpperCase() === "DESC" ? "DESC" : "ASC",
@@ -72,7 +72,21 @@ locationsRouter.get("/", (req, res) => {
     sqlbuilder.where("name LIKE ? OR area LIKE ?");
     bindValues.push(`%${query.search}%`, `%${query.search}%`);
   }
-  res.json(demoData);
+
+  const sql = sqlbuilder.build(),
+    stmt = await databaseUtil.database.prepare(sql),
+    rows = await stmt.all<SQLLocation>(...bindValues).catch(() => []);
+  res.json(
+    rows.map((row) => {
+      return {
+        name: row.name,
+        area: row.area,
+        usesDiningDollars: !!row.usesDiningDollars,
+        startHours: row.startHours,
+        endHours: row.endHours,
+      };
+    })
+  );
 });
 
 /* eslint-disable @typescript-eslint/no-unused-vars */

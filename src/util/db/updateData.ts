@@ -18,7 +18,10 @@ function getRelevantHours(hours: Hours[]): Hours {
     endMoment.minute(parseInt(end24.split(":")[1]));
     endMoment.second(0);
     if (now.isBetween(startMoment, endMoment)) {
-      bestHours = hour;
+      bestHours = {
+        start: start24,
+        end: end24,
+      };
       break;
     }
   }
