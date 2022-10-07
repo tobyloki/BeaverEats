@@ -7,13 +7,13 @@ export class Statement {
     this._stmt = stmt;
   }
 
-  run(param: any): Promise<void> {
+  run(...param: any): Promise<Statement> {
     return new Promise((resolve, reject) => {
-      this._stmt.run(param, (err) => {
+      this._stmt.run(...param, (err: Error | null) => {
         if (err) {
           reject(err);
         } else {
-          resolve();
+          resolve(this);
         }
       });
     });

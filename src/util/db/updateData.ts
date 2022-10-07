@@ -11,12 +11,7 @@ async function insertRestaurant(
       `
     ),
     { name, location, diningDollars, start, end } = restaurant;
-  await stmt.run(name);
-  await stmt.run(location);
-  await stmt.run(diningDollars);
-  await stmt.run(start);
-  await stmt.run(end);
-  await stmt.finalize();
+  await stmt.run(name, location, !!diningDollars, start, end);
 }
 
 async function insertMenuSection(
@@ -31,9 +26,7 @@ async function insertMenuSection(
       `
     ),
     { title } = menuSection;
-  await stmt.run(title);
-  await stmt.run(location);
-  await stmt.finalize();
+  await stmt.run(title, location);
 }
 
 async function insertMenuItem(
@@ -48,10 +41,7 @@ async function insertMenuItem(
       `
     ),
     { name, description } = menuItem;
-  await stmt.run(name);
-  await stmt.run(description[0]);
-  await stmt.run(menuSectionTitle);
-  await stmt.finalize();
+  await stmt.run(name, description[0], menuSectionTitle);
 }
 
 export default async function updateData(data: ScrapeResults | null) {
@@ -68,4 +58,5 @@ export default async function updateData(data: ScrapeResults | null) {
       }
     }
   }
+  databaseUtil.dataInitialized = true;
 }

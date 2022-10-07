@@ -1,7 +1,7 @@
-import { Router } from "express";
+import express from "express";
 import databaseUtil from "../util/db/index.js";
 
-export const locationsRouter = Router();
+export const locationsRouter = express.Router();
 
 const demoData = [
   {
@@ -28,7 +28,7 @@ function waitForDatabase(): Promise<void> {
         tries++;
         if (tries > 15) {
           clearInterval(interval);
-          reject();
+          reject(new Error("Database not initialized."));
         }
       }
     }, 1000);
@@ -37,8 +37,7 @@ function waitForDatabase(): Promise<void> {
 
 locationsRouter.use(async (req, res, next) => {
   if (!databaseUtil.dataInitialized) {
-    await waitForDatabase();
-    next();
+    waitForDatabase().then(next).catch(next);
   } else {
     next();
   }
@@ -47,3 +46,19 @@ locationsRouter.use(async (req, res, next) => {
 locationsRouter.get("/", (req, res) => {
   res.json(demoData);
 });
+
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// Eslint is complaining about the unused next parameter,
+// but it is required for express to recognize this as an error handler.
+locationsRouter.use(
+  (
+    err: Error,
+    req: express.Request,
+    res: express.Response,
+    next: express.NextFunction
+  ) => {
+    console.error(err);
+    res.status(500).json({ error: err.message });
+  }
+);
+/* eslint-enable @typescript-eslint/no-unused-vars */

@@ -25,12 +25,17 @@ app.listen(process.env.PORT || 3000, () => {
 });
 
 async function updateDatabase() {
-  databaseUtil.updateData(
-    await scrape().catch(() => {
-      console.log("Failed to initialize scraper. Check logs for details?");
-      return null;
-    })
-  );
+  databaseUtil
+    .updateData(
+      await scrape().catch(() => {
+        console.log("Failed to initialize scraper. Check logs for details.");
+        return null;
+      })
+    )
+    .catch((err) => {
+      console.log("Failed to update database. Check logs for details.");
+      console.log(err);
+    });
 }
 
 await updateDatabase();
