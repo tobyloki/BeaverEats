@@ -4,8 +4,9 @@ Pulls data from https://food.oregonstate.edu & https://my.uhds.oregonstate.edu/a
 
 # Technologies used
 
-- Node.js
+- Node.js v18+
 - Puppeteer
+- Jest
 
 # Install
 
@@ -17,4 +18,10 @@ npm i
 
 ```cmd
 node index.js
+```
+
+# Test
+
+```cmd
+npm test test.js
 ```
