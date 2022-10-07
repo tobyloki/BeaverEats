@@ -1,5 +1,4 @@
 export default class SQLBuilder {
-  _db: typeof import("sqlite3").Database;
   _from: string;
   _where: string;
   _order: string;
@@ -8,8 +7,7 @@ export default class SQLBuilder {
   _action: string;
   _offset: number;
 
-  constructor(db: typeof import("sqlite3").Database) {
-    this._db = db;
+  constructor() {
     this._from = "";
     this._where = "";
     this._order = "";

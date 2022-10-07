@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import { locationsRouter } from "./routers/locations.js";
 import scrape from "./util/scrape.js";
-import updateData from "./util/db/updateData.js";
+import databaseUtil from "./util/db/index.js";
 
 const app = express();
 
@@ -24,7 +24,14 @@ app.listen(process.env.PORT || 3000, () => {
   console.log(`Listening on port ${process.env.PORT || 3000}`);
 });
 
-updateData(await scrape().catch(() => {
-  console.log("Failed to initialize scraper. Check logs for details?");
-  return null;
-}));
+async function updateDatabase() {
+  databaseUtil.updateData(
+    await scrape().catch(() => {
+      console.log("Failed to initialize scraper. Check logs for details?");
+      return null;
+    })
+  );
+}
+
+await updateDatabase();
+setInterval(updateDatabase, 1000 * 60 * 30);

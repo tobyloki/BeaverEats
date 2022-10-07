@@ -1,4 +1,5 @@
 import { Router } from "express";
+import databaseUtil from "../util/db/index.js";
 
 export const locationsRouter = Router();
 
@@ -15,6 +16,33 @@ const demoData = [
     endHours: "18:00",
   },
 ];
+
+function waitForDatabase(): Promise<void> {
+  return new Promise((resolve, reject) => {
+    let tries = 0;
+    const interval = setInterval(() => {
+      if (databaseUtil.dataInitialized) {
+        clearInterval(interval);
+        resolve();
+      } else {
+        tries++;
+        if (tries > 15) {
+          clearInterval(interval);
+          reject();
+        }
+      }
+    }, 1000);
+  });
+}
+
+locationsRouter.use(async (req, res, next) => {
+  if (!databaseUtil.dataInitialized) {
+    await waitForDatabase();
+    next();
+  } else {
+    next();
+  }
+});
 
 locationsRouter.get("/", (req, res) => {
   res.json(demoData);

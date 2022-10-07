@@ -1,6 +1,9 @@
 import sqlite3 from "sqlite3";
 import { URL } from "url";
 import path from "path";
+import SQLBuilder from "./sqlbuilder.js";
+import { Database, Statement } from "./databasePromise.js";
+import updateData from "./updateData.js";
 
 const __dirname = new URL(".", import.meta.url).pathname;
 
@@ -19,5 +22,13 @@ function openDatabase(): Promise<sqlite3.Database> {
   });
 }
 
-export const database = await openDatabase();
-export let dataInitialized = false;
+const database = new Database(await openDatabase());
+
+export default {
+  database,
+  updateData,
+  SQLBuilder,
+  dataInitialized: false,
+  Database,
+  Statement,
+};

@@ -23,6 +23,7 @@
     ],
     "one-var": ["error", "consecutive"],
     "prefer-const": "error",
+    "@typescript-eslint/no-explicit-any": 0,
     "prefer-destructuring": [
       "error",
       {
