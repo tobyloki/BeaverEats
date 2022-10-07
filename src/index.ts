@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 dotenv.config();
 import { locationsRouter } from "./routers/locations.js";
-import scrape from "./util/scrape.js";
+import scrape from "./util/scraper/scrape.js";
 import databaseUtil from "./util/db/index.js";
 
 const app = express();

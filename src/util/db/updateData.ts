@@ -49,6 +49,10 @@ export default async function updateData(data: ScrapeResults | null) {
     return;
   }
   const { database } = databaseUtil;
+  databaseUtil.dataInitialized = false;
+  await database.run("DELETE * FROM Location");
+  await database.run("DELETE * FROM MenuItemSection");
+  await database.run("DELETE * FROM MenuItem");
   for (const restaurant of data) {
     await insertRestaurant(restaurant, database);
     for (const section of restaurant.menu) {
