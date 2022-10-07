@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 });
 app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
-    res.send("\"200 OK\"");
+    res.json("200 OK");
 });
 app.use("/locations", locationsRouter);
 app.listen(process.env.PORT || 3000, () => {
