@@ -1,23 +1,21 @@
 import { spawn } from "child_process";
 import path from "path";
 import { URL } from "url";
+import fs from "fs/promises";
 const __dirname = new URL(".", import.meta.url).pathname;
-export async function scrape() {
+export default function scrape() {
     return new Promise((resolve, reject) => {
-        let output = "";
         const child = spawn("node", ["scrapeWorker.js"], {
             cwd: path.join(__dirname),
+            stdio: "ignore",
         });
-        child.on("exit", (code) => {
+        child.on("exit", async (code) => {
             if (code === 0) {
-                resolve(output);
+                resolve(JSON.parse(await fs.readFile(path.join(__dirname, "restaurants.json"), "utf-8")));
             }
             else {
                 reject();
             }
-        });
-        child.stdout.on("data", (data) => {
-            output += data.toString("utf8");
         });
     });
 }

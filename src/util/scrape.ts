@@ -5,7 +5,7 @@ import fs from "fs/promises";
 
 const __dirname = new URL(".", import.meta.url).pathname;
 
-export async function scrape(): Promise<ScrapeResults> {
+export default function scrape(): Promise<ScrapeResults> {
   return new Promise((resolve, reject) => {
     const child = spawn("node", ["scrapeWorker.js"], {
       cwd: path.join(__dirname),
