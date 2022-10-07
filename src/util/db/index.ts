@@ -19,4 +19,5 @@ function openDatabase(): Promise<sqlite3.Database> {
   });
 }
 
-const database = await openDatabase();
+export const database = await openDatabase();
+export let dataInitialized = false;
