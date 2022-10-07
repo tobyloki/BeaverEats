@@ -3,3 +3,4 @@ package-lock.json
 .env
 fly.toml
 .dockerignore
+db/database.sqlite.db

@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node dist/index.js",
-    "lint": "npx eslint . --fix && npx prettier --write ."
+    "lint": "npx eslint . --fix && npx prettier --write .",
+    "build": "node build/build.js"
   },
   "repository": {
     "type": "git",
