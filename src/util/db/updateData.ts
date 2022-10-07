@@ -1,4 +1,29 @@
 import databaseUtil from "./index.js";
+import moment from "moment-timezone";
+
+function getRelevantHours(hours: Hours[]): Hours {
+  const now = moment().tz("America/Los_Angeles");
+  let bestHours: Hours = { start: null, end: null };
+  for (const hour of hours) {
+    const { start, end } = hour,
+      start24 = moment(start, "h:mm A").format("HH:mm"),
+      end24 = moment(end, "h:mm A").format("HH:mm"),
+      startMoment = now.clone(),
+      endMoment = now.clone();
+
+    startMoment.hour(parseInt(start24.split(":")[0]));
+    startMoment.minute(parseInt(start24.split(":")[1]));
+    startMoment.second(0);
+    endMoment.hour(parseInt(end24.split(":")[0]));
+    endMoment.minute(parseInt(end24.split(":")[1]));
+    endMoment.second(0);
+    if (now.isBetween(startMoment, endMoment)) {
+      bestHours = hour;
+      break;
+    }
+  }
+  return bestHours;
+}
 
 async function insertRestaurant(
   restaurant: Restaurant,
@@ -10,7 +35,8 @@ async function insertRestaurant(
       VALUES (?,?,?,?,?)
       `
     ),
-    { name, location, diningDollars, start, end } = restaurant;
+    { name, location, diningDollars, hours } = restaurant,
+    { start, end } = getRelevantHours(hours);
   await stmt.run(name, location, !!diningDollars, start, end);
 }
 
@@ -69,9 +95,8 @@ export default async function updateData(data: ScrapeResults | null) {
           section.title,
           restaurant.location,
           database
-        ).catch((err) => {
-          console.error(item.name, section.title, restaurant.location);
-          console.error(err);
+        ).catch(() => {
+          console.error("Duplicate item found");
         });
       }
     }

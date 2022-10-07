@@ -26,6 +26,11 @@ interface MenuSection {
   items: MenuItem[];
 }
 
+interface Hours {
+  start: string | null;
+  end: string | null;
+}
+
 interface Restaurant {
   /**
    * The location the restaurant is in
@@ -47,15 +52,7 @@ interface Restaurant {
    */
   diningDollars: 1 | 0;
 
-  /**
-   * The start time of the restaurant's hours
-   */
-  start: string | null;
-
-  /**
-   * The end time of the restaurant's hours
-   */
-  end: string | null;
+  hours: Hours[];
 
   /**
    * The menu sections of the restaurant
