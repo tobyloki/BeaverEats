@@ -44,6 +44,34 @@ locationsRouter.use(async (req, res, next) => {
 });
 
 locationsRouter.get("/", (req, res) => {
+  const sqlbuilder = new databaseUtil.SQLBuilder(),
+    { query } = req,
+    order = query.order?.toString().toUpperCase() === "DESC" ? "DESC" : "ASC",
+    bindValues: any[] = [];
+
+  sqlbuilder.from("Location");
+
+  if (query.sort) {
+    switch (query.sort) {
+      case "name":
+        sqlbuilder.order("name", order);
+        break;
+      case "area":
+      case "usesDiningDollars":
+      case "startHours":
+      case "endHours":
+        sqlbuilder.order(query.sort.toString(), order);
+        sqlbuilder.order("name", "ASC");
+        break;
+    }
+  } else {
+    sqlbuilder.order("name", "ASC");
+  }
+
+  if (query.search) {
+    sqlbuilder.where("name LIKE ? OR area LIKE ?");
+    bindValues.push(`%${query.search}%`, `%${query.search}%`);
+  }
   res.json(demoData);
 });
 

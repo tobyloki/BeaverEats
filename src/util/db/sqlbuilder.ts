@@ -46,8 +46,12 @@ export default class SQLBuilder {
     return this;
   }
 
-  where(condition: string) {
-    this._where = condition;
+  where(condition: string, isRequired = true) {
+    if (this._where) {
+      this._where += ` ${isRequired ? "AND" : "OR"} ${condition}`;
+    } else {
+      this._where = condition;
+    }
     return this;
   }
 
