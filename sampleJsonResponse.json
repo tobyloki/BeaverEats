@@ -1,0 +1,417 @@
+{
+  "location": "Austin Hall",
+  "name": "Trader Bing's",
+  "url": "https://uhds.oregonstate.edu/restaurants/trader-bings",
+  "diningDollars": 1,
+  "start": "7:30 AM",
+  "end": "6:00 PM",
+  "menu": [
+    {
+      "title": "The Opening Bell Breakfast",
+      "items": [
+        {
+          "name": "The Promotion",
+          "description": [
+            "Ham, peppered egg, white cheddar, tomato and mayo on a toasted ciabatta"
+          ]
+        },
+        {
+          "name": "The First Mover",
+          "description": [
+            "Peppered egg with feta, spinach, pesto and roasted red pepper toasted in a whole wheat wrap"
+          ]
+        },
+        {
+          "name": "The Plan",
+          "description": [
+            "Peppered egg, white cheddar, tomato, green leaf lettuce and mayo toasted on a ciabatta"
+          ]
+        },
+        {
+          "name": "The Blue Chip*",
+          "description": [
+            "Smoked salmon, cream cheese, and cucumber on your choice of toasted bagel"
+          ]
+        },
+        {
+          "name": "Avo-Toast",
+          "description": [
+            "Open faced on five grain bread with sliced avocado, salt and pepper, inclues option to pick one protein, one cheese, and one spread from the list below"
+          ]
+        },
+        {
+          "name": "The Breakfast Biscuit",
+          "description": [
+            "Pick one protein, one cheese, and one spread from the list below"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Open Market",
+      "items": [
+        {
+          "name": "Mac n' Cheese - half or whole",
+          "description": [
+            "Add any combination you want from the list below"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Add ons",
+      "items": [
+        {
+          "name": "Protein",
+          "description": [
+            "Bacon",
+            "Chicken",
+            "Salami",
+            "Ham",
+            "Turkey"
+          ]
+        },
+        {
+          "name": "Cheese",
+          "description": [
+            "White Cheddar",
+            "Brie",
+            "Provolone",
+            "Parmeson"
+          ]
+        },
+        {
+          "name": "Spread",
+          "description": [
+            "Pesto",
+            "Salsa",
+            "Hot Saue",
+            "Chipotle",
+            "Mayo",
+            "Ranch"
+          ]
+        },
+        {
+          "name": "Veggies",
+          "description": [
+            "Onions",
+            "Red Peppers",
+            "Olives",
+            "Pepperoncini",
+            "Tomatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Big Board Sandwiches",
+      "items": [
+        {
+          "name": "The Corporation Turkey Club",
+          "description": [
+            "Turkey, bacon, tomato, greens, provolone, and may served cold on ciabatta"
+          ]
+        },
+        {
+          "name": "The Stockbroker",
+          "description": [
+            "Turkey, bacon, brie, apple, avocado, greens, and honey mustard toasted on a ciabatta, served hot"
+          ]
+        },
+        {
+          "name": "The Shameless",
+          "description": [
+            "Genoa salami, ham, provolone, red onion, olive, pepperoncini, mayo, tomato, greens, and dijon mustard toasted on a ciabatta"
+          ]
+        },
+        {
+          "name": "The Capital Caprese",
+          "description": [
+            "Mozzarella, basil, tomato, pesto, and balsamic vinaigrette toasted on a ciabatta"
+          ]
+        },
+        {
+          "name": "The CEO",
+          "description": [
+            "Brie and white cheddar toasted on a ciabatta"
+          ]
+        },
+        {
+          "name": "Series 63",
+          "description": [
+            "Roasted red peppers, greens, mozzarella, pesto, hummus, and red onion toasted on five-grain bread"
+          ]
+        },
+        {
+          "name": "The Mutual Fund",
+          "description": [
+            "Tuna salad complimented with white cheddar, lettuce, and tomato, served cold on sourdough bread"
+          ]
+        },
+        {
+          "name": "The New Issue*",
+          "description": [
+            "Salmon, bacon, tomato, greens, and dijon mustard toasted on sourdough bread"
+          ]
+        },
+        {
+          "name": "The Consultant",
+          "description": [
+            "Bacon, egg, swiss, tomato, and chipotle ranch toasted on a fluffy biscuit"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "* ",
+      "items": []
+    },
+    {
+      "title": "The Salad Index",
+      "items": [
+        {
+          "name": "Value Chain Veggie Salad",
+          "description": [
+            "Tomatoes, sliced cucumbers, red onions, avocado, and shredded carrots on a bed of spring mix topped with huckleberry, vinaigrette and hummus"       
+          ]
+        },
+        {
+          "name": "Billionaire Buffalo Salad",
+          "description": [
+            "Chicken, tomato, and diced celery on a bed of romaine lettuce topped with buffalo sauce and Bleu cheese dressing"
+          ]
+        },
+        {
+          "name": "The Chairman Caesar Salad",
+          "description": [
+            "Chicken, olives, tomatoes, and parmesan on a bed of romaine lettuce topped with croutons and Caesar dressing"
+          ]
+        },
+        {
+          "name": "The Prime Rate",
+          "description": [
+            "Genoa salami, ham, feta cheese, red onion, olive, and pepperoncini on a bed of spring mix, topped with balsamic vinaigrette"
+          ]
+        },
+        {
+          "name": "Royalty Trust*",
+          "description": [
+            "Smoked salmon, avocado, red onion, and tomatoes over a bed of spring mix topped with balsamic vinaigrette"
+          ]
+        },
+        {
+          "name": "Side Salad",
+          "description": [
+            "Spring mix, tomatoes, cucumbers, shredded carrots, croutons, topped with balsamic vinaigrette"
+          ]
+        },
+        {
+          "name": "Side Caesar Salad",
+          "description": [
+            "Olives, tomatoes, and parmesan on a bed of romaine lettuce topped with croutons and Caesar dressing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wall Street Wraps",
+      "items": [
+        {
+          "name": "The Chairman Caesar",
+          "description": [
+            "Chicken, tomatoes, olives, romaine lettuce, croutons, and parmesan topped with Caesar dressing and wrapped in a spinach tortilla"
+          ]
+        },
+        {
+          "name": "Billionaire Buffalo",
+          "description": [
+            "Chicken, romaine lettuce, tomato, and diced celery topped with buffalo sauce and blue cheese dressing piled into a whole wheat wrap"
+          ]
+        },
+        {
+          "name": "Value Chain Veggie",
+          "description": [
+            "Avocado, tomato, cucumber, spinach, carrots, and red onion topped with hummus and huckleberry vinaigrette in a spinach tortilla"
+          ]
+        },
+        {
+          "name": "The Four Pillars",
+          "description": [
+            "Chicken breast, bacon, avocado, tomato, spring mix, and cream cheese, topped with chipotle mayo in a whole wheat wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Espresso",
+      "items": [
+        {
+          "name": "Americano",
+          "description": []
+        },
+        {
+          "name": "Coffee",
+          "description": []
+        },
+        {
+          "name": "Cafe Au Lait",
+          "description": []
+        },
+        {
+          "name": "Cafe Mocha",
+          "description": []
+        },
+        {
+          "name": "Cappuccino",
+          "description": []
+        },
+        {
+          "name": "Latte",
+          "description": []
+        },
+        {
+          "name": "White Mocha",
+          "description": []
+        },
+        {
+          "name": "Mocha",
+          "description": []
+        },
+        {
+          "name": "Shot in the Dark",
+          "description": []
+        }
+      ]
+    },
+    {
+      "title": "Hot Drinks",
+      "items": [
+        {
+          "name": "Chai",
+          "description": []
+        },
+        {
+          "name": "Hot Chocolate",
+          "description": []
+        },
+        {
+          "name": "White Hot Chocolate",
+          "description": []
+        },
+        {
+          "name": "Hot Tea",
+          "description": []
+        },
+        {
+          "name": "Steamer",
+          "description": []
+        },
+        {
+          "name": "London Fog",
+          "description": []
+        }
+      ]
+    },
+    {
+      "title": "Extras",
+      "items": [
+        {
+          "name": "Flavored Syrup",
+          "description": []
+        },
+        {
+          "name": "Extra Espresso Shot",
+          "description": []
+        },
+        {
+          "name": "Whipped Cream",
+          "description": []
+        },
+        {
+          "name": "Milk Alternative",
+          "description": []
+        }
+      ]
+    },
+    {
+      "title": "Iced",
+      "items": [
+        {
+          "name": "Iced Chai",
+          "description": []
+        },
+        {
+          "name": "Iced Coffee",
+          "description": []
+        },
+        {
+          "name": "Cold Brew",
+          "description": []
+        },
+        {
+          "name": "Italian Cream Soda",
+          "description": []
+        },
+        {
+          "name": "Italian Soda",
+          "description": []
+        }
+      ]
+    },
+    {
+      "title": "Blended Coffee",
+      "items": [
+        {
+          "name": "Mocha",
+          "description": []
+        },
+        {
+          "name": "White Chocolate",
+          "description": []
+        },
+        {
+          "name": "Caramel",
+          "description": []
+        },
+        {
+          "name": "SF Mocha",
+          "description": []
+        },
+        {
+          "name": "Add any flavor syrup",
+          "description": []
+        }
+      ]
+    },
+    {
+      "title": "Fruit Smoothies",
+      "items": [
+        {
+          "name": "Peach",
+          "description": []
+        },
+        {
+          "name": "Strawberry",
+          "description": []
+        },
+        {
+          "name": "Mango",
+          "description": []
+        },
+        {
+          "name": "Mix n' Match",
+          "description": []
+        }
+      ]
+    },
+    {
+      "title": "Fountain",
+      "items": [
+        {
+          "name": "Lemonade",
+          "description": []
+        }
+      ]
+    }
+  ]
+}
