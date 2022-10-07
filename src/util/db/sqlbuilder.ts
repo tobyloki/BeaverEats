@@ -1,5 +1,4 @@
 export default class SQLBuilder {
-
   _db: typeof import("sqlite3").Database;
   _from: string;
   _where: string;
@@ -82,5 +81,4 @@ export default class SQLBuilder {
     }
     return sqlList.join(" ");
   }
-
 }

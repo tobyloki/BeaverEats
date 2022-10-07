@@ -4,3 +4,6 @@ package-lock.json
 fly.toml
 .dockerignore
 db/database.sqlite.db
+dockerfile
+restaurants.json
+**/restaurants.json

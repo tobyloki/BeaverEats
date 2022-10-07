@@ -9,6 +9,9 @@
     "lint": "npx eslint . --fix && npx prettier --write .",
     "build": "node build/build.js"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tobyloki/BeaverEats.git"

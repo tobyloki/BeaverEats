@@ -8,10 +8,18 @@ Documentation for the API can be found [here](docs/index.md).
 
 ## Installation
 
+**Requires Node.js 18.0.0 or higher**
+
 1. Clone or download this branch.
 
 2. ```bash
    npm install
+   ```
+
+3. If using linux, run the following command to install the dependencies for the scraper:
+   ```bash
+   sudo apt update
+   sudo apt install libgbm-dev
    ```
 
 ## Usage
