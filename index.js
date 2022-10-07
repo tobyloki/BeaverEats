@@ -65,10 +65,18 @@ exports.getRestaurantsFullData = async () => {
 	for (let i = 0; i < restaurants.length; i++) {
 		for (let j = 0; j < restaurantInfos.length; j++) {
 			if (restaurants[i].name === restaurantInfos[j].name) {
-				restaurants[i] = {
-					...restaurants[i],
-					...restaurantInfos[j]
-				};
+				// restaurants[i] = {
+				// 	...restaurants[i],
+				// 	...restaurantInfos[j]
+				// };
+				restaurants[i].diningDollars = restaurantInfos[j].diningDollars;
+				if (restaurants[i].hours == null) {
+					restaurants[i].hours = [];
+				}
+				restaurants[i].hours.push({
+					start: restaurantInfos[j].start,
+					end: restaurantInfos[j].end
+				});
 			}
 		}
 	}
