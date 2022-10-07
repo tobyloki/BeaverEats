@@ -1,8 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-main();
-
 async function getRestaurantBasicInfo() {
 	const response = await fetch(
 		'https://my.uhds.oregonstate.edu/api/dining/calendar'
@@ -27,7 +25,7 @@ async function getRestaurantBasicInfo() {
 	return restaurants;
 }
 
-async function main() {
+exports.getRestaurantsFullData = async () => {
 	const restaurantInfos = await getRestaurantBasicInfo();
 
 	const browser = await puppeteer.launch({ headless: true });
@@ -35,7 +33,7 @@ async function main() {
 
 	await page.goto('https://food.oregonstate.edu');
 
-	console.log('Getting resturantLoc');
+	console.log('Getting restaurant data');
 	let restaurants = await page.evaluate(() => {
 		let data = [];
 		let items = document.getElementsByClassName('resturantLoc');
@@ -45,17 +43,19 @@ async function main() {
 			// get div element
 			let div = item.getElementsByTagName('div')[0];
 			// get inner div element
-			let innerDiv = div.getElementsByTagName('div')[0];
-			// get title for href
-			let name = innerDiv.getElementsByTagName('a')[0].textContent;
-			// get href value
-			let url = innerDiv.getElementsByTagName('a')[0].href;
+			let innerDiv = div.getElementsByTagName('div');
 
-			data.push({
-				location,
-				name,
-				url
-			});
+			for (var iDiv of innerDiv) {
+				// get title for href
+				let name = iDiv.getElementsByTagName('a')[0].textContent;
+				// get href value
+				let url = iDiv.getElementsByTagName('a')[0].href;
+				data.push({
+					location,
+					name,
+					url
+				});
+			}
 		}
 		return data;
 	});
@@ -73,25 +73,19 @@ async function main() {
 		}
 	}
 
-	// const restaurant = restaurants[1];
-	// console.log(restaurant);
+	const restaurant = restaurants[restaurants.length - 1];
+	console.log(restaurant);
 
-	// const menu = await getMenu(page, restaurant);
-	// // console.log(menu.length);
-	// // console.log(JSON.stringify(menu, null, 2));
+	// const menu = await getMenu(browser, restaurant.url);
+	// console.log(menu.length);
+	// console.log(JSON.stringify(menu, null, 2));
 	// restaurant.menu = menu;
 
-	// console.log(JSON.stringify(restaurant, null, 2));
-
-	// let pages = await browser.pages();
-	// console.log(pages.length);
-	// console.log(restaurants.length);
-
 	const promises = [];
-	for (restaurant of restaurants) {
+	for (let restaurant of restaurants) {
 		promises.push(
 			new Promise(async (resolve, reject) => {
-				const menu = await getMenu(browser, restaurant);
+				const menu = await getMenu(browser, restaurant.url);
 				restaurant.menu = menu;
 				// save this back to restaurants
 				resolve(restaurant);
@@ -101,7 +95,7 @@ async function main() {
 
 	restaurants = await Promise.all(promises);
 
-	console.log(JSON.stringify(restaurants[0], null, 2));
+	// console.log(JSON.stringify(restaurants[0], null, 2));
 
 	// save restaurants to a file
 	fs.writeFileSync(
@@ -116,20 +110,80 @@ async function main() {
 
 	browser.close();
 	console.log('Done');
-}
 
-async function getMenu(browser, restaurant) {
+	return restaurants;
+};
+
+async function getMenu(browser, url) {
 	const page = await browser.newPage();
-	await page.goto(restaurant.url);
+	await page.goto(url);
+
+	// wait for page to load
+	// await page.waitForSelector('.menu');
 
 	// await page.goto('https://mu.oregonstate.edu/trader-bings-cafe');
 
 	console.log('Getting menu');
-	let menu = await page.evaluate(() => {
-		let data = [];
-		let items = document.getElementsByClassName('field-item even');
-		for (var item of items) {
-			// get first p tag
+	let menu = await page.evaluate(async () => {
+		function getMenuForCoffeeShop(item) {
+			const data = [];
+
+			let menuItem0 = {
+				title: '',
+				items: []
+			};
+
+			// menu is ordered h4, p, p, p
+			// get all menu items
+			let tags = item.querySelectorAll('h4,p');
+			for (const tag of tags) {
+				if (tag.tagName.startsWith('H')) {
+					if (menuItem0.title.length > 0) {
+						if (menuItem0.items.length > 0) {
+							data.push(menuItem0);
+						}
+						menuItem0 = {
+							title: '',
+							items: []
+						};
+					}
+
+					// data.push(tag.innerText);
+					menuItem0.title = tag.innerText;
+				} else if (tag.tagName === 'P') {
+					let text = tag.getElementsByTagName('strong');
+					if (text.length > 0) {
+						const name = text[0].innerText.trim();
+						const description = tag.innerText
+							.replace(name, '')
+							.replace('\n', '')
+							.trim();
+
+						menuItem0.items.push({
+							name,
+							description: description.length > 0 ? description : null
+						});
+					}
+				}
+			}
+
+			// add the last item
+			if (menuItem0.title.length > 0) {
+				if (menuItem0.items.length > 0) {
+					data.push(menuItem0);
+				}
+				menuItem0 = {
+					title: '',
+					items: []
+				};
+			}
+
+			return data;
+		}
+
+		function getMenuForRestaurant(item) {
+			const data = [];
+
 			let pTags = item.getElementsByTagName('p');
 
 			let menuItem = {
@@ -152,16 +206,22 @@ async function getMenu(browser, restaurant) {
 
 					// get value of strong
 					let title = pTag.getElementsByTagName('strong')[0].innerText;
-					menuItem.title = title;
+					let trimmedTitle = title.trim();
+					if (trimmedTitle != '*') {
+						menuItem.title = trimmedTitle;
+					}
 
 					// check if pTag has a style
 				} else if (pTag.style.length > 0) {
 					// get value of pTag
-					let item = pTag.innerText;
+					let item = pTag.innerText.trim();
 					// menuItem.items.push(item);
 					// get last menuItem.items
 					let lastItem = menuItem.items[menuItem.items.length - 1];
-					if (lastItem != null) {
+					if (lastItem != null && item.length > 0) {
+						if (lastItem.description == null) {
+							lastItem.description = [];
+						}
 						lastItem.description.push(item);
 						// update value in menuItems
 						menuItem.items[menuItem.items.length - 1] = lastItem;
@@ -173,8 +233,8 @@ async function getMenu(browser, restaurant) {
 					// check if name is not empty
 					if (trimmedName.length > 0) {
 						menuItem.items.push({
-							name: trimmedName,
-							description: []
+							name: trimmedName
+							// description: []
 						});
 					}
 				}
@@ -189,10 +249,89 @@ async function getMenu(browser, restaurant) {
 				};
 			}
 
-			// data.push({
-			// 	title
-			// });
+			return data;
 		}
+
+		function getMenuForBingsCafe(item) {
+			const data = [];
+
+			let menuItem0 = {
+				title: '',
+				items: []
+			};
+
+			// menu is ordered h4, p, p, p
+			// get all menu items
+			let tags = item.querySelectorAll('h4,p');
+			for (const tag of tags) {
+				if (tag.tagName.startsWith('H')) {
+					if (menuItem0.title.length > 0) {
+						if (menuItem0.items.length > 0) {
+							data.push(menuItem0);
+						}
+						menuItem0 = {
+							title: '',
+							items: []
+						};
+					}
+
+					// data.push(tag.innerText);
+					menuItem0.title = tag.innerText;
+				} else if (tag.tagName === 'P') {
+					let text = tag.getElementsByTagName('strong');
+					if (text.length > 0) {
+						const name = text[0].innerText.trim();
+						const description = tag.innerText
+							.replace(name, '')
+							.replace('\n', '')
+							.trim();
+
+						menuItem0.items.push({
+							name,
+							description: description.length > 0 ? description : null
+						});
+					}
+				}
+			}
+
+			// add the last item
+			if (menuItem0.title.length > 0) {
+				if (menuItem0.items.length > 0) {
+					data.push(menuItem0);
+				}
+				menuItem0 = {
+					title: '',
+					items: []
+				};
+			}
+
+			return data;
+		}
+
+		let data = [];
+		let items = document.getElementsByClassName('field-item even');
+		for (var item of items) {
+			let tagCheck = item.getElementsByTagName('H4');
+			if (tagCheck.length > 0) {
+				const newData = getMenuForCoffeeShop(item);
+				// append newData array to data
+				data = data.concat(newData);
+			} else {
+				const newData = getMenuForRestaurant(item);
+				// append newData array to data
+				data = data.concat(newData);
+			}
+
+			continue;
+		}
+
+		// let items = document.getElementsByClassName('section');
+		// data.push(items.length);
+		// for (var item of items) {
+		// 	const section = item.getElementsByTagName('div');
+		// 	data.push(section.innerText);
+		// }
+
 		return data;
 	});
 
