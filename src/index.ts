@@ -24,4 +24,7 @@ app.listen(process.env.PORT || 3000, () => {
   console.log(`Listening on port ${process.env.PORT || 3000}`);
 });
 
-updateData(await scrape());
+updateData(await scrape().catch(() => {
+  console.log("Failed to initialize scraper. Check logs for details?");
+  return null;
+}));

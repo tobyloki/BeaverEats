@@ -9,7 +9,7 @@ export default function scrape(): Promise<ScrapeResults> {
   return new Promise((resolve, reject) => {
     const child = spawn("node", ["scrapeWorker.js"], {
       cwd: path.join(__dirname),
-      stdio: "ignore",
+      stdio: "inherit",
     });
 
     child.on("exit", async (code) => {

@@ -1,3 +1,3 @@
-export default function updateData(data: ScrapeResults) {
+export default function updateData(data: ScrapeResults | null) {
   console.log(data);
 }
