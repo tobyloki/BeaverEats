@@ -120,7 +120,7 @@ exports.getRestaurantsFullData = async () => {
 				resolve(restaurants[j]);
 			}));
 		}
-		restaurants.concat(await Promise.all(promises));
+		restaurants.push(...await Promise.all(promises));
 	}
 	// console.log(JSON.stringify(restaurants[0], null, 2));
 
