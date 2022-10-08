@@ -2,9 +2,7 @@ node_modules
 package-lock.json
 .env
 fly.toml
-.dockerignore
 db/database.sqlite.db
-dockerfile
 restaurants.json
 **/restaurants.json
 dist
