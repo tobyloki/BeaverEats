@@ -11,16 +11,14 @@
   {
     "name": "Trader Bing's",
     "area": "Austin Hall",
-    "address": "2751 SW Jefferson Way Corvallis, OR 97331",
-    "description": "Example description",
-    "latitude": 44.56505,
-    "longitude": -123.282096,
     "usesDiningDollars": true,
     "startHours": "07:30",
     "endHours": "18:00"
   }
 ]
 ```
+
+* `startHours` and `endHours` are in 24-hour time and may be `null`.
 
 ## Options
 
