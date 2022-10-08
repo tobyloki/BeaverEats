@@ -8,8 +8,6 @@ Documentation for the API can be found [here](docs/index.md).
 
 ## Installation
 
-**Requires Node.js 18.0.0 or higher**
-
 1. Clone or download this branch.
 
 2. ```bash
