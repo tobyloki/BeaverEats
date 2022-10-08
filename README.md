@@ -20,12 +20,6 @@ Documentation for the API can be found [here](docs/index.md).
    npm run build
    ```
 
-4. If using linux, you may need to run the following command to install the dependencies for the scraper:
-   ```bash
-   sudo apt update
-   sudo apt install libgbm-dev
-   ```
-
 ## Usage
 
 ```bash
