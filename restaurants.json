@@ -6,8 +6,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "4:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -389,8 +389,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "10:00 AM",
-        "end": "6:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -835,8 +835,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "3:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -1363,8 +1363,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "11:00 AM",
-        "end": "7:45 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -1734,8 +1734,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "9:00 AM",
-        "end": "8:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": []
@@ -1747,8 +1747,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "5:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -2515,8 +2515,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "3:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -2851,8 +2851,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "4:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -3017,7 +3017,7 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
+        "start": "9:00 AM",
         "end": "8:00 PM"
       }
     ],
@@ -3876,8 +3876,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "11:30 AM",
-        "end": "2:30 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -4201,7 +4201,7 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
+        "start": "9:00 AM",
         "end": "8:00 PM"
       }
     ],
@@ -4656,8 +4656,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "11:30 AM",
-        "end": "1:30 PM"
+        "start": "11:00 AM",
+        "end": "4:00 PM"
       }
     ],
     "menu": [
@@ -4929,10 +4929,6 @@
     "url": "https://uhds.oregonstate.edu/restaurants/serrano",
     "diningDollars": 1,
     "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "10:15 AM"
-      },
       {
         "start": "2:00 PM",
         "end": "7:30 PM"
@@ -5382,12 +5378,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "11:00 AM",
-        "end": "2:00 PM"
-      },
-      {
-        "start": "4:00 PM",
-        "end": "7:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -5902,7 +5894,7 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "12:00 PM",
+        "start": "1:30 PM",
         "end": "8:00 PM"
       }
     ],
@@ -6235,15 +6227,11 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:00 AM",
-        "end": "10:00 AM"
-      },
-      {
-        "start": "11:00 AM",
+        "start": "9:00 AM",
         "end": "2:00 PM"
       },
       {
-        "start": "5:00 PM",
+        "start": "2:30 PM",
         "end": "7:30 PM"
       }
     ],
@@ -7216,12 +7204,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "11:30 AM",
-        "end": "2:30 PM"
-      },
-      {
-        "start": "4:00 PM",
-        "end": "7:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -8078,8 +8062,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:00 AM",
-        "end": "2:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -9146,8 +9130,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "8:30 AM",
-        "end": "5:00 PM"
+        "start": "10:00 AM",
+        "end": "3:00 PM"
       }
     ],
     "menu": []
@@ -9159,8 +9143,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "5:00 PM"
+        "start": "10:00 AM",
+        "end": "3:00 PM"
       }
     ],
     "menu": [
@@ -9773,8 +9757,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "10:00 AM",
-        "end": "2:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -10287,8 +10271,8 @@
     "diningDollars": 0,
     "hours": [
       {
-        "start": "10:00 AM",
-        "end": "8:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": []
@@ -10301,7 +10285,7 @@
     "hours": [
       {
         "start": "11:00 AM",
-        "end": "2:00 PM"
+        "end": "1:00 PM"
       }
     ],
     "menu": []
@@ -10327,7 +10311,7 @@
     "hours": [
       {
         "start": "11:00 AM",
-        "end": "3:00 PM"
+        "end": "8:00 PM"
       }
     ],
     "menu": [
@@ -11355,16 +11339,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "11:00 AM"
-      },
-      {
-        "start": "11:30 AM",
-        "end": "2:00 PM"
-      },
-      {
-        "start": "5:00 PM",
-        "end": "8:00 PM"
+        "start": "9:00 AM",
+        "end": "1:00 PM"
       }
     ],
     "menu": [
@@ -12392,8 +12368,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "11:00 AM",
-        "end": "2:30 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -13420,6 +13396,10 @@
     "url": "https://uhds.oregonstate.edu/restaurants/pizza",
     "diningDollars": 1,
     "hours": [
+      {
+        "start": "11:00 AM",
+        "end": "2:00 PM"
+      },
       {
         "start": "3:00 PM",
         "end": "8:00 PM"
@@ -15479,8 +15459,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "3:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [
@@ -15719,8 +15699,8 @@
     "diningDollars": 1,
     "hours": [
       {
-        "start": "7:30 AM",
-        "end": "5:00 PM"
+        "start": null,
+        "end": null
       }
     ],
     "menu": [

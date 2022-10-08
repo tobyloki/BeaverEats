@@ -120,20 +120,9 @@ exports.getRestaurantsFullData = async () => {
 				resolve(restaurants[j]);
 			}));
 		}
-		restaurants.push(...await Promise.all(promises));
+		await Promise.all(promises);
 	}
 	// console.log(JSON.stringify(restaurants[0], null, 2));
-
-	// save restaurants to a file
-	fs.writeFileSync(
-		'restaurants.json',
-		JSON.stringify(restaurants, null, 2),
-		(err) => {
-			if (err) {
-				console.log(err);
-			}
-		}
-	);
 
 	console.log('Done');
 
@@ -177,7 +166,7 @@ async function getMenu(url) {
 			title: '',
 			items: []
 		};
-		for (var childDiv of div.children) {
+		for (var childDiv of div.children ?? []) {
 			for (var child of childDiv.children) {
 				if (child.tagName.startsWith('H')) {
 					if (menuItem.title.length > 0) {
