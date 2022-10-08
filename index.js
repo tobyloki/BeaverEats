@@ -135,10 +135,7 @@ exports.getRestaurantsFullData = async () => {
 async function getMenu(url) {
 	const pageText = await fetch(url).then(res => res.text());
 	const dom = new JSDOM(pageText, {
-		runScripts: 'dangerously',
-		resources: 'usable',
-		url,
-		virtualConsole: new VirtualConsole()
+		url
 	});
 	const { document } = dom.window;
 
@@ -163,8 +160,6 @@ async function getMenu(url) {
 		// menu.push('iframe found');
 		const iframeText = await fetch(iframe.src).then(res => res.text());
 		const iframeDom = new JSDOM(iframeText, {
-			runScripts: 'dangerously',
-			resources: 'usable',
 			url: iframe.src
 		});
 		const { document: iframeDocument } = iframeDom.window;
