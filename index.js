@@ -101,19 +101,18 @@ exports.getRestaurantsFullData = async () => {
 	// );
 	// console.log(JSON.stringify(menu, null, 2));
 
-	const promises = [];
-	for (let restaurant of restaurants) {
-		promises.push(
-			new Promise(async (resolve) => {
-				const menu = await getMenu(restaurant.url);
-				restaurant.menu = menu;
+	for (let i = 0; i < restaurants.length; i += 5) {
+		const promises = [];
+		for (let j = i; j < i + 5 && j < restaurants.length; j++) {
+			promises.push(new Promise(async (resolve) => {
+				const menu = await getMenu(restaurants[j].url);
+				restaurants[j].menu = menu;
 				// save this back to restaurants
-				resolve(restaurant);
-			})
-		);
+				resolve(restaurants[j]);
+			}));
+		}
+		restaurants.concat(await Promise.all(promises));
 	}
-	restaurants = await Promise.all(promises);
-
 	// console.log(JSON.stringify(restaurants[0], null, 2));
 
 	// save restaurants to a file
