@@ -839,7 +839,216 @@
         "end": "3:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Breakfast Basics",
+        "items": [
+          "Bacon Breakfast Sandwich",
+          "Ham Breakfast Sandwich",
+          "Apple Cinnamon Overnight Oats",
+          "Mixed Berry Overnight Oats w/ Coconut Milk",
+          "Banana & Hazelnut-Nutella Overnight Oats w/ Coconut Milk",
+          "Oatmeal"
+        ]
+      },
+      {
+        "title": "Breakfast Basics",
+        "items": [
+          "Bacon Breakfast Sandwich",
+          "Ham Breakfast Sandwich",
+          "Apple Cinnamon Overnight Oats",
+          "Mixed Berry Overnight Oats w/ Coconut Milk",
+          "Banana & Hazelnut-Nutella Overnight Oats w/ Coconut Milk",
+          "Oatmeal"
+        ]
+      },
+      {
+        "title": "Coffee & More",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Cafe au Lait 12oz",
+          "Cafe au Lait 16oz",
+          "Cafe au Lait 20oz",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Chai Latte 12oz",
+          "Chai Latte 16oz",
+          "Chai Latte 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz",
+          "Hot Tea 12oz",
+          "Hot Tea 16oz",
+          "Hot Tea 20oz",
+          "London Fog 12oz",
+          "London Fog 16oz",
+          "London Fog 20oz",
+          "Matcha Latte 12oz",
+          "Matcha Latte",
+          "Matcha Latte"
+        ]
+      },
+      {
+        "title": "Coffee & More",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Cafe au Lait 12oz",
+          "Cafe au Lait 16oz",
+          "Cafe au Lait 20oz",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Chai Latte 12oz",
+          "Chai Latte 16oz",
+          "Chai Latte 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz",
+          "Hot Tea 12oz",
+          "Hot Tea 16oz",
+          "Hot Tea 20oz",
+          "London Fog 12oz",
+          "London Fog 16oz",
+          "London Fog 20oz",
+          "Matcha Latte 12oz",
+          "Matcha Latte",
+          "Matcha Latte"
+        ]
+      },
+      {
+        "title": "Espresso Drinks",
+        "items": [
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Cappucino 12oz",
+          "Cappucino 16oz",
+          "Cappucino 20oz",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "White Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz",
+          "Caramel Macciato 12oz",
+          "Caramel Macchiato 16oz",
+          "Caramel Macchiato 20oz",
+          "Single Espresso",
+          "Double Espresso"
+        ]
+      },
+      {
+        "title": "Espresso Drinks",
+        "items": [
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Cappucino 12oz",
+          "Cappucino 16oz",
+          "Cappucino 20oz",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "White Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz",
+          "Caramel Macciato 12oz",
+          "Caramel Macchiato 16oz",
+          "Caramel Macchiato 20oz",
+          "Single Espresso",
+          "Double Espresso"
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          "Espresso, Single Shot",
+          "Flavored Syrup"
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          "Espresso, Single Shot",
+          "Flavored Syrup"
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          "16 oz Cold Brew",
+          "24 oz Cold Brew",
+          "Italian Soda 16oz",
+          "Italian Soda",
+          "Creamosa 16oz",
+          "Creamosa 24oz",
+          "16 oz Iced Tea",
+          "24 oz Iced Tea",
+          "16 oz Iced Tea Lemonade",
+          "24 oz Iced Tea Lemonade",
+          "Caramel Frappe",
+          "24 oz Caramel Frappe",
+          "16 oz Coffee Frappe (contains coconut)",
+          "24 oz Coffee Frappe (contains coconut)",
+          "16 oz Mocha Frappe (contains coconut)",
+          "24 oz Mocha Frappe (contains coconut)",
+          "16 oz Matcha Frappe (contains coconut)",
+          "24 oz Matcha Frappe (contains coconut)",
+          "Vanilla Frappe 16oz",
+          "Vanilla Frappe 24oz",
+          "Marionberry Frozen Lemonade",
+          "Passionfruit Frozen Lemonade",
+          "Frozen Strawberry Lemonade"
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          "16 oz Cold Brew",
+          "24 oz Cold Brew",
+          "Italian Soda 16oz",
+          "Italian Soda",
+          "Creamosa 16oz",
+          "Creamosa 24oz",
+          "16 oz Iced Tea",
+          "24 oz Iced Tea",
+          "16 oz Iced Tea Lemonade",
+          "24 oz Iced Tea Lemonade",
+          "Caramel Frappe",
+          "24 oz Caramel Frappe",
+          "16 oz Coffee Frappe (contains coconut)",
+          "24 oz Coffee Frappe (contains coconut)",
+          "16 oz Mocha Frappe (contains coconut)",
+          "24 oz Mocha Frappe (contains coconut)",
+          "16 oz Matcha Frappe (contains coconut)",
+          "24 oz Matcha Frappe (contains coconut)",
+          "Vanilla Frappe 16oz",
+          "Vanilla Frappe 24oz",
+          "Marionberry Frozen Lemonade",
+          "Passionfruit Frozen Lemonade",
+          "Frozen Strawberry Lemonade"
+        ]
+      },
+      {
+        "title": "Sweet Treats",
+        "items": [
+          "Strawberry Crepe",
+          "Caramel Apple Crepe",
+          "Hazelnut Nutella Crepe"
+        ]
+      }
+    ]
   },
   {
     "location": "International Living-Learning Center",
@@ -852,7 +1061,177 @@
         "end": "7:45 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "MTO Sandwich-Bread Selections",
+        "items": [
+          "White Bread",
+          "White Bread (1/2)",
+          "Wheat Bread",
+          "Wheat Bread (1/2)",
+          "Flat Bread",
+          "Flat Bread (1/2)",
+          "Wheat Tortilla",
+          "Gluten Free Bread"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Bread Selections",
+        "items": [
+          "White Bread",
+          "White Bread (1/2)",
+          "Wheat Bread",
+          "Wheat Bread (1/2)",
+          "Flat Bread",
+          "Flat Bread (1/2)",
+          "Wheat Tortilla",
+          "Gluten Free Bread"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Protein Selections",
+        "items": [
+          "Bacon",
+          "Deli Ham",
+          "Turkey",
+          "Roast Beef",
+          "Egg Salad",
+          "Hummus"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Protein Selections",
+        "items": [
+          "Bacon",
+          "Deli Ham",
+          "Turkey",
+          "Roast Beef",
+          "Egg Salad",
+          "Hummus"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Cheese Selections",
+        "items": [
+          "American Cheese",
+          "Vegan Cheddar Cheese",
+          "Cheddar",
+          "Swiss Cheese",
+          "Pepper Jack",
+          "Mozzerella Cheese"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Cheese Selections",
+        "items": [
+          "American Cheese",
+          "Vegan Cheddar Cheese",
+          "Cheddar",
+          "Swiss Cheese",
+          "Pepper Jack",
+          "Mozzerella Cheese"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Vegetable Selections",
+        "items": [
+          "Lettuce",
+          "Red Onion",
+          "Pickles",
+          "Pepperoncini",
+          "Cucumber",
+          "Tomato",
+          "Spinach"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Vegetable Selections",
+        "items": [
+          "Lettuce",
+          "Red Onion",
+          "Pickles",
+          "Pepperoncini",
+          "Cucumber",
+          "Tomato",
+          "Spinach"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Create your Own Sandwich",
+        "items": [
+          "Mayonnaise",
+          "Chipotle Mayonnaise",
+          "Dijon Mustard",
+          "Yellow Mustard",
+          "Hummus Spread",
+          "Basil Pesto Spread"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Create your Own Sandwich",
+        "items": [
+          "Mayonnaise",
+          "Chipotle Mayonnaise",
+          "Dijon Mustard",
+          "Yellow Mustard",
+          "Hummus Spread",
+          "Basil Pesto Spread"
+        ]
+      },
+      {
+        "title": "Specialty Sandwiches",
+        "items": [
+          "Cascadia Club Sandwich",
+          "Grilled Cheese Sandwich",
+          "California Dreamin` Sandwich",
+          "Chicken Bacon Ranch Sandwich",
+          "Beef & Lamb Gyro Sandwich",
+          "Chicken Salad Croissant Sandwich",
+          "Hot Dog"
+        ]
+      },
+      {
+        "title": "Specialty Sandwiches",
+        "items": [
+          "Cascadia Club Sandwich",
+          "Grilled Cheese Sandwich",
+          "California Dreamin` Sandwich",
+          "Chicken Bacon Ranch Sandwich",
+          "Beef & Lamb Gyro Sandwich",
+          "Chicken Salad Croissant Sandwich",
+          "Hot Dog"
+        ]
+      },
+      {
+        "title": "Hot Case Combos",
+        "items": [
+          "Chicken Teriyaki",
+          "Chicken Teriyaki Rice Bowl",
+          "Orange Chicken",
+          "Orange Chicken Rice Bowl",
+          "Orange Ginger Tofu"
+        ]
+      },
+      {
+        "title": "Hot Case Combos",
+        "items": [
+          "Chicken Teriyaki",
+          "Chicken Teriyaki Rice Bowl",
+          "Orange Chicken",
+          "Orange Chicken Rice Bowl",
+          "Orange Ginger Tofu"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "JoJo Potatoes",
+          "Steamed Rice",
+          "Brown Rice",
+          "Macaroni & Cheese"
+        ]
+      }
+    ]
   },
   {
     "location": "International Living-Learning Center",
@@ -2148,7 +2527,413 @@
         "end": "8:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Make Cents Entree",
+        "items": [
+          "1/2 Turkey & Cheddar w/ Chicken Noodle Soup"
+        ]
+      },
+      {
+        "title": "Make Cents Entree",
+        "items": [
+          "1/2 Turkey & Cheddar w/ Chicken Noodle Soup"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Overnight Oats",
+        "items": [
+          "Marionberry Yogurt Parfait"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Overnight Oats",
+        "items": [
+          "Marionberry Yogurt Parfait"
+        ]
+      },
+      {
+        "title": "Breakfast Burritos",
+        "items": [
+          "Veggie Breakfast Burrito",
+          "Bacon & Pork Sausage Breakfast Burrito"
+        ]
+      },
+      {
+        "title": "Breakfast Burritos",
+        "items": [
+          "Veggie Breakfast Burrito",
+          "Bacon & Pork Sausage Breakfast Burrito"
+        ]
+      },
+      {
+        "title": "Bagels",
+        "items": [
+          "Blueberry Bagel",
+          "Cinnamon Raisin Bagel",
+          "Everything Bagel",
+          "Plain Bagel",
+          "Whole Wheat Bagel",
+          "Cream Cheese",
+          "Xtra Lite Cream Cheese",
+          "Butter Pat"
+        ]
+      },
+      {
+        "title": "Bagels",
+        "items": [
+          "Blueberry Bagel",
+          "Cinnamon Raisin Bagel",
+          "Everything Bagel",
+          "Plain Bagel",
+          "Whole Wheat Bagel",
+          "Cream Cheese",
+          "Xtra Lite Cream Cheese",
+          "Butter Pat"
+        ]
+      },
+      {
+        "title": "Specialty Sandwiches",
+        "items": [
+          "Muffaletta Sandwich",
+          "Dagwood Sandwich (contains pistachios)",
+          "Caprese Sandwich"
+        ]
+      },
+      {
+        "title": "Specialty Sandwiches",
+        "items": [
+          "Muffaletta Sandwich",
+          "Dagwood Sandwich (contains pistachios)",
+          "Caprese Sandwich"
+        ]
+      },
+      {
+        "title": "Sandwiches",
+        "items": [
+          "Turkey & Cheddar on Sourdough",
+          "Turkey & Provolone on Wheat",
+          "Ham & Cheddar on Sourdough",
+          "Ham & Swiss on Wheat"
+        ]
+      },
+      {
+        "title": "Sandwiches",
+        "items": [
+          "Turkey & Cheddar on Sourdough",
+          "Turkey & Provolone on Wheat",
+          "Ham & Cheddar on Sourdough",
+          "Ham & Swiss on Wheat"
+        ]
+      },
+      {
+        "title": "Weekday Paninis",
+        "items": [
+          "Club Panino",
+          "Capri Panino",
+          "Three Cheese Panino",
+          "Chicken Pesto Panino",
+          "Cuban Panino"
+        ]
+      },
+      {
+        "title": "Weekday Paninis",
+        "items": [
+          "Club Panino",
+          "Capri Panino",
+          "Three Cheese Panino",
+          "Chicken Pesto Panino",
+          "Cuban Panino"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Bread",
+        "items": [
+          "White Bread",
+          "Wheat Bread",
+          "Sourdough",
+          "Great Seed Bread",
+          "Gluten-Free White Bread",
+          "Gluten-Free Multigrain Bread",
+          "10\" Flour Tortilla",
+          "Lavash Bread",
+          "Ciabatta Roll"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Bread",
+        "items": [
+          "White Bread",
+          "Wheat Bread",
+          "Sourdough",
+          "Great Seed Bread",
+          "Gluten-Free White Bread",
+          "Gluten-Free Multigrain Bread",
+          "10\" Flour Tortilla",
+          "Lavash Bread",
+          "Ciabatta Roll"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Protein",
+        "items": [
+          "Turkey",
+          "Ham",
+          "Bacon",
+          "Tuna Salad",
+          "Chicken Salad",
+          "Hummus",
+          "Egg Salad"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Protein",
+        "items": [
+          "Turkey",
+          "Ham",
+          "Bacon",
+          "Tuna Salad",
+          "Chicken Salad",
+          "Hummus",
+          "Egg Salad"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Mozzarella Slice",
+          "Provolone Cheese",
+          "Vegan Mozzarella \"cheese\" (contains coconut)",
+          "Vegan Pepper Jack \"Cheese\" (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Mozzarella Slice",
+          "Provolone Cheese",
+          "Vegan Mozzarella \"cheese\" (contains coconut)",
+          "Vegan Pepper Jack \"Cheese\" (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Veggies",
+        "items": [
+          "Leaf Lettuce",
+          "Tomato",
+          "Red Onion",
+          "Spinach",
+          "Cucumber",
+          "Roasted Red Peppers",
+          "Pepperoncini",
+          "Avocado",
+          "Pickles",
+          "Black Olives"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Veggies",
+        "items": [
+          "Leaf Lettuce",
+          "Tomato",
+          "Red Onion",
+          "Spinach",
+          "Cucumber",
+          "Roasted Red Peppers",
+          "Pepperoncini",
+          "Avocado",
+          "Pickles",
+          "Black Olives"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Spreads",
+        "items": [
+          "Mayonnaise",
+          "Veganaise",
+          "Chipotle Mayonnaise",
+          "Dijon Mustard",
+          "Yellow Mustard",
+          "Basil Pesto Spread",
+          "Garlic Aioli"
+        ]
+      },
+      {
+        "title": "MTO Sandwich-Spreads",
+        "items": [
+          "Mayonnaise",
+          "Veganaise",
+          "Chipotle Mayonnaise",
+          "Dijon Mustard",
+          "Yellow Mustard",
+          "Basil Pesto Spread",
+          "Garlic Aioli"
+        ]
+      },
+      {
+        "title": "Soup of the Day",
+        "items": [
+          "Broccoli Cheddar Soup",
+          "Garden Asparagus Soup",
+          "Corn & Chicken Enchilada Soup",
+          "Creamy Tomato Basil Soup",
+          "Clam Chowder",
+          "Farmers Market Vegetable Soup",
+          "Roasted Corn Tortilla Soup"
+        ]
+      },
+      {
+        "title": "Soup of the Day",
+        "items": [
+          "Broccoli Cheddar Soup",
+          "Garden Asparagus Soup",
+          "Corn & Chicken Enchilada Soup",
+          "Creamy Tomato Basil Soup",
+          "Clam Chowder",
+          "Farmers Market Vegetable Soup",
+          "Roasted Corn Tortilla Soup"
+        ]
+      },
+      {
+        "title": "Hot Breakfast Buffet",
+        "items": [
+          "Bacon",
+          "Turkey Sausage Patty",
+          "Pork Sausage Links",
+          "Scrambled Eggs",
+          "Vegan Tofu Scramble",
+          "French Toast",
+          "Biscuit",
+          "Sausage Gravy",
+          "O`Brien Potatoes"
+        ]
+      },
+      {
+        "title": "Hot Breakfast Buffet",
+        "items": [
+          "Bacon",
+          "Turkey Sausage Patty",
+          "Pork Sausage Links",
+          "Scrambled Eggs",
+          "Vegan Tofu Scramble",
+          "French Toast",
+          "Biscuit",
+          "Sausage Gravy",
+          "O`Brien Potatoes"
+        ]
+      },
+      {
+        "title": "Oatmeal Bar",
+        "items": [
+          "Oatmeal",
+          "Maple Syrup",
+          "Sugar Free Syrup",
+          "Brown Sugar",
+          "Butter Pat",
+          "Golden Raisins",
+          "Dried Cranberries",
+          "Banana Chips"
+        ]
+      },
+      {
+        "title": "Oatmeal Bar",
+        "items": [
+          "Oatmeal",
+          "Maple Syrup",
+          "Sugar Free Syrup",
+          "Brown Sugar",
+          "Butter Pat",
+          "Golden Raisins",
+          "Dried Cranberries",
+          "Banana Chips"
+        ]
+      },
+      {
+        "title": "Made to Order Waffle Bar",
+        "items": [
+          "Whole Grain Waffle",
+          "Gluten Free Waffle",
+          "Butter Pat",
+          "Berry Mix",
+          "Dark Chocolate Chips",
+          "Strawberry Topping",
+          "Maple Syrup"
+        ]
+      },
+      {
+        "title": "Made to Order Waffle Bar",
+        "items": [
+          "Whole Grain Waffle",
+          "Gluten Free Waffle",
+          "Butter Pat",
+          "Berry Mix",
+          "Dark Chocolate Chips",
+          "Strawberry Topping",
+          "Maple Syrup"
+        ]
+      },
+      {
+        "title": "Salad Bar-Dressings",
+        "items": [
+          "Blue Cheese Dressing",
+          "Honey Mustard Dressing",
+          "Buttermilk Ranch Dressing",
+          "Balsamic Vinaigrette"
+        ]
+      },
+      {
+        "title": "Salad Bar-Dressings",
+        "items": [
+          "Blue Cheese Dressing",
+          "Honey Mustard Dressing",
+          "Buttermilk Ranch Dressing",
+          "Balsamic Vinaigrette"
+        ]
+      },
+      {
+        "title": "Salad Bar-Greens",
+        "items": [
+          "Romaine Lettuce",
+          "Spring Mix",
+          "Spinach"
+        ]
+      },
+      {
+        "title": "Salad Bar-Greens",
+        "items": [
+          "Romaine Lettuce",
+          "Spring Mix",
+          "Spinach"
+        ]
+      },
+      {
+        "title": "Salad Bar-Toppings",
+        "items": [
+          "Diced Ham",
+          "Bacon Bits",
+          "Shredded Cheese",
+          "Cottage Cheese",
+          "Pepperoncini",
+          "Chopped Hardboiled Egg",
+          "Artichoke Hearts",
+          "Mushroom",
+          "Pickled Beets",
+          "Baby Corn",
+          "Black Olives",
+          "Tofu",
+          "Sliced Red Onion",
+          "Peas"
+        ]
+      }
+    ]
   },
   {
     "location": "Marketplace West",
@@ -2161,7 +2946,175 @@
         "end": "2:30 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Make Cents Entree",
+        "items": [
+          "Make Cents Feta Salad"
+        ]
+      },
+      {
+        "title": "Make Cents Entree",
+        "items": [
+          "Make Cents Feta Salad"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "Avocado Chicken Caesar Salad",
+          "Sweet Corn and Avocado Crab Salad"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "Avocado Chicken Caesar Salad",
+          "Sweet Corn and Avocado Crab Salad"
+        ]
+      },
+      {
+        "title": "Grain Bowls",
+        "items": [
+          "Southwestern Bowl",
+          "Hummus & Pita"
+        ]
+      },
+      {
+        "title": "Grain Bowls",
+        "items": [
+          "Southwestern Bowl",
+          "Hummus & Pita"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl - Greens or Grains",
+        "items": [
+          "Quinoa Blend with Turmeric",
+          "Sorghum & Amaranth",
+          "Romaine Lettuce"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl - Greens or Grains",
+        "items": [
+          "Quinoa Blend with Turmeric",
+          "Sorghum & Amaranth",
+          "Romaine Lettuce"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl - Dressing",
+        "items": [
+          "Cilantro Lime Dressing",
+          "Creamy Chipotle",
+          "Lemon Yogurt Sauce"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl - Dressing",
+        "items": [
+          "Cilantro Lime Dressing",
+          "Creamy Chipotle",
+          "Lemon Yogurt Sauce"
+        ]
+      },
+      {
+        "title": "Drinks",
+        "items": [
+          "Milk,2%,14oz",
+          "Chocolate Milk 14oz",
+          "Apple Juice",
+          "Orange Juice",
+          "Vanilla Soy Milk 8oz"
+        ]
+      },
+      {
+        "title": "Drinks",
+        "items": [
+          "Milk,2%,14oz",
+          "Chocolate Milk 14oz",
+          "Apple Juice",
+          "Orange Juice",
+          "Vanilla Soy Milk 8oz"
+        ]
+      },
+      {
+        "title": "Desserts",
+        "items": [
+          "Chocolate Torte"
+        ]
+      },
+      {
+        "title": "Desserts",
+        "items": [
+          "Chocolate Torte"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl - Proteins",
+        "items": [
+          "Roasted Chicken Thigh",
+          "Lamb Kofta & Freekeh",
+          "Hummus"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl - Proteins",
+        "items": [
+          "Roasted Chicken Thigh",
+          "Lamb Kofta & Freekeh",
+          "Hummus"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl- Toppings",
+        "items": [
+          "Black Beans",
+          "Roasted Corn",
+          "Mango",
+          "Roasted Red Peppers",
+          "Cilantro",
+          "Jicama",
+          "Lime Wedges",
+          "Grape Tomato",
+          "Cucumber",
+          "Black Olives",
+          "Arugula",
+          "Pickled Red Onions",
+          "Roasted Garbanzo Beans"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl- Toppings",
+        "items": [
+          "Black Beans",
+          "Roasted Corn",
+          "Mango",
+          "Roasted Red Peppers",
+          "Cilantro",
+          "Jicama",
+          "Lime Wedges",
+          "Grape Tomato",
+          "Cucumber",
+          "Black Olives",
+          "Arugula",
+          "Pickled Red Onions",
+          "Roasted Garbanzo Beans"
+        ]
+      },
+      {
+        "title": "BYO Grain Bowl- Premium Toppings",
+        "items": [
+          "Cotija Cheese",
+          "Avocado",
+          "Chopped Hardboiled Egg",
+          "Bacon Bits 1.5oz",
+          "Marinated Feta",
+          "Pumpkin Seeds"
+        ]
+      }
+    ]
   },
   {
     "location": "Marketplace West",
@@ -2174,7 +3127,185 @@
         "end": "8:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Espresso Specialty Drinks",
+        "items": [
+          "Espresso",
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "Breve 12oz",
+          "Breve 16oz",
+          "Breve 20oz",
+          "Cafe au Lait 12oz",
+          "Cafe au Lait 16oz",
+          "Cafe au Lait 20oz",
+          "Cappuccino 12oz",
+          "Cappuccino 16oz",
+          "Cappuccino 20oz",
+          "Extra Espresso Shot",
+          "Flavored Syrup",
+          "Whipped Cream",
+          "White Chocolate Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz"
+        ]
+      },
+      {
+        "title": "Espresso Specialty Drinks",
+        "items": [
+          "Espresso",
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "Breve 12oz",
+          "Breve 16oz",
+          "Breve 20oz",
+          "Cafe au Lait 12oz",
+          "Cafe au Lait 16oz",
+          "Cafe au Lait 20oz",
+          "Cappuccino 12oz",
+          "Cappuccino 16oz",
+          "Cappuccino 20oz",
+          "Extra Espresso Shot",
+          "Flavored Syrup",
+          "Whipped Cream",
+          "White Chocolate Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz"
+        ]
+      },
+      {
+        "title": "Coffee, Tea & More",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Hot Tea - Any Size",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz"
+        ]
+      },
+      {
+        "title": "Coffee, Tea & More",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Hot Tea - Any Size",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz"
+        ]
+      },
+      {
+        "title": "Iced Specialties",
+        "items": [
+          "Iced Coffee 16oz",
+          "Iced Coffee 24oz",
+          "Iced Mocha 16oz",
+          "Iced Mocha 24oz",
+          "Iced Latte 16oz",
+          "Iced Latte 24oz",
+          "Iced Chai Tea 16oz",
+          "Iced Chai Tea 24oz",
+          "Cold Brew Coffee 16oz",
+          "Cold Brew Coffee 24oz",
+          "White Chocolate Mocha Freeze"
+        ]
+      },
+      {
+        "title": "Iced Specialties",
+        "items": [
+          "Iced Coffee 16oz",
+          "Iced Coffee 24oz",
+          "Iced Mocha 16oz",
+          "Iced Mocha 24oz",
+          "Iced Latte 16oz",
+          "Iced Latte 24oz",
+          "Iced Chai Tea 16oz",
+          "Iced Chai Tea 24oz",
+          "Cold Brew Coffee 16oz",
+          "Cold Brew Coffee 24oz",
+          "White Chocolate Mocha Freeze"
+        ]
+      },
+      {
+        "title": "Baked Goods & More (Monday thru Friday)",
+        "items": [
+          "Carrot Cake Bar w/Walnuts",
+          "Brownie W/Chocolate Chips",
+          "Banana Bread",
+          "Cinnamon Roll",
+          "Lemon Yogurt Cake",
+          "New York Cheesecake",
+          "Coconut Macaroon",
+          "Decorated Sugar Cookie",
+          "Ham & Swiss Croissant",
+          "Blueberry Muffin",
+          "Lemon Poppy Seed Muffin",
+          "Double Chocolate Muffin",
+          "Good Morning Muffin",
+          "Chocolate Raspberry Muffin",
+          "Blueberry Barley Scone",
+          "Lemon Scone",
+          "Pumpkin Scone",
+          "Pumpkin Cheesecake",
+          "Spiced Pumpkin Bread"
+        ]
+      },
+      {
+        "title": "Baked Goods & More (Monday thru Friday)",
+        "items": [
+          "Carrot Cake Bar w/Walnuts",
+          "Brownie W/Chocolate Chips",
+          "Banana Bread",
+          "Cinnamon Roll",
+          "Lemon Yogurt Cake",
+          "New York Cheesecake",
+          "Coconut Macaroon",
+          "Decorated Sugar Cookie",
+          "Ham & Swiss Croissant",
+          "Blueberry Muffin",
+          "Lemon Poppy Seed Muffin",
+          "Double Chocolate Muffin",
+          "Good Morning Muffin",
+          "Chocolate Raspberry Muffin",
+          "Blueberry Barley Scone",
+          "Lemon Scone",
+          "Pumpkin Scone",
+          "Pumpkin Cheesecake",
+          "Spiced Pumpkin Bread"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Marionberry Yogurt Parfait",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      }
+    ]
   },
   {
     "location": "Marketplace West",
@@ -2187,7 +3318,158 @@
         "end": "1:30 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Entrees",
+        "items": [
+          "Mapo Tofu"
+        ]
+      },
+      {
+        "title": "Entrees",
+        "items": [
+          "Mapo Tofu"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Steamed Jasmine Rice",
+          "Fried Rice",
+          "Thai Spring Rolls",
+          "Pickled Vegetables",
+          "Vegetable Chow Mein",
+          "Stir Fry Asian Greens"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Steamed Jasmine Rice",
+          "Fried Rice",
+          "Thai Spring Rolls",
+          "Pickled Vegetables",
+          "Vegetable Chow Mein",
+          "Stir Fry Asian Greens"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Bases",
+        "items": [
+          "Steamed Jasmine Rice",
+          "Fried Rice",
+          "Vegetable Chow Mein",
+          "Stir Fry Asian Greens"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Bases",
+        "items": [
+          "Steamed Jasmine Rice",
+          "Fried Rice",
+          "Vegetable Chow Mein",
+          "Stir Fry Asian Greens"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Proteins",
+        "items": [
+          "Chicken Teriyaki",
+          "Beef and Broccoli",
+          "Kalua Pork"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Proteins",
+        "items": [
+          "Chicken Teriyaki",
+          "Beef and Broccoli",
+          "Kalua Pork"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Vegetables",
+        "items": [
+          "Sliced Green Onions",
+          "Shredded Carrot",
+          "Diced Red Pepper",
+          "Chopped Cilantro",
+          "Cucumber",
+          "Bean Sprouts",
+          "Shelled Edamame",
+          "Kimchi",
+          "Pickled Vegetables"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Vegetables",
+        "items": [
+          "Sliced Green Onions",
+          "Shredded Carrot",
+          "Diced Red Pepper",
+          "Chopped Cilantro",
+          "Cucumber",
+          "Bean Sprouts",
+          "Shelled Edamame",
+          "Kimchi",
+          "Pickled Vegetables"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Broth/Sauces",
+        "items": [
+          "Shoyu Ramen Broth"
+        ]
+      },
+      {
+        "title": "BYO Bowl - Broth/Sauces",
+        "items": [
+          "Shoyu Ramen Broth"
+        ]
+      },
+      {
+        "title": "Drinks",
+        "items": [
+          "Thai Iced Tea"
+        ]
+      },
+      {
+        "title": "Drinks",
+        "items": [
+          "Thai Iced Tea"
+        ]
+      },
+      {
+        "title": "Desserts",
+        "items": [
+          "Brownie"
+        ]
+      },
+      {
+        "title": "Desserts",
+        "items": [
+          "Brownie"
+        ]
+      },
+      {
+        "title": "Signature Bowls",
+        "items": [
+          "Mapo Tofu"
+        ]
+      },
+      {
+        "title": "Signature Bowls",
+        "items": [
+          "Mapo Tofu"
+        ]
+      },
+      {
+        "title": "Make Cents Entree",
+        "items": [
+          "Makes Cents Chicken Teriyaki Bowl"
+        ]
+      }
+    ]
   },
   {
     "location": "Marketplace West",
@@ -2204,7 +3486,236 @@
         "end": "7:30 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Breakfast Bowls",
+        "items": [
+          "Biscuits & Gravy Bowl",
+          "French Toast, Egg & Bacon Bowl",
+          "Breakfast Tofu Scramble Bowl",
+          "Country Scambled Egg Bowl"
+        ]
+      },
+      {
+        "title": "Breakfast Bowls",
+        "items": [
+          "Biscuits & Gravy Bowl",
+          "French Toast, Egg & Bacon Bowl",
+          "Breakfast Tofu Scramble Bowl",
+          "Country Scambled Egg Bowl"
+        ]
+      },
+      {
+        "title": "Breakfast Burritos",
+        "items": [
+          "Veggie Breakfast Burrito",
+          "Bacon & Turkey Sausage Breakfast Burrito"
+        ]
+      },
+      {
+        "title": "Breakfast Burritos",
+        "items": [
+          "Veggie Breakfast Burrito",
+          "Bacon & Turkey Sausage Breakfast Burrito"
+        ]
+      },
+      {
+        "title": "Breakfast Sides",
+        "items": [
+          "Fruit Salad",
+          "Bacon",
+          "Turkey Sausage Patty"
+        ]
+      },
+      {
+        "title": "Breakfast Sides",
+        "items": [
+          "Fruit Salad",
+          "Bacon",
+          "Turkey Sausage Patty"
+        ]
+      },
+      {
+        "title": "Eggs",
+        "items": [
+          "Scrambled Eggs",
+          "Ham & Cheese Scramble",
+          "Egg Cooked to Order",
+          "Vegan Tofu Scramble"
+        ]
+      },
+      {
+        "title": "Eggs",
+        "items": [
+          "Scrambled Eggs",
+          "Ham & Cheese Scramble",
+          "Egg Cooked to Order",
+          "Vegan Tofu Scramble"
+        ]
+      },
+      {
+        "title": "Breakfast Extras",
+        "items": [
+          "French Toast",
+          "Biscuit",
+          "Sausage Gravy",
+          "O`Brien Potatoes",
+          "Ultimate Breakfast Sandwich",
+          "Biscuits & Gravy - Full Order",
+          "Biscuits & Gravy - Half Order"
+        ]
+      },
+      {
+        "title": "Breakfast Extras",
+        "items": [
+          "French Toast",
+          "Biscuit",
+          "Sausage Gravy",
+          "O`Brien Potatoes",
+          "Ultimate Breakfast Sandwich",
+          "Biscuits & Gravy - Full Order",
+          "Biscuits & Gravy - Half Order"
+        ]
+      },
+      {
+        "title": "Burrito Bowls",
+        "items": [
+          "Rice & Bean Bowl",
+          "Vegetarian Chorizo Bowl",
+          "Chicken Serrano Bowl",
+          "Carnitas Burrito Bowl"
+        ]
+      },
+      {
+        "title": "Burrito Bowls",
+        "items": [
+          "Rice & Bean Bowl",
+          "Vegetarian Chorizo Bowl",
+          "Chicken Serrano Bowl",
+          "Carnitas Burrito Bowl"
+        ]
+      },
+      {
+        "title": "Burritos",
+        "items": [
+          "Vegetarian Chorizo Burrito",
+          "Rice & Bean Burrito",
+          "Chicken Burrito",
+          "Pork Burrito"
+        ]
+      },
+      {
+        "title": "Burritos",
+        "items": [
+          "Vegetarian Chorizo Burrito",
+          "Rice & Bean Burrito",
+          "Chicken Burrito",
+          "Pork Burrito"
+        ]
+      },
+      {
+        "title": "Nachos",
+        "items": [
+          "Nachos",
+          "Chicken Fajita Nachos",
+          "Pork Carnitas Nachos",
+          "Vegetarian Chorizo Nachos"
+        ]
+      },
+      {
+        "title": "Nachos",
+        "items": [
+          "Nachos",
+          "Chicken Fajita Nachos",
+          "Pork Carnitas Nachos",
+          "Vegetarian Chorizo Nachos"
+        ]
+      },
+      {
+        "title": "Quesadillas",
+        "items": [
+          "Cheese Quesadilla",
+          "Chicken Quesadilla",
+          "Plantbased Chorizo Quesadilla"
+        ]
+      },
+      {
+        "title": "Quesadillas",
+        "items": [
+          "Cheese Quesadilla",
+          "Chicken Quesadilla",
+          "Plantbased Chorizo Quesadilla"
+        ]
+      },
+      {
+        "title": "Toppings & Salsas",
+        "items": [
+          "Tomatillo Salsa",
+          "Mango Morita Salsa",
+          "Chipotle & Guajillo Chile Sauce",
+          "Lime Wedges",
+          "Cilantro",
+          "Pico De Gallo",
+          "Yellow Onion",
+          "Fresh Jalapeno",
+          "Cotija Cheese",
+          "Fresh Radish"
+        ]
+      },
+      {
+        "title": "Toppings & Salsas",
+        "items": [
+          "Tomatillo Salsa",
+          "Mango Morita Salsa",
+          "Chipotle & Guajillo Chile Sauce",
+          "Lime Wedges",
+          "Cilantro",
+          "Pico De Gallo",
+          "Yellow Onion",
+          "Fresh Jalapeno",
+          "Cotija Cheese",
+          "Fresh Radish"
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          "Mexican Crema",
+          "Guacamole",
+          "Tomatillo Salsa",
+          "Pico De Gallo"
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          "Mexican Crema",
+          "Guacamole",
+          "Tomatillo Salsa",
+          "Pico De Gallo"
+        ]
+      },
+      {
+        "title": "Beverages",
+        "items": [
+          "Pineapple Jarritos",
+          "Fruit Punch Jarritos"
+        ]
+      },
+      {
+        "title": "Beverages",
+        "items": [
+          "Pineapple Jarritos",
+          "Fruit Punch Jarritos"
+        ]
+      },
+      {
+        "title": "Makes Cents Entree",
+        "items": [
+          "Make Cents Taco Platter"
+        ]
+      }
+    ]
   },
   {
     "location": "Marketplace West",
@@ -2221,7 +3732,131 @@
         "end": "7:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "13\" Pizzas",
+        "items": [
+          "Personal Beaver Cheese Pizza",
+          "Personal Pepperoni Pizza",
+          "Personal Combination Pizza",
+          "Personal Veggie Pizza"
+        ]
+      },
+      {
+        "title": "13\" Pizzas",
+        "items": [
+          "Personal Beaver Cheese Pizza",
+          "Personal Pepperoni Pizza",
+          "Personal Combination Pizza",
+          "Personal Veggie Pizza"
+        ]
+      },
+      {
+        "title": "Roasted Veggie Rotation",
+        "items": [
+          "Roasted Broccoli",
+          "Roasted Fennel Carrots",
+          "Roasted Cauliflower",
+          "Zucchini & Squash"
+        ]
+      },
+      {
+        "title": "Roasted Veggie Rotation",
+        "items": [
+          "Roasted Broccoli",
+          "Roasted Fennel Carrots",
+          "Roasted Cauliflower",
+          "Zucchini & Squash"
+        ]
+      },
+      {
+        "title": "Made to Order Pasta",
+        "items": [
+          "Pomodoro Sauce",
+          "Rigatoni Pasta (plain)",
+          "Gluten Free Penne Pasta",
+          "Pancetta",
+          "Grilled Mushrooms",
+          "Basil & Parsley Mix",
+          "Shaved Parmesean"
+        ]
+      },
+      {
+        "title": "Made to Order Pasta",
+        "items": [
+          "Pomodoro Sauce",
+          "Rigatoni Pasta (plain)",
+          "Gluten Free Penne Pasta",
+          "Pancetta",
+          "Grilled Mushrooms",
+          "Basil & Parsley Mix",
+          "Shaved Parmesean"
+        ]
+      },
+      {
+        "title": "Weekend Pasta Options",
+        "items": [
+          "Gnocchi",
+          "Tortellini Pasta",
+          "Ravioli Pasta"
+        ]
+      },
+      {
+        "title": "Weekend Pasta Options",
+        "items": [
+          "Gnocchi",
+          "Tortellini Pasta",
+          "Ravioli Pasta"
+        ]
+      },
+      {
+        "title": "Chef`s Choice of the Day",
+        "items": [
+          "Bacon & Tomato Pizza",
+          "Double Pepperoni Pizza",
+          "Hawaiian",
+          "Chicken & Artichoke Pizza",
+          "Mediterranean Pizza",
+          "Margherita Pizza",
+          "Spicy BBQ Chicken Pizza",
+          "Veggie Pizza"
+        ]
+      },
+      {
+        "title": "Chef`s Choice of the Day",
+        "items": [
+          "Bacon & Tomato Pizza",
+          "Double Pepperoni Pizza",
+          "Hawaiian",
+          "Chicken & Artichoke Pizza",
+          "Mediterranean Pizza",
+          "Margherita Pizza",
+          "Spicy BBQ Chicken Pizza",
+          "Veggie Pizza"
+        ]
+      },
+      {
+        "title": "Make Cents Entree",
+        "items": [
+          "Make Cents Pasta Plate"
+        ]
+      },
+      {
+        "title": "Make Cents Entree",
+        "items": [
+          "Make Cents Pasta Plate"
+        ]
+      },
+      {
+        "title": "Side of Meat",
+        "items": [
+          "Grilled Chicken Breast",
+          "Italian Meatball",
+          "Italian Sausage",
+          "Shrimp"
+        ]
+      }
+    ]
   },
   {
     "location": "Marketplace West",
@@ -2234,7 +3869,141 @@
         "end": null
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Makes Cents Entree",
+        "items": [
+          "Make Cents Falafel Plate"
+        ]
+      },
+      {
+        "title": "Makes Cents Entree",
+        "items": [
+          "Make Cents Falafel Plate"
+        ]
+      },
+      {
+        "title": "Burger Bun Options",
+        "items": [
+          "Potato Bun",
+          "Gluten Free Bun",
+          "Lettuce Wrap"
+        ]
+      },
+      {
+        "title": "Burger Bun Options",
+        "items": [
+          "Potato Bun",
+          "Gluten Free Bun",
+          "Lettuce Wrap"
+        ]
+      },
+      {
+        "title": "Desserts",
+        "items": [
+          "Fried Apple Pie"
+        ]
+      },
+      {
+        "title": "Desserts",
+        "items": [
+          "Fried Apple Pie"
+        ]
+      },
+      {
+        "title": "Rotating Fries & Sides",
+        "items": [
+          "French Fries",
+          "Curly Fries",
+          "Waffle Fries",
+          "Tater Tots",
+          "Sweet Potato Fries"
+        ]
+      },
+      {
+        "title": "Rotating Fries & Sides",
+        "items": [
+          "French Fries",
+          "Curly Fries",
+          "Waffle Fries",
+          "Tater Tots",
+          "Sweet Potato Fries"
+        ]
+      },
+      {
+        "title": "Build-a-Burger Patties",
+        "items": [
+          "Beef Patty",
+          "Turkey Patty",
+          "Black Bean Burger"
+        ]
+      },
+      {
+        "title": "Build-a-Burger Patties",
+        "items": [
+          "Beef Patty",
+          "Turkey Patty",
+          "Black Bean Burger"
+        ]
+      },
+      {
+        "title": "Build-a-Burger Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Vegan Pepper Jack \"Cheese\" (contains coconut)"
+        ]
+      },
+      {
+        "title": "Build-a-Burger Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Vegan Pepper Jack \"Cheese\" (contains coconut)"
+        ]
+      },
+      {
+        "title": "Build-a-Burger Toppings",
+        "items": [
+          "Leaf Lettuce",
+          "Tomato Slice",
+          "Pickles",
+          "Caramelized Onions",
+          "Grilled Mushrooms",
+          "Bacon",
+          "Red Onion",
+          "Avocado"
+        ]
+      },
+      {
+        "title": "Build-a-Burger Toppings",
+        "items": [
+          "Leaf Lettuce",
+          "Tomato Slice",
+          "Pickles",
+          "Caramelized Onions",
+          "Grilled Mushrooms",
+          "Bacon",
+          "Red Onion",
+          "Avocado"
+        ]
+      },
+      {
+        "title": "Build-a-Burger Sauces",
+        "items": [
+          "Fry Sauce",
+          "Ketchup",
+          "Mayonnaise",
+          "Yellow Mustard",
+          "BBQ Sauce",
+          "Ranch"
+        ]
+      }
+    ]
   },
   {
     "location": "McNary Dining",
@@ -2247,7 +4016,171 @@
         "end": "8:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Pick a Bun",
+        "items": [
+          "Potato Bun",
+          "Whole Wheat Hamburger Bun",
+          "Gluten Free Bun",
+          "Lettuce Wrap"
+        ]
+      },
+      {
+        "title": "Pick a Bun",
+        "items": [
+          "Potato Bun",
+          "Whole Wheat Hamburger Bun",
+          "Gluten Free Bun",
+          "Lettuce Wrap"
+        ]
+      },
+      {
+        "title": "Pick a Patty",
+        "items": [
+          "Beef Patty",
+          "Grilled Chicken Breast",
+          "Beyond Burger Patty (contains coconut)",
+          "Veggie Burger Patty"
+        ]
+      },
+      {
+        "title": "Pick a Patty",
+        "items": [
+          "Beef Patty",
+          "Grilled Chicken Breast",
+          "Beyond Burger Patty (contains coconut)",
+          "Veggie Burger Patty"
+        ]
+      },
+      {
+        "title": "Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)"
+        ]
+      },
+      {
+        "title": "Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)"
+        ]
+      },
+      {
+        "title": "Choose Veggies",
+        "items": [
+          "Lettuce",
+          "Sliced Tomato",
+          "Red Onion",
+          "Pickle Chips",
+          "Pickled Jalapeños",
+          "Caramelized Onions",
+          "Grilled Mushrooms"
+        ]
+      },
+      {
+        "title": "Choose Veggies",
+        "items": [
+          "Lettuce",
+          "Sliced Tomato",
+          "Red Onion",
+          "Pickle Chips",
+          "Pickled Jalapeños",
+          "Caramelized Onions",
+          "Grilled Mushrooms"
+        ]
+      },
+      {
+        "title": "Choose Sauces",
+        "items": [
+          "Fry Sauce",
+          "BBQ Sauce",
+          "Ranch Dressing"
+        ]
+      },
+      {
+        "title": "Choose Sauces",
+        "items": [
+          "Fry Sauce",
+          "BBQ Sauce",
+          "Ranch Dressing"
+        ]
+      },
+      {
+        "title": "Burger Add-Ons",
+        "items": [
+          "Pineapple",
+          "Bacon",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Burger Add-Ons",
+        "items": [
+          "Pineapple",
+          "Bacon",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Chicken tenders",
+          "Onion Rings",
+          "French Fries"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Chicken tenders",
+          "Onion Rings",
+          "French Fries"
+        ]
+      },
+      {
+        "title": "Beverages",
+        "items": [
+          "Regular Fountain Drink",
+          "Large Fountain Drink",
+          "Regular Strawberry Lemonade"
+        ]
+      },
+      {
+        "title": "Beverages",
+        "items": [
+          "Regular Fountain Drink",
+          "Large Fountain Drink",
+          "Regular Strawberry Lemonade"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Caramel Chocolate Milkshake",
+          "F`real Chocolate Malt Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Cinnabon Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Cotton Candy Milkshake",
+          "F`real Frosted Cupcake Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Lemon Drop Milkshake",
+          "F`real Mint n Chip Milkshake",
+          "F`real Mocha Milkshake",
+          "F`real Red Velvet Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Root Beer Float Milkshake",
+          "F`real Strawberry Milkshake",
+          "F`real Vanilla Milkshake"
+        ]
+      }
+    ]
   },
   {
     "location": "McNary Dining",
@@ -2268,7 +4201,471 @@
         "end": "7:30 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Breakfast Scrambles",
+        "items": [
+          "Denver Scramble",
+          "Country Scramble Bowl",
+          "Hollandaise Breakfast Sandwich",
+          "Vegan Scrambled Vegetables",
+          "Vegetarian Tex-Mex Scramble",
+          "Veggie Breakfast Scramble"
+        ]
+      },
+      {
+        "title": "Breakfast Scrambles",
+        "items": [
+          "Denver Scramble",
+          "Country Scramble Bowl",
+          "Hollandaise Breakfast Sandwich",
+          "Vegan Scrambled Vegetables",
+          "Vegetarian Tex-Mex Scramble",
+          "Veggie Breakfast Scramble"
+        ]
+      },
+      {
+        "title": "Breakfast Bowl Options",
+        "items": [
+          "Steamed Rice",
+          "Roasted Root Vegetable Medley",
+          "Sausage Gravy",
+          "Scrambled Eggs",
+          "O`Brien Potatoes",
+          "French Toast",
+          "Biscuit",
+          "Buttermilk Pancake"
+        ]
+      },
+      {
+        "title": "Breakfast Bowl Options",
+        "items": [
+          "Steamed Rice",
+          "Roasted Root Vegetable Medley",
+          "Sausage Gravy",
+          "Scrambled Eggs",
+          "O`Brien Potatoes",
+          "French Toast",
+          "Biscuit",
+          "Buttermilk Pancake"
+        ]
+      },
+      {
+        "title": "Grab & Go Breakfast",
+        "items": [
+          "Breakfast Biscuit Sandwich",
+          "Breakfast Sausage Croissant Sandwich",
+          "Bacon Breakfast Burrito",
+          "Ham & Egg Muffin Sandwich",
+          "Sausage Breakfast Burrito",
+          "Veggie Breakfast Burrito"
+        ]
+      },
+      {
+        "title": "Grab & Go Breakfast",
+        "items": [
+          "Breakfast Biscuit Sandwich",
+          "Breakfast Sausage Croissant Sandwich",
+          "Bacon Breakfast Burrito",
+          "Ham & Egg Muffin Sandwich",
+          "Sausage Breakfast Burrito",
+          "Veggie Breakfast Burrito"
+        ]
+      },
+      {
+        "title": "Yogurt Bar Bases",
+        "items": [
+          "Strawberry Yogurt",
+          "Vanilla Yogurt",
+          "Raspberry Yogurt",
+          "Cottage Cheese",
+          "Plain Yogurt"
+        ]
+      },
+      {
+        "title": "Yogurt Bar Bases",
+        "items": [
+          "Strawberry Yogurt",
+          "Vanilla Yogurt",
+          "Raspberry Yogurt",
+          "Cottage Cheese",
+          "Plain Yogurt"
+        ]
+      },
+      {
+        "title": "Yogurt Bar Toppings",
+        "items": [
+          "Marionberries",
+          "Peaches",
+          "Pears",
+          "Fruit Salad",
+          "Granola",
+          "Blueberries",
+          "Chia Seeds",
+          "Coconut Flakes",
+          "Pumpkin Seeds",
+          "Raspberries",
+          "Sliced Almonds"
+        ]
+      },
+      {
+        "title": "Yogurt Bar Toppings",
+        "items": [
+          "Marionberries",
+          "Peaches",
+          "Pears",
+          "Fruit Salad",
+          "Granola",
+          "Blueberries",
+          "Chia Seeds",
+          "Coconut Flakes",
+          "Pumpkin Seeds",
+          "Raspberries",
+          "Sliced Almonds"
+        ]
+      },
+      {
+        "title": "Salad Bar Greens",
+        "items": [
+          "Spinach",
+          "Spring Mix",
+          "Romaine Lettuce"
+        ]
+      },
+      {
+        "title": "Salad Bar Greens",
+        "items": [
+          "Spinach",
+          "Spring Mix",
+          "Romaine Lettuce"
+        ]
+      },
+      {
+        "title": "Salad Bar Veggies",
+        "items": [
+          "Red Onion",
+          "Steamed Edamame",
+          "Sliced Cucumbers",
+          "Carrots",
+          "Artichoke Hearts",
+          "Broccoli",
+          "Black Olives",
+          "Grape Tomatoes",
+          "Peas",
+          "Pickled Beets"
+        ]
+      },
+      {
+        "title": "Salad Bar Veggies",
+        "items": [
+          "Red Onion",
+          "Steamed Edamame",
+          "Sliced Cucumbers",
+          "Carrots",
+          "Artichoke Hearts",
+          "Broccoli",
+          "Black Olives",
+          "Grape Tomatoes",
+          "Peas",
+          "Pickled Beets"
+        ]
+      },
+      {
+        "title": "Salad Bar Proteins",
+        "items": [
+          "Kidney Beans",
+          "Garbanzo Bean Sundried Tomato Salad",
+          "Diced Ham",
+          "Diced Turkey",
+          "Bacon",
+          "Sliced Egg",
+          "Shredded Cheese"
+        ]
+      },
+      {
+        "title": "Salad Bar Proteins",
+        "items": [
+          "Kidney Beans",
+          "Garbanzo Bean Sundried Tomato Salad",
+          "Diced Ham",
+          "Diced Turkey",
+          "Bacon",
+          "Sliced Egg",
+          "Shredded Cheese"
+        ]
+      },
+      {
+        "title": "Salad Bar Dressings",
+        "items": [
+          "Thousand Island Dressing",
+          "Balsamic Vinaigrette",
+          "Blue Cheese Dressing",
+          "Buttermilk Ranch Dressing"
+        ]
+      },
+      {
+        "title": "Salad Bar Dressings",
+        "items": [
+          "Thousand Island Dressing",
+          "Balsamic Vinaigrette",
+          "Blue Cheese Dressing",
+          "Buttermilk Ranch Dressing"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "Asian Chicken Salad",
+          "Fruit Salad",
+          "Krab Dilled Salad",
+          "Large Roasted Tomato & Pesto Rotini Salad",
+          "Large Traditional Potato Salad",
+          "Macaroni Salad"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "Asian Chicken Salad",
+          "Fruit Salad",
+          "Krab Dilled Salad",
+          "Large Roasted Tomato & Pesto Rotini Salad",
+          "Large Traditional Potato Salad",
+          "Macaroni Salad"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Bases",
+        "items": [
+          "Mashed Potatoes",
+          "Buttered Penne w/Parsley",
+          "Steamed Rice"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Bases",
+        "items": [
+          "Mashed Potatoes",
+          "Buttered Penne w/Parsley",
+          "Steamed Rice"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Proteins",
+        "items": [
+          "Shredded Beef",
+          "Vegan \"Chick`n\"",
+          "Vegan Chili",
+          "Chicken Strips",
+          "Pork Carnitas"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Proteins",
+        "items": [
+          "Shredded Beef",
+          "Vegan \"Chick`n\"",
+          "Vegan Chili",
+          "Chicken Strips",
+          "Pork Carnitas"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Veggies",
+        "items": [
+          "Grilled Mushrooms",
+          "Fajita Vegetable Mix",
+          "Corn",
+          "Black Beans",
+          "Roasted Zucchini",
+          "Steamed Broccoli"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Veggies",
+        "items": [
+          "Grilled Mushrooms",
+          "Fajita Vegetable Mix",
+          "Corn",
+          "Black Beans",
+          "Roasted Zucchini",
+          "Steamed Broccoli"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Sauces",
+        "items": [
+          "Ranchero Sauce",
+          "Cheese Sauce",
+          "Chicken Gravy",
+          "Korean BBQ sauce"
+        ]
+      },
+      {
+        "title": "Lunch Bowl Sauces",
+        "items": [
+          "Ranchero Sauce",
+          "Cheese Sauce",
+          "Chicken Gravy",
+          "Korean BBQ sauce"
+        ]
+      },
+      {
+        "title": "Stirfry Bases",
+        "items": [
+          "Fried Rice",
+          "Brown Rice",
+          "Steamed Rice",
+          "Yakisoba Noodles"
+        ]
+      },
+      {
+        "title": "Stirfry Bases",
+        "items": [
+          "Fried Rice",
+          "Brown Rice",
+          "Steamed Rice",
+          "Yakisoba Noodles"
+        ]
+      },
+      {
+        "title": "Stirfry Proteins",
+        "items": [
+          "Shrimp",
+          "Vegan \"Chick`n\"",
+          "Sliced Chicken",
+          "Asian Beef"
+        ]
+      },
+      {
+        "title": "Stirfry Proteins",
+        "items": [
+          "Shrimp",
+          "Vegan \"Chick`n\"",
+          "Sliced Chicken",
+          "Asian Beef"
+        ]
+      },
+      {
+        "title": "Stirfry Veggies",
+        "items": [
+          "Stir-Fried Vegetable Mix A",
+          "Stir-Fried Vegetable Mix B"
+        ]
+      },
+      {
+        "title": "Stirfry Veggies",
+        "items": [
+          "Stir-Fried Vegetable Mix A",
+          "Stir-Fried Vegetable Mix B"
+        ]
+      },
+      {
+        "title": "Stirfry Sauces",
+        "items": [
+          "Sticky Spicy Wing Sauce",
+          "Sweet Orange Chili Sauce",
+          "Tamari",
+          "Teriyaki",
+          "Korean Hot Sauce",
+          "Korean BBQ Sauce"
+        ]
+      },
+      {
+        "title": "Stirfry Sauces",
+        "items": [
+          "Sticky Spicy Wing Sauce",
+          "Sweet Orange Chili Sauce",
+          "Tamari",
+          "Teriyaki",
+          "Korean Hot Sauce",
+          "Korean BBQ Sauce"
+        ]
+      },
+      {
+        "title": "Stirfry Sides",
+        "items": [
+          "Pork Steam Bun",
+          "Crab Rangoon",
+          "Breaded Butterfly Shrimp",
+          "Chicken Lemongrass Gyoza",
+          "Chicken Teriyaki Gyoza",
+          "Vegetable Spring Roll"
+        ]
+      },
+      {
+        "title": "Stirfry Sides",
+        "items": [
+          "Pork Steam Bun",
+          "Crab Rangoon",
+          "Breaded Butterfly Shrimp",
+          "Chicken Lemongrass Gyoza",
+          "Chicken Teriyaki Gyoza",
+          "Vegetable Spring Roll"
+        ]
+      },
+      {
+        "title": "Baked Potato Bar",
+        "items": [
+          "Whipped Butter",
+          "Sliced Green Onions",
+          "Sliced Fresh Jalapenos",
+          "Sour Cream",
+          "Shredded Cheese",
+          "Bacon Crumbles",
+          "Baked Potato"
+        ]
+      },
+      {
+        "title": "Baked Potato Bar",
+        "items": [
+          "Whipped Butter",
+          "Sliced Green Onions",
+          "Sliced Fresh Jalapenos",
+          "Sour Cream",
+          "Shredded Cheese",
+          "Bacon Crumbles",
+          "Baked Potato"
+        ]
+      },
+      {
+        "title": "Rotating Soup Options",
+        "items": [
+          "Bean & Smoked Pork Soup",
+          "Chicken Tortilla Soup",
+          "Clam Chowder",
+          "Chicken Gumbo Soup",
+          "Rustic Chicken Noodle",
+          "Split Pea & Ham Soup",
+          "Wild Rice Vegetable Soup",
+          "Tomato Oregonzola Soup"
+        ]
+      },
+      {
+        "title": "Rotating Soup Options",
+        "items": [
+          "Bean & Smoked Pork Soup",
+          "Chicken Tortilla Soup",
+          "Clam Chowder",
+          "Chicken Gumbo Soup",
+          "Rustic Chicken Noodle",
+          "Split Pea & Ham Soup",
+          "Wild Rice Vegetable Soup",
+          "Tomato Oregonzola Soup"
+        ]
+      },
+      {
+        "title": "Soup Bar Toppings",
+        "items": [
+          "Whipped Butter",
+          "Sour Cream",
+          "Sliced Fresh Jalapenos",
+          "Sliced Green Onions",
+          "Shredded Cheese",
+          "Green Onion"
+        ]
+      }
+    ]
   },
   {
     "location": "McNary Dining",
@@ -2285,7 +4682,297 @@
         "end": "7:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Rotating Seasonal Toppings",
+        "items": [
+          "Black Olives",
+          "Broccoli",
+          "Cherry Tomatoes",
+          "Carrots",
+          "Eggplant",
+          "Grilled Asparagus",
+          "Grilled Corn",
+          "Grilled Kale",
+          "Peas",
+          "Roasted Beets",
+          "Roasted Brussels Sprouts",
+          "Roasted Butternut Squash",
+          "Roasted Cauliflower",
+          "Roasted Garlic",
+          "Roasted Potatoes",
+          "Roasted Root Vegetables",
+          "Stir Fry Green Beans"
+        ]
+      },
+      {
+        "title": "Rotating Seasonal Toppings",
+        "items": [
+          "Black Olives",
+          "Broccoli",
+          "Cherry Tomatoes",
+          "Carrots",
+          "Eggplant",
+          "Grilled Asparagus",
+          "Grilled Corn",
+          "Grilled Kale",
+          "Peas",
+          "Roasted Beets",
+          "Roasted Brussels Sprouts",
+          "Roasted Butternut Squash",
+          "Roasted Cauliflower",
+          "Roasted Garlic",
+          "Roasted Potatoes",
+          "Roasted Root Vegetables",
+          "Stir Fry Green Beans"
+        ]
+      },
+      {
+        "title": "Organic Pasta~Sauce",
+        "items": [
+          "Pomodoro Sauce",
+          "Hazelnut Pesto",
+          "Alfredo Sauce"
+        ]
+      },
+      {
+        "title": "Organic Pasta~Sauce",
+        "items": [
+          "Pomodoro Sauce",
+          "Hazelnut Pesto",
+          "Alfredo Sauce"
+        ]
+      },
+      {
+        "title": "Organic Pasta~Vegetables",
+        "items": [
+          "Peppers & Onions",
+          "Mushrooms",
+          "Zucchini & Squash"
+        ]
+      },
+      {
+        "title": "Organic Pasta~Vegetables",
+        "items": [
+          "Peppers & Onions",
+          "Mushrooms",
+          "Zucchini & Squash"
+        ]
+      },
+      {
+        "title": "Pizza Crust Options",
+        "items": [
+          "Pizza Crust",
+          "Gluten Free Pizza Crust"
+        ]
+      },
+      {
+        "title": "Pizza Crust Options",
+        "items": [
+          "Pizza Crust",
+          "Gluten Free Pizza Crust"
+        ]
+      },
+      {
+        "title": "Bowls Sauces",
+        "items": [
+          "Green Goddess",
+          "Chimichurri Sauce",
+          "Caesar Dressing, 1 fluid ounce",
+          "Lemon Curry Dressing",
+          "Tzatziki Sauce"
+        ]
+      },
+      {
+        "title": "Bowls Sauces",
+        "items": [
+          "Green Goddess",
+          "Chimichurri Sauce",
+          "Caesar Dressing, 1 fluid ounce",
+          "Lemon Curry Dressing",
+          "Tzatziki Sauce"
+        ]
+      },
+      {
+        "title": "Bowls~Toppings",
+        "items": [
+          "Vegan Shredded Mozzarella",
+          "Marinated Tofu",
+          "Parmesan Cheese",
+          "Seitan",
+          "All Natural Chicken",
+          "Feta Cheese"
+        ]
+      },
+      {
+        "title": "Bowls~Toppings",
+        "items": [
+          "Vegan Shredded Mozzarella",
+          "Marinated Tofu",
+          "Parmesan Cheese",
+          "Seitan",
+          "All Natural Chicken",
+          "Feta Cheese"
+        ]
+      },
+      {
+        "title": "Curry Bar Options",
+        "items": [
+          "Grilled Chicken Breast",
+          "Stir-Fried Vegetable Mix A",
+          "Tofu",
+          "Yellow Coconut Curry Sauce"
+        ]
+      },
+      {
+        "title": "Curry Bar Options",
+        "items": [
+          "Grilled Chicken Breast",
+          "Stir-Fried Vegetable Mix A",
+          "Tofu",
+          "Yellow Coconut Curry Sauce"
+        ]
+      },
+      {
+        "title": "Pizza Bar",
+        "items": [
+          "Sausage",
+          "Mushrooms",
+          "Pepperoni",
+          "Onion",
+          "Organic Pizza Sauce",
+          "Garlic Cream Sauce",
+          "Grilled Kale",
+          "Cherry Tomato",
+          "Bell Pepper",
+          "Chicken"
+        ]
+      },
+      {
+        "title": "Pizza Bar",
+        "items": [
+          "Sausage",
+          "Mushrooms",
+          "Pepperoni",
+          "Onion",
+          "Organic Pizza Sauce",
+          "Garlic Cream Sauce",
+          "Grilled Kale",
+          "Cherry Tomato",
+          "Bell Pepper",
+          "Chicken"
+        ]
+      },
+      {
+        "title": "Flatbreads",
+        "items": [
+          "Chicken Caesar Flatbread",
+          "Seitan Caesar Flatbread",
+          "Veggie Sandwich"
+        ]
+      },
+      {
+        "title": "Flatbreads",
+        "items": [
+          "Chicken Caesar Flatbread",
+          "Seitan Caesar Flatbread",
+          "Veggie Sandwich"
+        ]
+      },
+      {
+        "title": "Pasta Bar Toppings",
+        "items": [
+          "Pesto Sauce",
+          "Pomodoro Sauce",
+          "Chicken",
+          "Alfredo Sauce",
+          "Italian Sausage"
+        ]
+      },
+      {
+        "title": "Pasta Bar Toppings",
+        "items": [
+          "Pesto Sauce",
+          "Pomodoro Sauce",
+          "Chicken",
+          "Alfredo Sauce",
+          "Italian Sausage"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "Large Caesar Salad",
+          "Large Garden Salad",
+          "Small Caesar Salad",
+          "Small Garden Salad"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "Large Caesar Salad",
+          "Large Garden Salad",
+          "Small Caesar Salad",
+          "Small Garden Salad"
+        ]
+      },
+      {
+        "title": "Sandwiches",
+        "items": [
+          "Ham & Cheddar Sandwich",
+          "Turkey & Hazelnut Pesto Sandwich"
+        ]
+      },
+      {
+        "title": "Sandwiches",
+        "items": [
+          "Ham & Cheddar Sandwich",
+          "Turkey & Hazelnut Pesto Sandwich"
+        ]
+      },
+      {
+        "title": "Protein for Bowls or Salads",
+        "items": [
+          "Chicken Breast",
+          "Shrimp",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Protein for Bowls or Salads",
+        "items": [
+          "Chicken Breast",
+          "Shrimp",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Grain Bowls",
+        "items": [
+          "Northwest Grain Bowl",
+          "Mary`s Peak Grain Bowl",
+          "Fitton Green Grain Bowl"
+        ]
+      },
+      {
+        "title": "Grain Bowls",
+        "items": [
+          "Northwest Grain Bowl",
+          "Mary`s Peak Grain Bowl",
+          "Fitton Green Grain Bowl"
+        ]
+      },
+      {
+        "title": "Salad Dressings",
+        "items": [
+          "Balsamic Vinaigrette, 1 fluid ounce",
+          "Caesar Dressing, 1 fluid ounce",
+          "Buttermilk Ranch Dressing",
+          "Miso Soy Salad Dressing"
+        ]
+      }
+    ]
   },
   {
     "location": "McNary Dining",
@@ -2298,7 +4985,129 @@
         "end": null
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Entrees",
+        "items": [
+          "Beef Burrito",
+          "Chicken Burrito",
+          "Pork Carnitas Burrito",
+          "La Calle Bowl",
+          "Dip Nachos"
+        ]
+      },
+      {
+        "title": "Entrees",
+        "items": [
+          "Beef Burrito",
+          "Chicken Burrito",
+          "Pork Carnitas Burrito",
+          "La Calle Bowl",
+          "Dip Nachos"
+        ]
+      },
+      {
+        "title": "Wraps",
+        "items": [
+          "Flour Tortilla",
+          "Whole Wheat Tortilla",
+          "White Corn Tortilla (tacos only)",
+          "Gluten Free Tortilla"
+        ]
+      },
+      {
+        "title": "Wraps",
+        "items": [
+          "Flour Tortilla",
+          "Whole Wheat Tortilla",
+          "White Corn Tortilla (tacos only)",
+          "Gluten Free Tortilla"
+        ]
+      },
+      {
+        "title": "Fillings",
+        "items": [
+          "Chicken Tinga",
+          "Pork Carnitas",
+          "Beef Barbacoa"
+        ]
+      },
+      {
+        "title": "Fillings",
+        "items": [
+          "Chicken Tinga",
+          "Pork Carnitas",
+          "Beef Barbacoa"
+        ]
+      },
+      {
+        "title": "Toppings",
+        "items": [
+          "Diced Tomato",
+          "Shredded Lettuce",
+          "Chopped Green Onion",
+          "Mexican Cheese Blend",
+          "Grated Cotija",
+          "Pico De Gallo",
+          "Salsa Verde",
+          "Chipotle Sauce (contains cashews)",
+          "Roasted Corn & Red Peppers",
+          "Crema Mexicana",
+          "Queso",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Toppings",
+        "items": [
+          "Diced Tomato",
+          "Shredded Lettuce",
+          "Chopped Green Onion",
+          "Mexican Cheese Blend",
+          "Grated Cotija",
+          "Pico De Gallo",
+          "Salsa Verde",
+          "Chipotle Sauce (contains cashews)",
+          "Roasted Corn & Red Peppers",
+          "Crema Mexicana",
+          "Queso",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Spanish Brown Rice",
+          "White Rice",
+          "Refried Black Beans",
+          "Refried Pinto Beans",
+          "Chips and Salsa",
+          "Chips and Guacamole",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Spanish Brown Rice",
+          "White Rice",
+          "Refried Black Beans",
+          "Refried Pinto Beans",
+          "Chips and Salsa",
+          "Chips and Guacamole",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Beverages",
+        "items": [
+          "Strawberry Fanta",
+          "Pineapple Fanta",
+          "Orange Fanta",
+          "Grape Fanta"
+        ]
+      }
+    ]
   },
   {
     "location": "McNary Dining",
@@ -2311,7 +5120,193 @@
         "end": "2:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Coffee & More",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Cafe au Lait 12oz",
+          "Cafe au Lait 16oz",
+          "Cafe au Lait 20oz",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Chai Latte 12oz",
+          "Chai Latte 16oz",
+          "Chai Latte 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz",
+          "Hot Tea 12oz",
+          "Hot Tea 16oz",
+          "Hot Tea 20oz",
+          "London Fog 12oz",
+          "London Fog 16oz",
+          "London Fog 20oz",
+          "Matcha Latte 12oz",
+          "Matcha Latte",
+          "Matcha Latte"
+        ]
+      },
+      {
+        "title": "Coffee & More",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Cafe au Lait 12oz",
+          "Cafe au Lait 16oz",
+          "Cafe au Lait 20oz",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Chai Latte 12oz",
+          "Chai Latte 16oz",
+          "Chai Latte 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz",
+          "Hot Tea 12oz",
+          "Hot Tea 16oz",
+          "Hot Tea 20oz",
+          "London Fog 12oz",
+          "London Fog 16oz",
+          "London Fog 20oz",
+          "Matcha Latte 12oz",
+          "Matcha Latte",
+          "Matcha Latte"
+        ]
+      },
+      {
+        "title": "Espresso Drinks",
+        "items": [
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Cappucino 12oz",
+          "Cappucino 16oz",
+          "Cappucino 20oz",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "White Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz",
+          "Caramel Macciato 12oz",
+          "Caramel Macchiato 16oz",
+          "Caramel Macchiato 20oz",
+          "Extra Espresso Shot",
+          "Double Espresso",
+          "Triple Espresso"
+        ]
+      },
+      {
+        "title": "Espresso Drinks",
+        "items": [
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Cappucino 12oz",
+          "Cappucino 16oz",
+          "Cappucino 20oz",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "White Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz",
+          "Caramel Macciato 12oz",
+          "Caramel Macchiato 16oz",
+          "Caramel Macchiato 20oz",
+          "Extra Espresso Shot",
+          "Double Espresso",
+          "Triple Espresso"
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          "16 oz Cold Brew",
+          "24 oz Cold Brew",
+          "Strawberry Acai Refresher",
+          "Strawberry Acai Refresher",
+          "Pink Dragon Drink (contains coconut)",
+          "Pink Dragon Drink (contains coconut)",
+          "Very Berry Hibiscus Refresher 16oz.",
+          "Very Berry Hibiscus Refresher",
+          "Teavana Shaken Iced Tea",
+          "Teavana Shaken Iced Tea",
+          "Iced Mocha 16oz",
+          "Iced Mocha 24oz",
+          "16 oz Matcha Frappe (contains coconut)",
+          "24 oz Matcha Frappe (contains coconut)",
+          "16 oz Mocha Frappe (contains coconut)",
+          "24 oz Mocha Frappe (contains coconut)",
+          "Vanilla Frappe 16oz",
+          "Vanilla Frappe 24oz",
+          "Iced Coffee 16oz",
+          "Iced Coffee 24oz"
+        ]
+      },
+      {
+        "title": "Iced Drinks",
+        "items": [
+          "16 oz Cold Brew",
+          "24 oz Cold Brew",
+          "Strawberry Acai Refresher",
+          "Strawberry Acai Refresher",
+          "Pink Dragon Drink (contains coconut)",
+          "Pink Dragon Drink (contains coconut)",
+          "Very Berry Hibiscus Refresher 16oz.",
+          "Very Berry Hibiscus Refresher",
+          "Teavana Shaken Iced Tea",
+          "Teavana Shaken Iced Tea",
+          "Iced Mocha 16oz",
+          "Iced Mocha 24oz",
+          "16 oz Matcha Frappe (contains coconut)",
+          "24 oz Matcha Frappe (contains coconut)",
+          "16 oz Mocha Frappe (contains coconut)",
+          "24 oz Mocha Frappe (contains coconut)",
+          "Vanilla Frappe 16oz",
+          "Vanilla Frappe 24oz",
+          "Iced Coffee 16oz",
+          "Iced Coffee 24oz"
+        ]
+      },
+      {
+        "title": "Toppings & Extras",
+        "items": [
+          "Whipped Cream",
+          "Flavored Syrup",
+          "Espresso"
+        ]
+      },
+      {
+        "title": "Toppings & Extras",
+        "items": [
+          "Whipped Cream",
+          "Flavored Syrup",
+          "Espresso"
+        ]
+      },
+      {
+        "title": "Alternative Milk Options",
+        "items": [
+          "Coconut Milk",
+          "Almond Milk",
+          "Soy Milk",
+          "Oat Milk"
+        ]
+      }
+    ]
   },
   {
     "location": "McNary Dining",
@@ -2324,7 +5319,263 @@
         "end": "8:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Frozen Yogurt",
+        "items": [
+          "Vanilla - Small",
+          "Vanilla - Medium",
+          "Vanilla - Large",
+          "Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Frozen Yogurt",
+        "items": [
+          "Vanilla - Small",
+          "Vanilla - Medium",
+          "Vanilla - Large",
+          "Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Chillers",
+        "items": [
+          "Reese`s Pieces - Small",
+          "Reese`s Pieces - Large",
+          "Cookie Dough - Small",
+          "Cookie Dough - Large",
+          "Chocolate Cookie - Small",
+          "Chocolate Cookie - Large"
+        ]
+      },
+      {
+        "title": "Chillers",
+        "items": [
+          "Reese`s Pieces - Small",
+          "Reese`s Pieces - Large",
+          "Cookie Dough - Small",
+          "Cookie Dough - Large",
+          "Chocolate Cookie - Small",
+          "Chocolate Cookie - Large"
+        ]
+      },
+      {
+        "title": "Yogurt Bowls",
+        "items": [
+          "Sunshine 8oz",
+          "Tropical Smoothie Bowl",
+          "Berry Getaway 8oz",
+          "Berry Getaway 12oz",
+          "Invigoration,8oz"
+        ]
+      },
+      {
+        "title": "Yogurt Bowls",
+        "items": [
+          "Sunshine 8oz",
+          "Tropical Smoothie Bowl",
+          "Berry Getaway 8oz",
+          "Berry Getaway 12oz",
+          "Invigoration,8oz"
+        ]
+      },
+      {
+        "title": "Power Smoothies",
+        "items": [
+          "Chocolate Cabana,Dairy,16oz",
+          "Chocolate Cabana,Dairy,20 oz",
+          "Chocolate Cabana, Soy,16 oz",
+          "Chocolate Cabana, Soy, 20 oz",
+          "Invigorator,Dairy,16oz",
+          "Invigorator, Soy, 16oz",
+          "Invigorator,Dairy,20oz",
+          "Invigorator, Soy, 20oz",
+          "Old School Splash,16oz",
+          "Old School Splash,20oz",
+          "Pacific Sunset,16oz",
+          "Pacific Sunset,20oz"
+        ]
+      },
+      {
+        "title": "Power Smoothies",
+        "items": [
+          "Chocolate Cabana,Dairy,16oz",
+          "Chocolate Cabana,Dairy,20 oz",
+          "Chocolate Cabana, Soy,16 oz",
+          "Chocolate Cabana, Soy, 20 oz",
+          "Invigorator,Dairy,16oz",
+          "Invigorator, Soy, 16oz",
+          "Invigorator,Dairy,20oz",
+          "Invigorator, Soy, 20oz",
+          "Old School Splash,16oz",
+          "Old School Splash,20oz",
+          "Pacific Sunset,16oz",
+          "Pacific Sunset,20oz"
+        ]
+      },
+      {
+        "title": "Tropical Smoothies",
+        "items": [
+          "Super Island Splash,Dairy,20oz",
+          "Super Island Splash, Soy,16oz",
+          "Super Island Splash,Soy,20oz",
+          "Super Island Splash, Dairy,16oz",
+          "Beach Blast,Dairy,16oz",
+          "Beach Blast,Dairy,20oz",
+          "Beach Blast, Soy, 16oz",
+          "Beach Blast, Soy, 20oz",
+          "Tropical Escape, Dairy, 16oz",
+          "Tropical Escape, Dairy, 20oz",
+          "Tropical Escape,Soy,16oz",
+          "Tropical Escape,Soy,20oz",
+          "Berry Getaway 16oz",
+          "Berry Getaway 20oz"
+        ]
+      },
+      {
+        "title": "Tropical Smoothies",
+        "items": [
+          "Super Island Splash,Dairy,20oz",
+          "Super Island Splash, Soy,16oz",
+          "Super Island Splash,Soy,20oz",
+          "Super Island Splash, Dairy,16oz",
+          "Beach Blast,Dairy,16oz",
+          "Beach Blast,Dairy,20oz",
+          "Beach Blast, Soy, 16oz",
+          "Beach Blast, Soy, 20oz",
+          "Tropical Escape, Dairy, 16oz",
+          "Tropical Escape, Dairy, 20oz",
+          "Tropical Escape,Soy,16oz",
+          "Tropical Escape,Soy,20oz",
+          "Berry Getaway 16oz",
+          "Berry Getaway 20oz"
+        ]
+      },
+      {
+        "title": "Energy Smoothies",
+        "items": [
+          "Energizer 16oz",
+          "Energizer 20oz"
+        ]
+      },
+      {
+        "title": "Energy Smoothies",
+        "items": [
+          "Energizer 16oz",
+          "Energizer 20oz"
+        ]
+      },
+      {
+        "title": "Signature Smoothies",
+        "items": [
+          "Spring Break,Dairy, 16oz",
+          "Spring Break,Dairy,20oz",
+          "Spring Break,Soy,16oz",
+          "Spring Break,Soy,20oz",
+          "Revitalista,Dairy, 16oz",
+          "Revitalista,Soy, 16oz",
+          "Revitalista,Dairy, 20oz",
+          "Revitalista,Soy,20oz",
+          "Au Naturale,Dairy, 16oz",
+          "Au Naturale,Dairy, 20oz",
+          "Au Naturale, Soy, 16oz",
+          "Au Naturale,Soy, 20oz",
+          "Green Goddess Smoothie 16oz",
+          "Green Goddess Smoothie 20oz"
+        ]
+      },
+      {
+        "title": "Signature Smoothies",
+        "items": [
+          "Spring Break,Dairy, 16oz",
+          "Spring Break,Dairy,20oz",
+          "Spring Break,Soy,16oz",
+          "Spring Break,Soy,20oz",
+          "Revitalista,Dairy, 16oz",
+          "Revitalista,Soy, 16oz",
+          "Revitalista,Dairy, 20oz",
+          "Revitalista,Soy,20oz",
+          "Au Naturale,Dairy, 16oz",
+          "Au Naturale,Dairy, 20oz",
+          "Au Naturale, Soy, 16oz",
+          "Au Naturale,Soy, 20oz",
+          "Green Goddess Smoothie 16oz",
+          "Green Goddess Smoothie 20oz"
+        ]
+      },
+      {
+        "title": "Fruit & Veggie Mix-Ins",
+        "items": [
+          "Blueberry",
+          "Strawberry",
+          "Pineapple Topping",
+          "Banana",
+          "Apple",
+          "Avocado",
+          "Mango",
+          "Peach",
+          "Raspberries",
+          "Spinach",
+          "Coconut"
+        ]
+      },
+      {
+        "title": "Fruit & Veggie Mix-Ins",
+        "items": [
+          "Blueberry",
+          "Strawberry",
+          "Pineapple Topping",
+          "Banana",
+          "Apple",
+          "Avocado",
+          "Mango",
+          "Peach",
+          "Raspberries",
+          "Spinach",
+          "Coconut"
+        ]
+      },
+      {
+        "title": "Candy Mix-Ins",
+        "items": [
+          "Butterfinger",
+          "Caramel",
+          "Cookie Dough Pieces",
+          "Heath Candy",
+          "M&M`s",
+          "Oreo Cookie Crumbles",
+          "Peanut Butter Cup",
+          "Reese`s Pieces",
+          "Dark Chocolate Syrup",
+          "Dark Chocolate Chips",
+          "Sprinkles,Topping Choice"
+        ]
+      },
+      {
+        "title": "Candy Mix-Ins",
+        "items": [
+          "Butterfinger",
+          "Caramel",
+          "Cookie Dough Pieces",
+          "Heath Candy",
+          "M&M`s",
+          "Oreo Cookie Crumbles",
+          "Peanut Butter Cup",
+          "Reese`s Pieces",
+          "Dark Chocolate Syrup",
+          "Dark Chocolate Chips",
+          "Sprinkles,Topping Choice"
+        ]
+      },
+      {
+        "title": "Nutrition Boosters",
+        "items": [
+          "Vanilla Whey Protein",
+          "Chia Seeds"
+        ]
+      }
+    ]
   },
   {
     "location": "Memorial Union",
@@ -2964,7 +6215,258 @@
         "end": "2:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Breakfast",
+        "items": [
+          "Acai Bowl (contains coconut)",
+          "Fresh House Made Biscuit",
+          "Strawberry Jam",
+          "Biscuits & Gravy",
+          "Avocado Toast",
+          "Avocado Toast w/Egg",
+          "Blueberry Overnight Oats",
+          "Breakfast Burrito",
+          "Bacon Breakfast Burrito",
+          "Beyond Burrito"
+        ]
+      },
+      {
+        "title": "Breakfast",
+        "items": [
+          "Acai Bowl (contains coconut)",
+          "Fresh House Made Biscuit",
+          "Strawberry Jam",
+          "Biscuits & Gravy",
+          "Avocado Toast",
+          "Avocado Toast w/Egg",
+          "Blueberry Overnight Oats",
+          "Breakfast Burrito",
+          "Bacon Breakfast Burrito",
+          "Beyond Burrito"
+        ]
+      },
+      {
+        "title": "Lunch Entrees",
+        "items": [
+          "Three Cheese Panini",
+          "Tomato Soup",
+          "Sundried Tomato & Almond Hummus Plate w/ Pita Bread"
+        ]
+      },
+      {
+        "title": "Lunch Entrees",
+        "items": [
+          "Three Cheese Panini",
+          "Tomato Soup",
+          "Sundried Tomato & Almond Hummus Plate w/ Pita Bread"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Base",
+        "items": [
+          "Chopped Romaine Lettuce",
+          "Baby Spinach",
+          "Rice Noodles",
+          "Brown Rice"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Base",
+        "items": [
+          "Chopped Romaine Lettuce",
+          "Baby Spinach",
+          "Rice Noodles",
+          "Brown Rice"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Veggies (up to 5)",
+        "items": [
+          "Shredded Carrots",
+          "Shredded Napa Cabbage",
+          "Sliced Red Pepper",
+          "Diced Tomatoes",
+          "Black Beans",
+          "Roasted Sweet Potatoes",
+          "Blanched Broccoli",
+          "Sliced Cucumbers",
+          "Edamame",
+          "Green Peas"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Veggies (up to 5)",
+        "items": [
+          "Shredded Carrots",
+          "Shredded Napa Cabbage",
+          "Sliced Red Pepper",
+          "Diced Tomatoes",
+          "Black Beans",
+          "Roasted Sweet Potatoes",
+          "Blanched Broccoli",
+          "Sliced Cucumbers",
+          "Edamame",
+          "Green Peas"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Toppings",
+        "items": [
+          "Peanuts",
+          "Pumpkin Seeds",
+          "Dried Cranberries"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Toppings",
+        "items": [
+          "Peanuts",
+          "Pumpkin Seeds",
+          "Dried Cranberries"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Cheese",
+        "items": [
+          "Goat Cheese Crumbles",
+          "Shaved Parmesan",
+          "Cheddar Cheese"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Cheese",
+        "items": [
+          "Goat Cheese Crumbles",
+          "Shaved Parmesan",
+          "Cheddar Cheese"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Sauce",
+        "items": [
+          "Green Coconut Curry Sauce",
+          "Thai Dressing",
+          "Apple Cider Vinaigrette",
+          "Garlic Peppercorn Ranch Dressing"
+        ]
+      },
+      {
+        "title": "Build a Bowl: Pick your Sauce",
+        "items": [
+          "Green Coconut Curry Sauce",
+          "Thai Dressing",
+          "Apple Cider Vinaigrette",
+          "Garlic Peppercorn Ranch Dressing"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "SW Caesar Salad",
+          "Pasta & Hazelnut Pesto Salad"
+        ]
+      },
+      {
+        "title": "Salads",
+        "items": [
+          "SW Caesar Salad",
+          "Pasta & Hazelnut Pesto Salad"
+        ]
+      },
+      {
+        "title": "Additions for Bowls/Salads",
+        "items": [
+          "Avocado",
+          "Chicken Breast",
+          "Seasoned Soy Strips"
+        ]
+      },
+      {
+        "title": "Additions for Bowls/Salads",
+        "items": [
+          "Avocado",
+          "Chicken Breast",
+          "Seasoned Soy Strips"
+        ]
+      },
+      {
+        "title": "Tortas",
+        "items": [
+          "BLTA Sandwich",
+          "Pork Carnitas Torta",
+          "Chile Lime Chicken Torta",
+          "Beyond Burger (contains coconut)",
+          "Avocado"
+        ]
+      },
+      {
+        "title": "Tortas",
+        "items": [
+          "BLTA Sandwich",
+          "Pork Carnitas Torta",
+          "Chile Lime Chicken Torta",
+          "Beyond Burger (contains coconut)",
+          "Avocado"
+        ]
+      },
+      {
+        "title": "Burritos",
+        "items": [
+          "Chile Lime Chicken Burrito",
+          "Carnitas Burrito",
+          "Rajas Burrito",
+          "Sour Cream",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Burritos",
+        "items": [
+          "Chile Lime Chicken Burrito",
+          "Carnitas Burrito",
+          "Rajas Burrito",
+          "Sour Cream",
+          "Guacamole"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Caesar Side Salad",
+          "Potato Wedges w/ House Made Ranch",
+          "Chips & Salsa",
+          "Pico de Gallo",
+          "Avocado Salsa",
+          "Salsa Roja",
+          "Chip,BBQ,Organic,Spudlove,1oz",
+          "Chip,Sea Salt,Organic,Spudlove,1oz"
+        ]
+      },
+      {
+        "title": "Sides",
+        "items": [
+          "Caesar Side Salad",
+          "Potato Wedges w/ House Made Ranch",
+          "Chips & Salsa",
+          "Pico de Gallo",
+          "Avocado Salsa",
+          "Salsa Roja",
+          "Chip,BBQ,Organic,Spudlove,1oz",
+          "Chip,Sea Salt,Organic,Spudlove,1oz"
+        ]
+      },
+      {
+        "title": "Beverages",
+        "items": [
+          "Crisp Apple Kombucha",
+          "Superberry Kombucha",
+          "Root Beer",
+          "Nitro Coffee",
+          "Vanilla Ice Cream Scoop (add to coffee or root beer)"
+        ]
+      }
+    ]
   },
   {
     "location": "Memorial Union",
@@ -3016,7 +6518,503 @@
         "end": "3:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Bakery (subject to availability)",
+        "items": [
+          "Chocolate Chunk Cookie",
+          "Almond Poppyseed Muffin",
+          "Banana Bread",
+          "Brownie",
+          "Butter Croissant",
+          "Ham & Swiss Croissant",
+          "Orange Cream Danish",
+          "Pain Au Chocolat"
+        ]
+      }
+    ]
   },
   {
     "location": "Southside Station @ Arnold",
@@ -3037,7 +7035,503 @@
         "end": "8:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Bakery (subject to availability)",
+        "items": [
+          "Chocolate Chunk Cookie",
+          "Almond Poppyseed Muffin",
+          "Banana Bread",
+          "Brownie",
+          "Butter Croissant",
+          "Ham & Swiss Croissant",
+          "Orange Cream Danish",
+          "Pain Au Chocolat"
+        ]
+      }
+    ]
   },
   {
     "location": "Southside Station @ Arnold",
@@ -3050,7 +7544,503 @@
         "end": "2:30 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Bakery (subject to availability)",
+        "items": [
+          "Chocolate Chunk Cookie",
+          "Almond Poppyseed Muffin",
+          "Banana Bread",
+          "Brownie",
+          "Butter Croissant",
+          "Ham & Swiss Croissant",
+          "Orange Cream Danish",
+          "Pain Au Chocolat"
+        ]
+      }
+    ]
   },
   {
     "location": "Southside Station @ Arnold",
@@ -3063,7 +8053,503 @@
         "end": "8:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Bakery (subject to availability)",
+        "items": [
+          "Chocolate Chunk Cookie",
+          "Almond Poppyseed Muffin",
+          "Banana Bread",
+          "Brownie",
+          "Butter Croissant",
+          "Ham & Swiss Croissant",
+          "Orange Cream Danish",
+          "Pain Au Chocolat"
+        ]
+      }
+    ]
   },
   {
     "location": "Southside Station @ Arnold",
@@ -3076,7 +8562,503 @@
         "end": "7:00 PM"
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast",
+        "items": [
+          "Bacon",
+          "Biscuits",
+          "Biscuits & Gravy (Full Order)",
+          "Breakfast Potatoes",
+          "French Toast",
+          "Hash Brown Triangles",
+          "Pancakes",
+          "Pork Sausage Links"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Bowls",
+        "items": [
+          "Sausage Breakfast Bowl",
+          "Veggie Breakfast Bowl"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Burritos",
+        "items": [
+          "Soyrizo Breakfast Burrito",
+          "Breakfast Burrito w/Bacon"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "Global ~ Breakfast Sandwiches",
+        "items": [
+          "Breakfast Veggie Sausage Bagel",
+          "Egg, Ham, and Cheese Sandwich",
+          "Turkey Breakfast Bagel Sandwich"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Bun",
+        "items": [
+          "Whole Grain Bun",
+          "Potato Bun",
+          "Gluten Free Bun"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose a Patty",
+        "items": [
+          "Chicken Strip (1)",
+          "1/3 lb Beef Patty",
+          "5 oz Grilled Chicken Breast"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Build A Burger- Choose Toppings & Sauces",
+        "items": [
+          "Bacon",
+          "BBQ Sauce",
+          "Caramelized Onions",
+          "Cheddar Cheese",
+          "Ketchup",
+          "Leaf Lettuce",
+          "Mayonnaise",
+          "Dill Pickle",
+          "Fry Sauce",
+          "Grilled Mushrooms",
+          "Grilled Pineapple Ring",
+          "Guacamole",
+          "Ranch",
+          "Sweet and Spicy Mustard",
+          "Swiss Cheese",
+          "Non-dairy American Cheese (contains coconut)",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Pickled Jalapeno",
+          "Yellow Mustard",
+          "Sliced Red Onion",
+          "Teriyaki Glaze",
+          "Tomato"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "The Grill ~ Sides",
+        "items": [
+          "French Fries",
+          "Chicken tenders"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Noodle Selections",
+        "items": [
+          "Udon Noodles",
+          "Ramen Noodle",
+          "Rice Noodles"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Broth Selections",
+        "items": [
+          "Shoyu Ramen Broth",
+          "Tonkotsu Ramen Broth",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Protein Selections",
+        "items": [
+          "Grilled Chicken Breast",
+          "Cured Pork Belly",
+          "Tofu"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Build Your Own Ramen Bowl- Topping Selections",
+        "items": [
+          "Wakame",
+          "Sliced Green Onions",
+          "Roasted Garlic & Nori Puree",
+          "Poached Egg",
+          "Nori Strips",
+          "Corn",
+          "Fresh Cilantro",
+          "Fried Garlic",
+          "Dried Shitake Mushroom",
+          "Hard Boiled Egg",
+          "Bean Sprouts",
+          "Bamboo Shoots"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Bowls",
+        "items": [
+          "Beef Teriyaki Bowl",
+          "Chicken Teriyaki Bowl",
+          "Fried Tofu Teriyaki Bowl",
+          "Spicy Korean Pork w/ Egg Bowl"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Nori Grill ~ Sides",
+        "items": [
+          "Togarashi Tots",
+          "Miso Soup"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Bread",
+        "items": [
+          "Naan Bread",
+          "Croissant",
+          "Gluten Free Bread",
+          "Wheat Hoagie",
+          "White Hoagie"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Protein",
+        "items": [
+          "Turkey",
+          "Pastrami",
+          "Egg Salad",
+          "Bacon",
+          "Ham"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Cheese",
+        "items": [
+          "Cheddar Cheese",
+          "Non-Dairy Provolone Cheese (contains coconut)",
+          "Non-dairy American Cheese (contains coconut)",
+          "Pepper Jack Cheese",
+          "Swiss Cheese",
+          "Provolone Cheese"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Veggies",
+        "items": [
+          "Red Onion",
+          "Spinach",
+          "Pepperoncini",
+          "Pickle Chips",
+          "Pickle Spear",
+          "Tomato",
+          "Tri Color Bell Peppers",
+          "Leaf Lettuce",
+          "Cucumber"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli Sandwiches- Choose Spread",
+        "items": [
+          "Guacamole",
+          "Mayonnaise",
+          "Hummus",
+          "Chipotle Mayonnaise",
+          "Yellow Mustard",
+          "Pesto Mayonnaise"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Deli ~ Grab N` Go Sandwiches",
+        "items": [
+          "Roast Beef Sandwich",
+          "Portabella Mushroom Sandwich (contains coconut)",
+          "Turkey & Swiss Sandwich",
+          "Ham & Cheddar Sandwich"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Soups",
+        "items": [
+          "Chicken Noodle Soup",
+          "Tomato Basil Soup"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Yogurt Parfait & Acai",
+        "items": [
+          "Yogurt Parfait w/ Blueberries",
+          "Yogurt Parfait w/Strawberries",
+          "Acai & Fruit Bowl w/ Coconut"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Milkshakes (subject to availability)",
+        "items": [
+          "F`real Acai Berry Blast Smoothie",
+          "F`real Cake Batter Milkshake",
+          "F`real Chips Ahoy Milkshake",
+          "F`real Chocolate Milkshake",
+          "F`real Chocolate Peanut Butter w/ Protein Milkshake",
+          "F`real Cold Brew w/ Protein Milkshake",
+          "F`real Mango Smoothie",
+          "F`real Mint n Chip Milkshake",
+          "F`real Oreo Cookies & Cream Milkshake",
+          "F`real Peanut Butter Cup w/ Reese`s Milkshake",
+          "F`real Salted Caramel w/ Protein Milkshake",
+          "F`real Strawberry Banana Smoothie",
+          "F`real Vanilla Milkshake"
+        ]
+      },
+      {
+        "title": "Bakery (subject to availability)",
+        "items": [
+          "Chocolate Chunk Cookie",
+          "Almond Poppyseed Muffin",
+          "Banana Bread",
+          "Brownie",
+          "Butter Croissant",
+          "Ham & Swiss Croissant",
+          "Orange Cream Danish",
+          "Pain Au Chocolat"
+        ]
+      }
+    ]
   },
   {
     "location": "The Learning Innovation Center",
@@ -3821,6 +9803,173 @@
         "end": null
       }
     ],
-    "menu": []
+    "menu": [
+      {
+        "title": "Proudly Brewing\nStarbucks Coffee",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Espresso",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Cappuccino 12oz",
+          "Cappuccino 16oz",
+          "Cappuccino 20oz",
+          "Caramel Macchiato 12oz",
+          "Caramel Macchiato 16oz",
+          "Caramel Macchiato 20oz"
+        ]
+      },
+      {
+        "title": "Proudly Brewing\nStarbucks Coffee",
+        "items": [
+          "Coffee 12oz",
+          "Coffee 16oz",
+          "Coffee 20oz",
+          "Americano 12oz",
+          "Americano 16oz",
+          "Americano 20oz",
+          "Espresso",
+          "Latte 12oz",
+          "Latte 16oz",
+          "Latte 20oz",
+          "Cappuccino 12oz",
+          "Cappuccino 16oz",
+          "Cappuccino 20oz",
+          "Caramel Macchiato 12oz",
+          "Caramel Macchiato 16oz",
+          "Caramel Macchiato 20oz"
+        ]
+      },
+      {
+        "title": "More Hot Drinks",
+        "items": [
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "Chai Latte 12oz",
+          "Chai Latte 16oz",
+          "Chai Latte 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Hot Tea - Any Size",
+          "White Chocolate Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz"
+        ]
+      },
+      {
+        "title": "More Hot Drinks",
+        "items": [
+          "Mocha 12oz",
+          "Mocha 16oz",
+          "Mocha 20oz",
+          "Chai Latte 12oz",
+          "Chai Latte 16oz",
+          "Chai Latte 20oz",
+          "Steamer 12oz",
+          "Steamer 16oz",
+          "Steamer 20oz",
+          "Hot Chocolate 12oz",
+          "Hot Chocolate 16oz",
+          "Hot Chocolate 20oz",
+          "Hot Tea - Any Size",
+          "White Chocolate Mocha 12oz",
+          "White Mocha 16oz",
+          "White Mocha 20oz"
+        ]
+      },
+      {
+        "title": "Cold Drinks",
+        "items": [
+          "Iced Coffee 16oz",
+          "Iced Coffee 24oz",
+          "Iced Chai Tea 24oz",
+          "Italian Soda 16oz",
+          "Iced Americano 16oz",
+          "Iced Latte 16oz",
+          "Iced Caramel Macchiato 16oz",
+          "Iced Mocha 16oz",
+          "Iced Chai 16oz",
+          "Cold Brew Coffee 24oz",
+          "Cold Brew Coffee 16oz",
+          "Iced Tea 16oz",
+          "Iced Tea 24oz"
+        ]
+      },
+      {
+        "title": "Cold Drinks",
+        "items": [
+          "Iced Coffee 16oz",
+          "Iced Coffee 24oz",
+          "Iced Chai Tea 24oz",
+          "Italian Soda 16oz",
+          "Iced Americano 16oz",
+          "Iced Latte 16oz",
+          "Iced Caramel Macchiato 16oz",
+          "Iced Mocha 16oz",
+          "Iced Chai 16oz",
+          "Cold Brew Coffee 24oz",
+          "Cold Brew Coffee 16oz",
+          "Iced Tea 16oz",
+          "Iced Tea 24oz"
+        ]
+      },
+      {
+        "title": "Breakfast",
+        "items": [
+          "Florentine Breakfast Sandwich",
+          "Rise N Shine Breakfast",
+          "Early Bird Breakfast",
+          "Happy Day Breakfast",
+          "Late Bloomer"
+        ]
+      },
+      {
+        "title": "Breakfast",
+        "items": [
+          "Florentine Breakfast Sandwich",
+          "Rise N Shine Breakfast",
+          "Early Bird Breakfast",
+          "Happy Day Breakfast",
+          "Late Bloomer"
+        ]
+      },
+      {
+        "title": "Alternative Milk Options",
+        "items": [
+          "Coconut Milk",
+          "Almond Milk",
+          "Soy Milk",
+          "Oat Milk"
+        ]
+      },
+      {
+        "title": "Alternative Milk Options",
+        "items": [
+          "Coconut Milk",
+          "Almond Milk",
+          "Soy Milk",
+          "Oat Milk"
+        ]
+      },
+      {
+        "title": "Drink Additions",
+        "items": [
+          "Whipped Cream",
+          "Italian Syrup Shot",
+          "Espresso, Single Shot"
+        ]
+      }
+    ]
   }
 ]

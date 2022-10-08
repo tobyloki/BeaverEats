@@ -81,13 +81,14 @@ exports.getRestaurantsFullData = async () => {
 		}
 	}
 
-	const restaurant = restaurants[restaurants.length - 1];
-	console.log(restaurant);
+	// const restaurant = restaurants[restaurants.length - 1];
+	// console.log(restaurant);
 
-	// const menu = await getMenu(browser, restaurant.url);
-	// console.log(menu.length);
+	// const menu = await getMenu(
+	// 	browser,
+	// 	'https://uhds.oregonstate.edu/restaurants/off-the-quad'
+	// );
 	// console.log(JSON.stringify(menu, null, 2));
-	// restaurant.menu = menu;
 
 	const promises = [];
 	for (let restaurant of restaurants) {
@@ -100,7 +101,6 @@ exports.getRestaurantsFullData = async () => {
 			})
 		);
 	}
-
 	restaurants = await Promise.all(promises);
 
 	// console.log(JSON.stringify(restaurants[0], null, 2));
@@ -131,217 +131,197 @@ async function getMenu(browser, url) {
 
 	// await page.goto('https://mu.oregonstate.edu/trader-bings-cafe');
 
+	let menu = [];
+
 	console.log('Getting menu');
-	let menu = await page.evaluate(async () => {
-		function getMenuForCoffeeShop(item) {
+
+	const iframe = await page.frames().find((frame) => {
+		// menu.push(frame.url());
+		return frame
+			.url()
+			.startsWith(
+				'https://app.uhds.oregonstate.edu/api/dining/weeklymenu/drupal?loc='
+			);
+	});
+	if (iframe) {
+		// menu.push('iframe found');
+		menu = await iframe.evaluate(() => {
 			const data = [];
-
-			let menuItem0 = {
-				title: '',
-				items: []
-			};
-
-			// menu is ordered h4, p, p, p
-			// get all menu items
-			let tags = item.querySelectorAll('h4,p');
-			for (const tag of tags) {
-				if (tag.tagName.startsWith('H')) {
-					if (menuItem0.title.length > 0) {
-						if (menuItem0.items.length > 0) {
-							data.push(menuItem0);
-						}
-						menuItem0 = {
-							title: '',
-							items: []
-						};
-					}
-
-					// data.push(tag.innerText);
-					menuItem0.title = tag.innerText;
-				} else if (tag.tagName === 'P') {
-					let text = tag.getElementsByTagName('strong');
-					if (text.length > 0) {
-						const name = text[0].innerText.trim();
-						const description = tag.innerText
-							.replace(name, '')
-							.replace('\n', '')
-							.trim();
-
-						menuItem0.items.push({
-							name,
-							description: description.length > 0 ? description : null
-						});
-					}
-				}
-			}
-
-			// add the last item
-			if (menuItem0.title.length > 0) {
-				if (menuItem0.items.length > 0) {
-					data.push(menuItem0);
-				}
-				menuItem0 = {
-					title: '',
-					items: []
-				};
-			}
-
-			return data;
-		}
-
-		function getMenuForRestaurant(item) {
-			const data = [];
-
-			let pTags = item.getElementsByTagName('p');
-
+			const div = document.getElementsByClassName('col-wrap pure-u-1')[0];
 			let menuItem = {
 				title: '',
 				items: []
 			};
-
-			for (var pTag of pTags) {
-				// if pTag has a child element of strong
-				if (pTag.getElementsByTagName('strong').length > 0) {
-					if (menuItem.title.length > 0) {
-						if (menuItem.items.length > 0) {
-							data.push(menuItem);
+			for (var childDiv of div.children) {
+				for (var child of childDiv.children) {
+					if (child.tagName.startsWith('H')) {
+						if (menuItem.title.length > 0) {
+							if (menuItem.items.length > 0) {
+								data.push(menuItem);
+							}
+							menuItem = {
+								title: '',
+								items: []
+							};
 						}
-						menuItem = {
-							title: '',
-							items: []
-						};
+						menuItem.title = child.innerText;
+					} else if (child.tagName === 'P') {
+						menuItem.items.push(child.innerText);
 					}
-
-					// get value of strong
-					let title = pTag.getElementsByTagName('strong')[0].innerText;
-					let trimmedTitle = title.trim();
-					if (trimmedTitle != '*') {
-						menuItem.title = trimmedTitle;
+				}
+				// add last item
+				if (menuItem.title.length > 0) {
+					if (menuItem.items.length > 0) {
+						data.push(menuItem);
 					}
+				}
+			}
+			return data;
+		});
+	} else {
+		menu = await page.evaluate(async () => {
+			function getMenuForCoffeeShop(item) {
+				const data = [];
 
-					// check if pTag has a style
-				} else if (pTag.style.length > 0) {
-					// get value of pTag
-					let item = pTag.innerText.trim();
-					// menuItem.items.push(item);
-					// get last menuItem.items
-					let lastItem = menuItem.items[menuItem.items.length - 1];
-					if (lastItem != null && item.length > 0) {
-						if (lastItem.description == null) {
-							lastItem.description = [];
+				let menuItem = {
+					title: '',
+					items: []
+				};
+
+				// menu is ordered h4, p, p, p
+				// get all menu items
+				let tags = item.querySelectorAll('h4,p');
+				for (const tag of tags) {
+					if (tag.tagName.startsWith('H')) {
+						if (menuItem.title.length > 0) {
+							if (menuItem.items.length > 0) {
+								data.push(menuItem);
+							}
+							menuItem = {
+								title: '',
+								items: []
+							};
 						}
-						lastItem.description.push(item);
-						// update value in menuItems
-						menuItem.items[menuItem.items.length - 1] = lastItem;
+
+						// data.push(tag.innerText);
+						menuItem.title = tag.innerText;
+					} else if (tag.tagName === 'P') {
+						let text = tag.getElementsByTagName('strong');
+						if (text.length > 0) {
+							const name = text[0].innerText.trim();
+							const description = tag.innerText
+								.replace(name, '')
+								.replace('\n', '')
+								.trim();
+
+							menuItem.items.push({
+								name,
+								description: description.length > 0 ? description : null
+							});
+						}
 					}
+				}
+
+				// add the last item
+				if (menuItem.title.length > 0) {
+					if (menuItem.items.length > 0) {
+						data.push(menuItem);
+					}
+				}
+
+				return data;
+			}
+
+			function getMenuForRestaurant(item) {
+				const data = [];
+
+				let pTags = item.getElementsByTagName('p');
+
+				let menuItem = {
+					title: '',
+					items: []
+				};
+
+				for (var pTag of pTags) {
+					// if pTag has a child element of strong
+					if (pTag.getElementsByTagName('strong').length > 0) {
+						if (menuItem.title.length > 0) {
+							if (menuItem.items.length > 0) {
+								data.push(menuItem);
+							}
+							menuItem = {
+								title: '',
+								items: []
+							};
+						}
+
+						// get value of strong
+						let title = pTag.getElementsByTagName('strong')[0].innerText;
+						let trimmedTitle = title.trim();
+						if (trimmedTitle != '*') {
+							menuItem.title = trimmedTitle;
+						}
+
+						// check if pTag has a style
+					} else if (pTag.style.length > 0) {
+						// get value of pTag
+						let item = pTag.innerText.trim();
+						// menuItem.items.push(item);
+						// get last menuItem.items
+						let lastItem = menuItem.items[menuItem.items.length - 1];
+						if (lastItem != null && item.length > 0) {
+							if (lastItem.description == null) {
+								lastItem.description = [];
+							}
+							lastItem.description.push(item);
+							// update value in menuItems
+							menuItem.items[menuItem.items.length - 1] = lastItem;
+						}
+					} else {
+						const name = pTag.innerText;
+						// trim name
+						const trimmedName = name.trim();
+						// check if name is not empty
+						if (trimmedName.length > 0) {
+							menuItem.items.push({
+								name: trimmedName
+								// description: []
+							});
+						}
+					}
+				}
+
+				// add the final element
+				if (menuItem.title.length > 0) {
+					if (menuItem.items.length > 0) {
+						data.push(menuItem);
+					}
+				}
+
+				return data;
+			}
+
+			let data = [];
+
+			let items = document.getElementsByClassName('field-item even');
+			for (var item of items) {
+				let tagCheck = item.getElementsByTagName('H4');
+				if (tagCheck.length > 0) {
+					const newData = getMenuForCoffeeShop(item);
+					// append newData array to data
+					data = data.concat(newData);
 				} else {
-					const name = pTag.innerText;
-					// trim name
-					const trimmedName = name.trim();
-					// check if name is not empty
-					if (trimmedName.length > 0) {
-						menuItem.items.push({
-							name: trimmedName
-							// description: []
-						});
-					}
+					const newData = getMenuForRestaurant(item);
+					// append newData array to data
+					data = data.concat(newData);
 				}
-			}
 
-			// add the final element
-			if (menuItem.title.length > 0) {
-				data.push(menuItem);
-				menuItem = {
-					title: '',
-					items: []
-				};
+				continue;
 			}
 
 			return data;
-		}
-
-		function getMenuForBingsCafe(item) {
-			const data = [];
-
-			let menuItem0 = {
-				title: '',
-				items: []
-			};
-
-			// menu is ordered h4, p, p, p
-			// get all menu items
-			let tags = item.querySelectorAll('h4,p');
-			for (const tag of tags) {
-				if (tag.tagName.startsWith('H')) {
-					if (menuItem0.title.length > 0) {
-						if (menuItem0.items.length > 0) {
-							data.push(menuItem0);
-						}
-						menuItem0 = {
-							title: '',
-							items: []
-						};
-					}
-
-					// data.push(tag.innerText);
-					menuItem0.title = tag.innerText;
-				} else if (tag.tagName === 'P') {
-					let text = tag.getElementsByTagName('strong');
-					if (text.length > 0) {
-						const name = text[0].innerText.trim();
-						const description = tag.innerText
-							.replace(name, '')
-							.replace('\n', '')
-							.trim();
-
-						menuItem0.items.push({
-							name,
-							description: description.length > 0 ? description : null
-						});
-					}
-				}
-			}
-
-			// add the last item
-			if (menuItem0.title.length > 0) {
-				if (menuItem0.items.length > 0) {
-					data.push(menuItem0);
-				}
-				menuItem0 = {
-					title: '',
-					items: []
-				};
-			}
-
-			return data;
-		}
-
-		let data = [];
-		let items = document.getElementsByClassName('field-item even');
-		for (var item of items) {
-			let tagCheck = item.getElementsByTagName('H4');
-			if (tagCheck.length > 0) {
-				const newData = getMenuForCoffeeShop(item);
-				// append newData array to data
-				data = data.concat(newData);
-			} else {
-				const newData = getMenuForRestaurant(item);
-				// append newData array to data
-				data = data.concat(newData);
-			}
-
-			continue;
-		}
-
-		// let items = document.getElementsByClassName('section');
-		// data.push(items.length);
-		// for (var item of items) {
-		// 	const section = item.getElementsByTagName('div');
-		// 	data.push(section.innerText);
-		// }
-
-		return data;
-	});
+		});
+	}
 
 	return menu;
 }
