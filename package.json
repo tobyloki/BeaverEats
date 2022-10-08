@@ -1,6 +1,6 @@
 {
   "name": "beaver-eats-backend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The backend server that interprets data and handles queries",
   "main": "src/index.js",
   "type": "module",

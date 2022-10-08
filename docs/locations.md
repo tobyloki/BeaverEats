@@ -27,7 +27,7 @@
 
 `?sort=<field>`
 
-- [`name`](https://beaver-eats-backend-demo.fly.dev/locations?sort=name)
+- [`name`](https://beaver-eats-backend-demo.fly.dev/locations?sort=name) (default)
   - Sorts alphabetically by name
 - [`area`](https://beaver-eats-backend-demo.fly.dev/locations?sort=area)
   - Sorts alphabetically by area name
@@ -45,7 +45,7 @@
 
 `?order=<order>`
 
-- `asc`
+- `asc` (default)
   - Sorts in ascending order
 - `desc`
   - Sorts in descending order
@@ -53,6 +53,7 @@
 ### Filtering
 
 `?filter=(<field>:<value>|...)`
+* Currently not implemented
 
 ### Searching
 

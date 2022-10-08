@@ -70,7 +70,7 @@ async function insertMenuItem(
     { name, description } = menuItem;
   await stmt.run(
     name,
-    description?.join(" ") ?? "",
+    description?.join("\n") ?? "",
     menuSectionTitle,
     locationName
   );
@@ -102,12 +102,13 @@ export default async function updateData(data: ScrapeResults | null) {
           section.title,
           restaurant.name,
           database
-        ).catch(() => {
+        ).catch((err) => {
           console.error(
             "Duplicate item found:",
             item.name,
             section.title,
-            restaurant.name
+            restaurant.name,
+            err
           );
         });
       }
