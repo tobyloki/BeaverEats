@@ -2,7 +2,7 @@
 
 ## Fetch all location hours
 
-[`GET /locations/:location/hours`](https://beaver-eats-backend-demo.fly.dev/locations/hours)
+[`GET /locations/:location/hours`](https://beaver-eats-backend-demo.fly.dev/locations/Deli/hours)
 
 - `:location` is the name of the restaurant
 
