@@ -35,6 +35,15 @@ exports.getRestaurantsFullData = async () => {
 		virtualConsole: new VirtualConsole()
 	});
 	const { document } = dom.window;
+	// Hacky way to "implement innerText"
+	dom.window.Object.defineProperty(dom.window.HTMLElement.prototype, "innerText", {
+		set(value) {
+			this.textContent = value;
+		},
+		get() {
+			return this.textContent;
+		}
+	});
 
 	console.log('Getting restaurant data');
 	let restaurants = [];
