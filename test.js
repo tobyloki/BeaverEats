@@ -1,11 +1,4 @@
-const { getRestaurantsFullData } = require('./index.js');
-
-// main();
-
-// async function main() {
-// 	const restaurants = await getRestaurantsFullData();
-// 	// console.log('Length: ' + restaurants.length);
-// }
+import { getRestaurantsFullData } from './index.js';
 
 test(
 	'Get restaurant full data',

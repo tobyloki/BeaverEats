@@ -1,4 +1,4 @@
-const { JSDOM, VirtualConsole } = require("jsdom");
+import { JSDOM, VirtualConsole } from "jsdom";
 
 async function getRestaurantBasicInfo() {
   const data = await fetch(
@@ -19,7 +19,7 @@ async function getRestaurantBasicInfo() {
   return restaurants;
 }
 
-exports.getRestaurantsFullData = async () => {
+export async function getRestaurantsFullData() {
   const restaurantInfos = await getRestaurantBasicInfo(),
     pageText = await fetch("https://food.oregonstate.edu").then((res) =>
       res.text()
