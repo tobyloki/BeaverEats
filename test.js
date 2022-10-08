@@ -1,10 +1,11 @@
-import { getRestaurantsFullData } from './index.js';
+import { getRestaurantsFullData } from "./index.js";
 
+/* global test, expect */
 test(
-	'Get restaurant full data',
-	async () => {
-		const restaurants = await getRestaurantsFullData();
-		expect(restaurants.length).toBeGreaterThan(0);
-	},
-	25 * 1000
+  "Get restaurant full data",
+  async () => {
+    const restaurants = await getRestaurantsFullData();
+    expect(restaurants.length).toBeGreaterThan(0);
+  },
+  25 * 1000
 );

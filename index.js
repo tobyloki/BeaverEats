@@ -1,9 +1,10 @@
 import { JSDOM, VirtualConsole } from "jsdom";
+import got from "got";
 
 async function getRestaurantBasicInfo() {
-  const data = await fetch(
+  const data = await got(
       "https://my.uhds.oregonstate.edu/api/dining/calendar"
-    ).then((res) => res.text()),
+    ).text(),
     json = JSON.parse(data),
     restaurants = [];
   for (let i = 0; i < json.length; i++) {
@@ -21,9 +22,7 @@ async function getRestaurantBasicInfo() {
 
 export async function getRestaurantsFullData() {
   const restaurantInfos = await getRestaurantBasicInfo(),
-    pageText = await fetch("https://food.oregonstate.edu").then((res) =>
-      res.text()
-    ),
+    pageText = await got("https://food.oregonstate.edu").text(),
     dom = new JSDOM(pageText, {
       runScripts: "dangerously",
       resources: "usable",
@@ -103,7 +102,7 @@ export async function getRestaurantsFullData() {
   }
 
   return restaurants;
-};
+}
 
 function getMenuForCoffeeShop(item) {
   const data = [];
@@ -158,15 +157,15 @@ function getMenuForCoffeeShop(item) {
 
 function getMenuForRestaurant(item) {
   const data = [],
-    pTags = item.getElementsByTagName("p");
+    paragraphs = item.querySelectorAll("p");
 
   let menuItem = {
     title: "",
     items: [],
   };
 
-  for (const pTag of pTags) {
-    if (pTag.getElementsByTagName("strong").length > 0) {
+  for (const paragraph of paragraphs) {
+    if (paragraph.querySelector("strong")) {
       if (menuItem.title.length > 0) {
         if (menuItem.items.length > 0) {
           data.push(menuItem);
@@ -177,13 +176,13 @@ function getMenuForRestaurant(item) {
         };
       }
 
-      const title = pTag.getElementsByTagName("strong")[0].textContent,
+      const title = paragraph.querySelector("strong").textContent,
         trimmedTitle = title.trim();
       if (trimmedTitle != "*") {
         menuItem.title = trimmedTitle;
       }
-    } else if (pTag.style.length > 0) {
-      const item = pTag.textContent.trim(),
+    } else if (paragraph.style.length > 0) {
+      const item = paragraph.textContent.trim(),
         lastItem = menuItem.items[menuItem.items.length - 1];
       if (lastItem != null && item.length > 0) {
         if (lastItem.description == null) {
@@ -194,7 +193,7 @@ function getMenuForRestaurant(item) {
         menuItem.items[menuItem.items.length - 1] = lastItem;
       }
     } else {
-      const name = pTag.textContent,
+      const name = paragraph.textContent,
         trimmedName = name.trim();
       // check if name is not empty
       if (trimmedName.length > 0) {
@@ -216,7 +215,9 @@ function getMenuForRestaurant(item) {
 }
 
 async function getMenu(url) {
-  const pageText = await fetch(url).then((res) => res.text()),
+  const pageText = await got(url, {
+      throwHttpErrors: false,
+    }).text(),
     dom = new JSDOM(pageText, {
       url,
     }),
@@ -232,7 +233,7 @@ async function getMenu(url) {
     }
   );
   if (iframe) {
-    const iframeText = await fetch(iframe.src).then((res) => res.text()),
+    const iframeText = await got(iframe.src).text(),
       iframeDom = new JSDOM(iframeText, {
         url: iframe.src,
       }),
@@ -253,15 +254,22 @@ async function getMenu(url) {
 
     const items = document.querySelectorAll(".field-item.even");
     for (const item of items) {
+      // Check if the item is the div we want
+      if (
+        item.firstElementChild instanceof dom.window.HTMLDivElement ||
+        item.childElementCount === 1 ||
+        item.firstElementChild instanceof dom.window.HTMLTableElement
+      ) {
+        continue;
+      }
       const tagCheck = item.querySelector("h4");
       if (tagCheck) {
         const newData = getMenuForCoffeeShop(item);
-        menu = menu.concat(newData);
+        menu.push(...newData);
       } else {
         const newData = getMenuForRestaurant(item);
-        menu = menu.concat(newData);
+        menu.push(...newData);
       }
-      continue;
     }
   }
   dom.window.close();
