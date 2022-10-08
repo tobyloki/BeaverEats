@@ -45,7 +45,6 @@ exports.getRestaurantsFullData = async () => {
     }
   );
 
-  console.log("Getting restaurant data");
   const restaurants = [];
   await (() => {
     return new Promise((resolve) => {
@@ -95,18 +94,13 @@ exports.getRestaurantsFullData = async () => {
     const promises = [];
     for (let j = i; j < i + 5 && j < restaurants.length; j++) {
       promises.push(
-        new Promise((resolve) => {
-          return getMenu(restaurants[j].url).then((menu) => {
-            restaurants[j].menu = menu;
-            resolve();
-          });
+        getMenu(restaurants[j].url).then((menu) => {
+          restaurants[j].menu = menu;
         })
       );
     }
     await Promise.all(promises);
   }
-
-  console.log("Done");
 
   return restaurants;
 };
@@ -119,8 +113,6 @@ async function getMenu(url) {
     { document } = dom.window;
 
   let menu = [];
-
-  console.log("Getting menu");
 
   const iframe = Array.from(document.querySelectorAll("iframe")).find(
     (frame) => {
@@ -135,38 +127,16 @@ async function getMenu(url) {
         url: iframe.src,
       }),
       { document: iframeDocument } = iframeDom.window;
-    menu = [];
-    const div = iframeDocument.getElementsByClassName("col-wrap pure-u-1")[0];
-    let menuItem = {
-      title: "",
-      items: [],
-    };
-    for (const childDiv of div.children ?? []) {
-      for (const child of childDiv.children) {
-        if (child.tagName.startsWith("H")) {
-          if (menuItem.title.length > 0) {
-            if (menuItem.items.length > 0) {
-              menu.push(menuItem);
-            }
-            menuItem = {
-              title: "",
-              items: [],
-            };
-          }
-          menuItem.title = child.textContent;
-        } else if (child.tagName === "P") {
-          menuItem.items.push({
-            name: child.textContent,
-          });
-        }
+    menu = [...iframeDocument.querySelectorAll(".section")].map(section => {
+      return {
+          title: section.querySelector("h6").textContent,
+          items: [...section.querySelectorAll("p")].map(item => {
+              return {
+                  name: item.textContent
+              };
+          })
       }
-      // add last item
-      if (menuItem.title.length > 0) {
-        if (menuItem.items.length > 0) {
-          menu.push(menuItem);
-        }
-      }
-    }
+  })
     iframeDom.window.close();
   } else {
     function getMenuForCoffeeShop(item) {
