@@ -12,8 +12,7 @@ DROP TABLE IF EXISTS MenuItemSection;
 CREATE TABLE MenuItemSection (
   name VARCHAR(255) NOT NULL,
   locationName VARCHAR(255) NOT NULL,
-  id INTEGER NOT NULL,
-  PRIMARY KEY (id),
+  PRIMARY KEY (name, locationName),
   FOREIGN KEY (locationName) REFERENCES Location(name)
 );
 

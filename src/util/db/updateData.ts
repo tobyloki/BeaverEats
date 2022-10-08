@@ -91,15 +91,17 @@ export default async function updateData(data: ScrapeResults | null) {
   for (const restaurant of data) {
     await insertRestaurant(restaurant, database);
     for (const section of restaurant.menu) {
-      await insertMenuSection(section, restaurant.location, database);
+      await insertMenuSection(section, restaurant.name, database).catch(() => {
+        console.error("Duplicate menu section:", section.title, restaurant.name);
+      });
       for (const item of section.items) {
         await insertMenuItem(
           item,
           section.title,
-          restaurant.location,
+          restaurant.name,
           database
         ).catch(() => {
-          console.error("Duplicate item found");
+          console.error("Duplicate item found:", item.name, section.title, restaurant.name);
         });
       }
     }
