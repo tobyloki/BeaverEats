@@ -1,338 +1,300 @@
-const fs = require('fs');
-const { JSDOM, VirtualConsole } = require('jsdom');
+const { JSDOM, VirtualConsole } = require("jsdom");
 
 async function getRestaurantBasicInfo() {
-	const data = await fetch(
-		'https://my.uhds.oregonstate.edu/api/dining/calendar'
-	).then(res => res.text());
-	// console.log(data);
-	const json = JSON.parse(data);
+  const data = await fetch(
+      "https://my.uhds.oregonstate.edu/api/dining/calendar"
+    ).then((res) => res.text()),
+    json = JSON.parse(data),
+    restaurants = [];
+  for (let i = 0; i < json.length; i++) {
+    restaurants.push({
+      location: json[i].zone,
+      name: json[i].concept_title,
+      diningDollars: json[i].dining_dollars,
+      start: json[i].start,
+      end: json[i].end,
+    });
+  }
 
-	const restaurants = [];
-	for (let i = 0; i < json.length; i++) {
-		// console.log(json[i].name);
-		restaurants.push({
-			location: json[i].zone,
-			name: json[i].concept_title,
-			diningDollars: json[i].dining_dollars,
-			start: json[i].start,
-			end: json[i].end
-		});
-	}
-
-	// console.log(restaurants[0]);
-	return restaurants;
+  return restaurants;
 }
 
 exports.getRestaurantsFullData = async () => {
-	const restaurantInfos = await getRestaurantBasicInfo();
+  const restaurantInfos = await getRestaurantBasicInfo(),
+    pageText = await fetch("https://food.oregonstate.edu").then((res) =>
+      res.text()
+    ),
+    dom = new JSDOM(pageText, {
+      runScripts: "dangerously",
+      resources: "usable",
+      url: "https://food.oregonstate.edu",
+      virtualConsole: new VirtualConsole(),
+    }),
+    { document } = dom.window;
+  // Hacky way to "implement innerText"
+  dom.window.Object.defineProperty(
+    dom.window.HTMLElement.prototype,
+    "innerText",
+    {
+      set(value) {
+        this.textContent = value;
+      },
+      get() {
+        return this.textContent;
+      },
+    }
+  );
 
-	const pageText = await fetch('https://food.oregonstate.edu').then(res => res.text());
-	const dom = new JSDOM(pageText, {
-		runScripts: 'dangerously',
-		resources: 'usable',
-		url: 'https://food.oregonstate.edu',
-		virtualConsole: new VirtualConsole()
-	});
-	const { document } = dom.window;
-	// Hacky way to "implement innerText"
-	dom.window.Object.defineProperty(dom.window.HTMLElement.prototype, "innerText", {
-		set(value) {
-			this.textContent = value;
-		},
-		get() {
-			return this.textContent;
-		}
-	});
+  console.log("Getting restaurant data");
+  const restaurants = [];
+  await (() => {
+    return new Promise((resolve) => {
+      const checker = setInterval(() => {
+        const items = document.getElementsByClassName("resturantLoc");
+        if (items.length > 0) {
+          for (const item of items) {
+            const location = item.getElementsByTagName("h3")[0].textContent,
+              div = item.getElementsByTagName("div")[0],
+              innerDiv = div.getElementsByTagName("div");
 
-	console.log('Getting restaurant data');
-	let restaurants = [];
-	await (() => {
-		return new Promise(resolve => {
-			const checker = setInterval(() => {
-				let items = document.getElementsByClassName('resturantLoc');
-				if (items.length > 0) {
-					for (let item of items) {
-						// get the content of the h3 tag
-						let location = item.getElementsByTagName('h3')[0].textContent;
-						// get div element
-						let div = item.getElementsByTagName('div')[0];
-						// get inner div element
-						let innerDiv = div.getElementsByTagName('div');
+            for (const iDiv of innerDiv) {
+              const name = iDiv.getElementsByTagName("a")[0].textContent,
+                url = iDiv.getElementsByTagName("a")[0].href;
+              restaurants.push({
+                location,
+                name,
+                url,
+              });
+            }
+          }
+          resolve();
+          clearInterval(checker);
+        }
+      }, 1000);
+    });
+  })();
+  dom.window.close();
 
-						for (var iDiv of innerDiv) {
-							// get title for href
-							let name = iDiv.getElementsByTagName('a')[0].textContent;
-							// get href value
-							let url = iDiv.getElementsByTagName('a')[0].href;
-							restaurants.push({
-								location,
-								name,
-								url
-							});
-						}
-					}
-					resolve();
-					clearInterval(checker);
-				}
-			}, 1000);
-		});
-	})();
-	dom.window.close();
-	// console.log(restaurants);
+  // for every restaurant, merge with the restaurant info
+  for (let i = 0; i < restaurants.length; i++) {
+    for (let j = 0; j < restaurantInfos.length; j++) {
+      if (restaurants[i].name === restaurantInfos[j].name) {
+        restaurants[i].diningDollars = restaurantInfos[j].diningDollars;
+        if (restaurants[i].hours == null) {
+          restaurants[i].hours = [];
+        }
+        restaurants[i].hours.push({
+          start: restaurantInfos[j].start,
+          end: restaurantInfos[j].end,
+        });
+      }
+    }
+  }
 
-	// for every restaurant, merge with the restaurant info
-	for (let i = 0; i < restaurants.length; i++) {
-		for (let j = 0; j < restaurantInfos.length; j++) {
-			if (restaurants[i].name === restaurantInfos[j].name) {
-				// restaurants[i] = {
-				// 	...restaurants[i],
-				// 	...restaurantInfos[j]
-				// };
-				restaurants[i].diningDollars = restaurantInfos[j].diningDollars;
-				if (restaurants[i].hours == null) {
-					restaurants[i].hours = [];
-				}
-				restaurants[i].hours.push({
-					start: restaurantInfos[j].start,
-					end: restaurantInfos[j].end
-				});
-			}
-		}
-	}
+  for (let i = 0; i < restaurants.length; i += 5) {
+    const promises = [];
+    for (let j = i; j < i + 5 && j < restaurants.length; j++) {
+      promises.push(
+        new Promise((resolve) => {
+          return getMenu(restaurants[j].url).then((menu) => {
+            restaurants[j].menu = menu;
+            resolve();
+          });
+        })
+      );
+    }
+    await Promise.all(promises);
+  }
 
-	// const restaurant = restaurants[restaurants.length - 1];
-	// console.log(restaurant);
+  console.log("Done");
 
-	// const menu = await getMenu(
-	// 	browser,
-	// 	'https://uhds.oregonstate.edu/restaurants/off-the-quad'
-	// );
-	// console.log(JSON.stringify(menu, null, 2));
-
-	for (let i = 0; i < restaurants.length; i += 5) {
-		const promises = [];
-		for (let j = i; j < i + 5 && j < restaurants.length; j++) {
-			promises.push(new Promise(async (resolve) => {
-				const menu = await getMenu(restaurants[j].url);
-				restaurants[j].menu = menu;
-				// save this back to restaurants
-				resolve(restaurants[j]);
-			}));
-		}
-		await Promise.all(promises);
-	}
-	// console.log(JSON.stringify(restaurants[0], null, 2));
-
-	console.log('Done');
-
-	return restaurants;
+  return restaurants;
 };
 
 async function getMenu(url) {
-	const pageText = await fetch(url).then(res => res.text());
-	const dom = new JSDOM(pageText, {
-		url
-	});
-	const { document } = dom.window;
+  const pageText = await fetch(url).then((res) => res.text()),
+    dom = new JSDOM(pageText, {
+      url,
+    }),
+    { document } = dom.window;
 
-	// wait for page to load
-	// await page.waitForSelector('.menu');
+  let menu = [];
 
-	// await page.goto('https://mu.oregonstate.edu/trader-bings-cafe');
+  console.log("Getting menu");
 
-	let menu = [];
+  const iframe = Array.from(document.querySelectorAll("iframe")).find(
+    (frame) => {
+      return frame.src.startsWith(
+        "https://app.uhds.oregonstate.edu/api/dining/weeklymenu/drupal?loc="
+      );
+    }
+  );
+  if (iframe) {
+    const iframeText = await fetch(iframe.src).then((res) => res.text()),
+      iframeDom = new JSDOM(iframeText, {
+        url: iframe.src,
+      }),
+      { document: iframeDocument } = iframeDom.window;
+    menu = [];
+    const div = iframeDocument.getElementsByClassName("col-wrap pure-u-1")[0];
+    let menuItem = {
+      title: "",
+      items: [],
+    };
+    for (const childDiv of div.children ?? []) {
+      for (const child of childDiv.children) {
+        if (child.tagName.startsWith("H")) {
+          if (menuItem.title.length > 0) {
+            if (menuItem.items.length > 0) {
+              menu.push(menuItem);
+            }
+            menuItem = {
+              title: "",
+              items: [],
+            };
+          }
+          menuItem.title = child.textContent;
+        } else if (child.tagName === "P") {
+          menuItem.items.push({
+            name: child.textContent,
+          });
+        }
+      }
+      // add last item
+      if (menuItem.title.length > 0) {
+        if (menuItem.items.length > 0) {
+          menu.push(menuItem);
+        }
+      }
+    }
+    iframeDom.window.close();
+  } else {
+    function getMenuForCoffeeShop(item) {
+      const data = [];
 
-	console.log('Getting menu');
+      let menuItem = {
+        title: "",
+        items: [],
+      };
 
-	const iframe = Array.from(document.querySelectorAll("iframe")).find((frame) => {
-		// menu.push(frame.url());
-		return frame
-			.src
-			.startsWith(
-				'https://app.uhds.oregonstate.edu/api/dining/weeklymenu/drupal?loc='
-			);
-	});
-	if (iframe) {
-		// menu.push('iframe found');
-		const iframeText = await fetch(iframe.src).then(res => res.text());
-		const iframeDom = new JSDOM(iframeText, {
-			url: iframe.src
-		});
-		const { document: iframeDocument } = iframeDom.window;
-		menu = [];
-		const div = iframeDocument.getElementsByClassName('col-wrap pure-u-1')[0];
-		let menuItem = {
-			title: '',
-			items: []
-		};
-		for (var childDiv of div.children ?? []) {
-			for (var child of childDiv.children) {
-				if (child.tagName.startsWith('H')) {
-					if (menuItem.title.length > 0) {
-						if (menuItem.items.length > 0) {
-							menu.push(menuItem);
-						}
-						menuItem = {
-							title: '',
-							items: []
-						};
-					}
-					menuItem.title = child.textContent;
-				} else if (child.tagName === 'P') {
-					menuItem.items.push({
-						name: child.textContent
-					});
-				}
-			}
-			// add last item
-			if (menuItem.title.length > 0) {
-				if (menuItem.items.length > 0) {
-					menu.push(menuItem);
-				}
-			}
-		}
-		iframeDom.window.close();
-	} else {
-		function getMenuForCoffeeShop(item) {
-			const data = [];
+      // menu is ordered h4, p, p, p
+      // get all menu items
+      const tags = item.querySelectorAll("h4,p");
+      for (const tag of tags) {
+        if (tag.tagName.startsWith("H")) {
+          if (menuItem.title.length > 0) {
+            if (menuItem.items.length > 0) {
+              data.push(menuItem);
+            }
+            menuItem = {
+              title: "",
+              items: [],
+            };
+          }
 
-			let menuItem = {
-				title: '',
-				items: []
-			};
+          menuItem.title = tag.textContent;
+        } else if (tag.tagName === "P") {
+          const text = tag.getElementsByTagName("strong");
+          if (text.length > 0) {
+            const name = text[0].textContent.trim(),
+              description = tag.textContent
+                .replace(name, "")
+                .replace("\n", "")
+                .trim();
 
-			// menu is ordered h4, p, p, p
-			// get all menu items
-			let tags = item.querySelectorAll('h4,p');
-			for (const tag of tags) {
-				if (tag.tagName.startsWith('H')) {
-					if (menuItem.title.length > 0) {
-						if (menuItem.items.length > 0) {
-							data.push(menuItem);
-						}
-						menuItem = {
-							title: '',
-							items: []
-						};
-					}
+            menuItem.items.push({
+              name,
+              description: description.length > 0 ? description : null,
+            });
+          }
+        }
+      }
 
-					// data.push(tag.innerText);
-					menuItem.title = tag.textContent;
-				} else if (tag.tagName === 'P') {
-					let text = tag.getElementsByTagName('strong');
-					if (text.length > 0) {
-						const name = text[0].textContent.trim();
-						const description = tag.textContent
-							.replace(name, '')
-							.replace('\n', '')
-							.trim();
+      // add the last item
+      if (menuItem.title.length > 0) {
+        if (menuItem.items.length > 0) {
+          data.push(menuItem);
+        }
+      }
 
-						menuItem.items.push({
-							name,
-							description: description.length > 0 ? description : null
-						});
-					}
-				}
-			}
+      return data;
+    }
 
-			// add the last item
-			if (menuItem.title.length > 0) {
-				if (menuItem.items.length > 0) {
-					data.push(menuItem);
-				}
-			}
+    function getMenuForRestaurant(item) {
+      const data = [],
+        pTags = item.getElementsByTagName("p");
 
-			return data;
-		}
+      let menuItem = {
+        title: "",
+        items: [],
+      };
 
-		function getMenuForRestaurant(item) {
-			const data = [];
+      for (const pTag of pTags) {
+        if (pTag.getElementsByTagName("strong").length > 0) {
+          if (menuItem.title.length > 0) {
+            if (menuItem.items.length > 0) {
+              data.push(menuItem);
+            }
+            menuItem = {
+              title: "",
+              items: [],
+            };
+          }
 
-			let pTags = item.getElementsByTagName('p');
+          const title = pTag.getElementsByTagName("strong")[0].textContent,
+            trimmedTitle = title.trim();
+          if (trimmedTitle != "*") {
+            menuItem.title = trimmedTitle;
+          }
+        } else if (pTag.style.length > 0) {
+          const item = pTag.textContent.trim(),
+            lastItem = menuItem.items[menuItem.items.length - 1];
+          if (lastItem != null && item.length > 0) {
+            if (lastItem.description == null) {
+              lastItem.description = [];
+            }
+            lastItem.description.push(item);
+            // update value in menuItems
+            menuItem.items[menuItem.items.length - 1] = lastItem;
+          }
+        } else {
+          const name = pTag.textContent,
+            trimmedName = name.trim();
+          // check if name is not empty
+          if (trimmedName.length > 0) {
+            menuItem.items.push({
+              name: trimmedName,
+            });
+          }
+        }
+      }
 
-			let menuItem = {
-				title: '',
-				items: []
-			};
+      // add the final element
+      if (menuItem.title.length > 0) {
+        if (menuItem.items.length > 0) {
+          data.push(menuItem);
+        }
+      }
 
-			for (var pTag of pTags) {
-				// if pTag has a child element of strong
-				if (pTag.getElementsByTagName('strong').length > 0) {
-					if (menuItem.title.length > 0) {
-						if (menuItem.items.length > 0) {
-							data.push(menuItem);
-						}
-						menuItem = {
-							title: '',
-							items: []
-						};
-					}
+      return data;
+    }
 
-					// get value of strong
-					let title = pTag.getElementsByTagName('strong')[0].textContent;
-					let trimmedTitle = title.trim();
-					if (trimmedTitle != '*') {
-						menuItem.title = trimmedTitle;
-					}
+    menu = [];
 
-					// check if pTag has a style
-				} else if (pTag.style.length > 0) {
-					// get value of pTag
-					let item = pTag.textContent.trim();
-					// menuItem.items.push(item);
-					// get last menuItem.items
-					let lastItem = menuItem.items[menuItem.items.length - 1];
-					if (lastItem != null && item.length > 0) {
-						if (lastItem.description == null) {
-							lastItem.description = [];
-						}
-						lastItem.description.push(item);
-						// update value in menuItems
-						menuItem.items[menuItem.items.length - 1] = lastItem;
-					}
-				} else {
-					const name = pTag.textContent;
-					// trim name
-					const trimmedName = name.trim();
-					// check if name is not empty
-					if (trimmedName.length > 0) {
-						menuItem.items.push({
-							name: trimmedName
-							// description: []
-						});
-					}
-				}
-			}
+    const items = document.getElementsByClassName("field-item even");
+    for (const item of items) {
+      const tagCheck = item.getElementsByTagName("H4");
+      if (tagCheck.length > 0) {
+        const newData = getMenuForCoffeeShop(item);
+        menu = menu.concat(newData);
+      } else {
+        const newData = getMenuForRestaurant(item);
+        menu = menu.concat(newData);
+      }
+      continue;
+    }
+  }
+  dom.window.close();
 
-			// add the final element
-			if (menuItem.title.length > 0) {
-				if (menuItem.items.length > 0) {
-					data.push(menuItem);
-				}
-			}
-
-			return data;
-		}
-
-		menu = [];
-
-		let items = document.getElementsByClassName('field-item even');
-		for (let item of items) {
-			let tagCheck = item.getElementsByTagName('H4');
-			if (tagCheck.length > 0) {
-				const newData = getMenuForCoffeeShop(item);
-				// append newData array to data
-				menu = menu.concat(newData);
-			} else {
-				const newData = getMenuForRestaurant(item);
-				// append newData array to data
-				menu = menu.concat(newData);
-			}
-			continue;
-		}
-	}
-	dom.window.close();
-
-	return menu;
+  return menu;
 }
