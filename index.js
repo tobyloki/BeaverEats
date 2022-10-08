@@ -166,7 +166,9 @@ async function getMenu(browser, url) {
 						}
 						menuItem.title = child.innerText;
 					} else if (child.tagName === 'P') {
-						menuItem.items.push(child.innerText);
+						menuItem.items.push({
+							name: child.innerText
+						});
 					}
 				}
 				// add last item
