@@ -1,15 +1,8 @@
 [
   {
     "location": "Austin Hall",
-    "name": "Trader Bing's",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/trader-bings",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "4:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "The Opening Bell Breakfast",
@@ -384,15 +377,8 @@
   },
   {
     "location": "Dixon Recreation Center",
-    "name": "Dixon Cafe",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/dixon-cafe",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "10:00 AM",
-        "end": "6:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Wraps",
@@ -830,15 +816,8 @@
   },
   {
     "location": "International Living-Learning Center",
-    "name": "Cascadia Cafe",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/cascadia-cafe",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "3:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Breakfast Basics",
@@ -1358,15 +1337,8 @@
   },
   {
     "location": "International Living-Learning Center",
-    "name": "Cascadia Deli",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/cascadia-deli",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:00 AM",
-        "end": "7:45 PM"
-      }
-    ],
     "menu": [
       {
         "title": "MTO Sandwich-Bread Selections",
@@ -1375,13 +1347,13 @@
             "name": "White Bread"
           },
           {
-            "name": "White Bread (1/2)"
+            "name": "White Bread  (1/2)"
           },
           {
             "name": "Wheat Bread"
           },
           {
-            "name": "Wheat Bread (1/2)"
+            "name": "Wheat Bread  (1/2)"
           },
           {
             "name": "Flat Bread"
@@ -1404,13 +1376,13 @@
             "name": "White Bread"
           },
           {
-            "name": "White Bread (1/2)"
+            "name": "White Bread  (1/2)"
           },
           {
             "name": "Wheat Bread"
           },
           {
-            "name": "Wheat Bread (1/2)"
+            "name": "Wheat Bread  (1/2)"
           },
           {
             "name": "Flat Bread"
@@ -1729,28 +1701,14 @@
   },
   {
     "location": "International Living-Learning Center",
-    "name": "Cascadia Market",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/cascadia-market",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "9:00 AM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": []
   },
   {
     "location": "Kelley Engineering Center",
-    "name": "e.Cafe",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/e.cafe",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "5:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Breakfast Sandwiches",
@@ -2510,15 +2468,8 @@
   },
   {
     "location": "Linus Pauling Science Center",
-    "name": "Ava's Cafe",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/avas-cafe",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "3:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Breakfast - served all day",
@@ -2846,21 +2797,14 @@
   },
   {
     "location": "Magruder Hall",
-    "name": "Coffee Corral",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/coffee-corral",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "4:00 PM"
-      }
-    ],
     "menu": [
       {
-        "title": "OPENING COW BELL",
+        "title": "\n\t\tOpening cow bell",
         "items": [
           {
-            "name": "Assorted Bagel Options Available \nServed All Day",
+            "name": "Assorted Bagel Options Available \n\t\tServed All Day",
             "description": null
           },
           {
@@ -2873,7 +2817,7 @@
           },
           {
             "name": "The Crowing Rooster (Vegetarian)",
-            "description": "Egg, avocado, cheddar cheese and tomato served on (meatless options available)\nchoice of bagel"
+            "description": "Egg, avocado, cheddar cheese and tomato served on (meatless options available)\n\t\tchoice of bagel"
           },
           {
             "name": "Farmer’s Market (Vegan)",
@@ -2886,10 +2830,10 @@
         ]
       },
       {
-        "title": "SANDWICHES OR WRAPS",
+        "title": "\n\t\tSandwiches or wraps",
         "items": [
           {
-            "name": "Assorted Bagels & GF Bread Options Available\nServed All Day",
+            "name": "Assorted Bagels & GF Bread Options Available\n\t\tServed All Day",
             "description": null
           },
           {
@@ -2906,12 +2850,12 @@
           },
           {
             "name": "Humming Bird (Vegan)",
-            "description": "Meatless protein, tomato, cucumber, hummus, greens and\nbalsamic dressing in a wheat tortilla"
+            "description": "Meatless protein, tomato, cucumber, hummus, greens and\n\t\tbalsamic dressing in a wheat tortilla"
           }
         ]
       },
       {
-        "title": "GARDEN SALAD",
+        "title": "\n\t\tgarden salad",
         "items": [
           {
             "name": "Served All Day",
@@ -2936,7 +2880,7 @@
         ]
       },
       {
-        "title": "COFFEE + DRINKS",
+        "title": "\n\tCoffee + Drinks",
         "items": [
           {
             "name": "Bear Brew",
@@ -2956,7 +2900,7 @@
           },
           {
             "name": "Pawppuccino",
-            "description": "Cappuccino\n12OZ 16OZ"
+            "description": "Cappuccino12OZ 16OZ"
           },
           {
             "name": "Cat-fe Au Lait",
@@ -3012,15 +2956,8 @@
   },
   {
     "location": "Marketplace West",
-    "name": "Clubhouse Deli",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/clubhouse-deli",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Make Cents Entree",
@@ -3871,18 +3808,11 @@
   },
   {
     "location": "Marketplace West",
-    "name": "Cooper`s Creek",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/coopers-creek",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:30 AM",
-        "end": "2:30 PM"
-      }
-    ],
     "menu": [
       {
-        "title": "Make Cents Entree",
+        "title": " Make Cents Entree",
         "items": [
           {
             "name": "Make Cents Feta Salad"
@@ -3890,7 +3820,7 @@
         ]
       },
       {
-        "title": "Make Cents Entree",
+        "title": " Make Cents Entree",
         "items": [
           {
             "name": "Make Cents Feta Salad"
@@ -4196,15 +4126,8 @@
   },
   {
     "location": "Marketplace West",
-    "name": "EBGBs",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/ebgbs",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Espresso Specialty Drinks",
@@ -4651,15 +4574,8 @@
   },
   {
     "location": "Marketplace West",
-    "name": "Ring of Fire",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/ring-of-fire",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:30 AM",
-        "end": "1:30 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Entrees",
@@ -4925,19 +4841,8 @@
   },
   {
     "location": "Marketplace West",
-    "name": "Serrano",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/serrano",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "10:15 AM"
-      },
-      {
-        "start": "2:00 PM",
-        "end": "7:30 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Breakfast Bowls",
@@ -5212,7 +5117,7 @@
         ]
       },
       {
-        "title": "Quesadillas",
+        "title": " Quesadillas",
         "items": [
           {
             "name": "Cheese Quesadilla"
@@ -5226,7 +5131,7 @@
         ]
       },
       {
-        "title": "Quesadillas",
+        "title": " Quesadillas",
         "items": [
           {
             "name": "Cheese Quesadilla"
@@ -5377,19 +5282,8 @@
   },
   {
     "location": "Marketplace West",
-    "name": "Tomassito's Italian Cafe",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/tomassitos-italian-cafe",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:00 AM",
-        "end": "2:00 PM"
-      },
-      {
-        "start": "4:00 PM",
-        "end": "7:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "13\" Pizzas",
@@ -5634,15 +5528,8 @@
   },
   {
     "location": "Marketplace West",
-    "name": "West Side Grill",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/west-side-grill",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": null,
-        "end": null
-      }
-    ],
     "menu": [
       {
         "title": "Makes Cents Entree",
@@ -5897,15 +5784,8 @@
   },
   {
     "location": "McNary Dining",
-    "name": "Calabaloo's",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/calabaloos",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "12:00 PM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Pick a Bun",
@@ -6230,23 +6110,8 @@
   },
   {
     "location": "McNary Dining",
-    "name": "East Side Eats",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/east-side-eats",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:00 AM",
-        "end": "10:00 AM"
-      },
-      {
-        "start": "11:00 AM",
-        "end": "2:00 PM"
-      },
-      {
-        "start": "5:00 PM",
-        "end": "7:30 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Breakfast Scrambles",
@@ -7211,19 +7076,8 @@
   },
   {
     "location": "McNary Dining",
-    "name": "Five Four One",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/five-four-one",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:30 AM",
-        "end": "2:30 PM"
-      },
-      {
-        "start": "4:00 PM",
-        "end": "7:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Rotating Seasonal Toppings",
@@ -7456,7 +7310,7 @@
         ]
       },
       {
-        "title": "Bowls~Toppings",
+        "title": " Bowls~Toppings",
         "items": [
           {
             "name": "Vegan Shredded Mozzarella"
@@ -7479,7 +7333,7 @@
         ]
       },
       {
-        "title": "Bowls~Toppings",
+        "title": " Bowls~Toppings",
         "items": [
           {
             "name": "Vegan Shredded Mozzarella"
@@ -7502,7 +7356,7 @@
         ]
       },
       {
-        "title": "Curry Bar Options",
+        "title": " Curry Bar Options",
         "items": [
           {
             "name": "Grilled Chicken Breast"
@@ -7519,7 +7373,7 @@
         ]
       },
       {
-        "title": "Curry Bar Options",
+        "title": " Curry Bar Options",
         "items": [
           {
             "name": "Grilled Chicken Breast"
@@ -7536,7 +7390,7 @@
         ]
       },
       {
-        "title": "Pizza Bar",
+        "title": " Pizza Bar",
         "items": [
           {
             "name": "Sausage"
@@ -7571,7 +7425,7 @@
         ]
       },
       {
-        "title": "Pizza Bar",
+        "title": " Pizza Bar",
         "items": [
           {
             "name": "Sausage"
@@ -7806,15 +7660,8 @@
   },
   {
     "location": "McNary Dining",
-    "name": "La Calle",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/la-calle",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": null,
-        "end": null
-      }
-    ],
     "menu": [
       {
         "title": "Entrees",
@@ -8073,15 +7920,8 @@
   },
   {
     "location": "McNary Dining",
-    "name": "RainTree Coffee",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/raintree-coffee",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:00 AM",
-        "end": "2:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Coffee & More",
@@ -8552,15 +8392,8 @@
   },
   {
     "location": "McNary Dining",
-    "name": "The Main Squeeze",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/the-main-squeeze",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "12:00 PM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Frozen Yogurt",
@@ -9141,28 +8974,14 @@
   },
   {
     "location": "Memorial Union",
-    "name": "Bites",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/bites",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "8:30 AM",
-        "end": "5:00 PM"
-      }
-    ],
     "menu": []
   },
   {
     "location": "Memorial Union",
-    "name": "JavaStop",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/javastop",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "5:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Bagel Basics Bagel (as is or toasted)",
@@ -9626,15 +9445,8 @@
   },
   {
     "location": "Memorial Union",
-    "name": "North Porch Cafe",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/north-porch-cafe",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": null,
-        "end": null
-      }
-    ],
     "menu": [
       {
         "title": "Asian Rice Bowls",
@@ -9768,15 +9580,8 @@
   },
   {
     "location": "Memorial Union",
-    "name": "Off the Quad",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/off-the-quad",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "10:00 AM",
-        "end": "2:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Breakfast",
@@ -10282,54 +10087,26 @@
   },
   {
     "location": "Memorial Union",
-    "name": "Panda Express",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/panda-express",
-    "diningDollars": 0,
-    "hours": [
-      {
-        "start": "10:00 AM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": []
   },
   {
     "location": "Memorial Union",
-    "name": "Rocket Burger",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/rocket-burger",
-    "diningDollars": 0,
-    "hours": [
-      {
-        "start": "11:00 AM",
-        "end": "2:00 PM"
-      }
-    ],
     "menu": []
   },
   {
     "location": "Memorial Union",
-    "name": "TOGO's",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/togos",
-    "diningDollars": 0,
-    "hours": [
-      {
-        "start": null,
-        "end": null
-      }
-    ],
     "menu": []
   },
   {
     "location": "Southside Station @ Arnold",
-    "name": "Deli",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/deli",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:00 AM",
-        "end": "3:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Global ~ Breakfast",
@@ -11350,23 +11127,8 @@
   },
   {
     "location": "Southside Station @ Arnold",
-    "name": "Global Fare",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/global-fare",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "11:00 AM"
-      },
-      {
-        "start": "11:30 AM",
-        "end": "2:00 PM"
-      },
-      {
-        "start": "5:00 PM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Global ~ Breakfast",
@@ -12387,15 +12149,8 @@
   },
   {
     "location": "Southside Station @ Arnold",
-    "name": "Nori",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/nori",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:00 AM",
-        "end": "2:30 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Global ~ Breakfast",
@@ -13416,15 +13171,8 @@
   },
   {
     "location": "Southside Station @ Arnold",
-    "name": "Pizza",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/pizza",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "3:00 PM",
-        "end": "8:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Global ~ Breakfast",
@@ -14445,15 +14193,8 @@
   },
   {
     "location": "Southside Station @ Arnold",
-    "name": "The Grill",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/the-grill",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "11:00 AM",
-        "end": "7:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Global ~ Breakfast",
@@ -15474,15 +15215,8 @@
   },
   {
     "location": "The Learning Innovation Center",
-    "name": "The Dam",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/the-dam",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "3:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Hot",
@@ -15714,15 +15448,8 @@
   },
   {
     "location": "Valley Library",
-    "name": "Java II",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/java-ii",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": "7:30 AM",
-        "end": "5:00 PM"
-      }
-    ],
     "menu": [
       {
         "title": "Espresso",
@@ -16206,18 +15933,11 @@
   },
   {
     "location": "Weatherford Hall",
-    "name": "Bing's Cafe",
+    "name": "",
     "url": "https://uhds.oregonstate.edu/restaurants/bings-cafe",
-    "diningDollars": 1,
-    "hours": [
-      {
-        "start": null,
-        "end": null
-      }
-    ],
     "menu": [
       {
-        "title": "Proudly Brewing\nStarbucks Coffee",
+        "title": "Proudly BrewingStarbucks Coffee",
         "items": [
           {
             "name": "Coffee 12oz"
@@ -16270,7 +15990,7 @@
         ]
       },
       {
-        "title": "Proudly Brewing\nStarbucks Coffee",
+        "title": "Proudly BrewingStarbucks Coffee",
         "items": [
           {
             "name": "Coffee 12oz"
