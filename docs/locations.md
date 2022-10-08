@@ -12,13 +12,14 @@
     "name": "Trader Bing's",
     "area": "Austin Hall",
     "usesDiningDollars": true,
-    "startHours": "07:30",
-    "endHours": "18:00"
+    "startHours": "0730",
+    "endHours": "1800"
   }
 ]
 ```
 
-* `startHours` and `endHours` are in 24-hour time and may be `null`.
+- `startHours` and `endHours` are in 24-hour time and may be `null`.
+  - `null` indicates that the location may be currently closed.
 
 ## Options
 

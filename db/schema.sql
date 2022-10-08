@@ -3,9 +3,15 @@ CREATE TABLE Location (
   name VARCHAR(255) NOT NULL,
   area VARCHAR(255) NOT NULL,
   usesDiningDollars BOOLEAN NOT NULL,
-  startHours CHAR(5),
-  endHours CHAR(5),
   PRIMARY KEY (name)
+);
+
+DROP TABLE IF EXISTS Hours;
+CREATE TABLE Hours (
+  locationName VARCHAR(255) NOT NULL,
+  start CHAR(4) NOT NULL,
+  end CHAR(4) NOT NULL,
+  FOREIGN KEY (locationName) REFERENCES Location(name)
 );
 
 DROP TABLE IF EXISTS MenuItemSection;

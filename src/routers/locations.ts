@@ -1,5 +1,7 @@
 import express from "express";
 import databaseUtil from "../util/db/index.js";
+import { formatHour } from "../util/db/updateData.js";
+import moment from "moment-timezone";
 
 export const locationsRouter = express.Router();
 
@@ -33,8 +35,10 @@ locationsRouter.get("/", async (req, res) => {
   const sqlbuilder = new databaseUtil.SQLBuilder(),
     { query } = req,
     order = query.order?.toString().toUpperCase() === "DESC" ? "DESC" : "ASC",
-    bindValues: any[] = [];
-
+    bindValues: any[] = [],
+    currentHoursFormatted = formatHour(
+      moment().tz("America/Los_Angeles").format("h:mm A")
+    );
   sqlbuilder.from("Location");
 
   if (query.sort) {
@@ -63,15 +67,27 @@ locationsRouter.get("/", async (req, res) => {
     stmt = await databaseUtil.database.prepare(sql),
     rows = await stmt.all<SQLLocation>(...bindValues).catch(() => []);
   res.json(
-    rows.map((row) => {
-      return {
-        name: row.name,
-        area: row.area,
-        usesDiningDollars: !!row.usesDiningDollars,
-        startHours: row.startHours,
-        endHours: row.endHours,
-      };
-    })
+    await Promise.all(
+      rows.map(async (row) => {
+        const sql = `
+        SELECT start, end
+        FROM Hours
+        WHERE locationName = ?
+          AND start <= "${currentHoursFormatted}"
+          AND end >= "${currentHoursFormatted}"
+        LIMIT 1
+      `,
+          stmt = await databaseUtil.database.prepare(sql),
+          hours = await stmt.get<SQLHours>(row.name).catch(() => null);
+        return {
+          name: row.name,
+          area: row.area,
+          usesDiningDollars: !!row.usesDiningDollars,
+          startHours: hours?.start ?? null,
+          endHours: hours?.end ?? null,
+        };
+      })
+    )
   );
 });
 

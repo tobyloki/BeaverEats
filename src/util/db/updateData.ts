@@ -1,31 +1,28 @@
 import databaseUtil from "./index.js";
 import moment from "moment-timezone";
 
-function getRelevantHours(hours: Hours[]): Hours {
-  const now = moment().tz("America/Los_Angeles");
-  let bestHours: Hours = { start: null, end: null };
-  for (const hour of hours) {
-    const { start, end } = hour,
-      start24 = moment(start, "h:mm A").format("HH:mm"),
-      end24 = moment(end, "h:mm A").format("HH:mm"),
-      startMoment = now.clone(),
-      endMoment = now.clone();
+export function formatHour(hour: string): string {
+  return moment(hour, "h:mm A").format("HHmm");
+}
 
-    startMoment.hour(parseInt(start24.split(":")[0]));
-    startMoment.minute(parseInt(start24.split(":")[1]));
-    startMoment.second(0);
-    endMoment.hour(parseInt(end24.split(":")[0]));
-    endMoment.minute(parseInt(end24.split(":")[1]));
-    endMoment.second(0);
-    if (now.isBetween(startMoment, endMoment)) {
-      bestHours = {
-        start: start24,
-        end: end24,
-      };
-      break;
+async function insertHours(
+  name: string,
+  hours: Hours[],
+  database: import("./databasePromise.js").Database
+) {
+  for (const { start, end } of hours) {
+    const stmt = await database.prepare(
+      `
+      INSERT INTO Hours
+      VALUES (?,?,?)
+      `
+    );
+    if (start && end) {
+      const formattedStart = formatHour(start),
+        formattedEnd = formatHour(end);
+      await stmt.run(name, formattedStart, formattedEnd);
     }
   }
-  return bestHours;
 }
 
 async function insertRestaurant(
@@ -35,12 +32,12 @@ async function insertRestaurant(
   const stmt = await database.prepare(
       `
       INSERT INTO Location
-      VALUES (?,?,?,?,?)
+      VALUES (?,?,?)
       `
     ),
-    { name, location, diningDollars, hours } = restaurant,
-    { start, end } = getRelevantHours(hours);
-  await stmt.run(name, location, !!diningDollars, start, end);
+    { name, location, diningDollars, hours } = restaurant;
+  await stmt.run(name, location, !!diningDollars);
+  await insertHours(name, hours, database);
 }
 
 async function insertMenuSection(
@@ -88,11 +85,16 @@ export default async function updateData(data: ScrapeResults | null) {
   await database.run("DELETE FROM Location");
   await database.run("DELETE FROM MenuItemSection");
   await database.run("DELETE FROM MenuItem");
+  await database.run("DELETE FROM Hours");
   for (const restaurant of data) {
     await insertRestaurant(restaurant, database);
     for (const section of restaurant.menu) {
       await insertMenuSection(section, restaurant.name, database).catch(() => {
-        console.error("Duplicate menu section:", section.title, restaurant.name);
+        console.error(
+          "Duplicate menu section:",
+          section.title,
+          restaurant.name
+        );
       });
       for (const item of section.items) {
         await insertMenuItem(
@@ -101,7 +103,12 @@ export default async function updateData(data: ScrapeResults | null) {
           restaurant.name,
           database
         ).catch(() => {
-          console.error("Duplicate item found:", item.name, section.title, restaurant.name);
+          console.error(
+            "Duplicate item found:",
+            item.name,
+            section.title,
+            restaurant.name
+          );
         });
       }
     }
