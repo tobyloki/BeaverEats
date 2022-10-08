@@ -1,5 +1,8 @@
 # Location
 
+* [Menu API](./locations_menus.md)
+* [Hours API](./locations_hours.md)
+
 ## Fetch all locations
 
 [`GET /locations`](https://beaver-eats-backend-demo.fly.dev/locations)
