@@ -8,3 +8,13 @@ interface SQLHours {
   start: string;
   end: string;
 }
+
+interface SQLMenuSection {
+  name: string;
+  locationName: string;
+}
+
+interface SQLMenuItem {
+  name: string;
+  description: string;
+}

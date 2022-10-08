@@ -91,6 +91,60 @@ locationsRouter.get("/", async (req, res) => {
   );
 });
 
+locationsRouter.get("/:location/hours", async (req, res) => {
+  const sql = `
+    SELECT start, end
+    FROM Hours
+    WHERE locationName = ?
+    ORDER BY start ASC
+  `,
+    stmt = await databaseUtil.database.prepare(sql),
+    rows = await stmt.all<SQLHours>(req.params.location).catch(() => []);
+  console.log(req.params);
+  res.json(
+    rows.map((row) => ({
+      start: row.start,
+      end: row.end,
+    }))
+  );
+});
+
+locationsRouter.get("/:location/menus", async (req, res) => {
+  const sql = `
+    SELECT name
+    FROM MenuItemSection
+    WHERE locationName = ?
+    ORDER BY name ASC
+  `,
+    stmt = await databaseUtil.database.prepare(sql),
+    rows = await stmt.all<SQLMenuSection>(req.params.location).catch(() => []);
+  res.json(
+    rows.map((row) => ({
+      name: row.name,
+    }))
+  );
+});
+
+locationsRouter.get("/:location/menus/:section", async (req, res) => {
+  const sql = `
+    SELECT name, description
+    FROM MenuItem
+    WHERE locationName = ?
+      AND menuSection = ?
+    ORDER BY name ASC
+  `,
+    stmt = await databaseUtil.database.prepare(sql),
+    rows = await stmt
+      .all<SQLMenuItem>(req.params.location, req.params.section)
+      .catch(() => []);
+  res.json(
+    rows.map((row) => ({
+      name: row.name,
+      description: row.description,
+    }))
+  );
+});
+
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // Eslint is complaining about the unused next parameter,
 // but it is required for express to recognize this as an error handler.

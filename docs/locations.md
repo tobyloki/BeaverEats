@@ -53,7 +53,8 @@
 ### Filtering
 
 `?filter=(<field>:<value>|...)`
-* Currently not implemented
+
+- Currently not implemented
 
 ### Searching
 
