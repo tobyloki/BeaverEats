@@ -48,10 +48,11 @@ locationsRouter.get("/", async (req, res) => {
         break;
       case "area":
       case "usesDiningDollars":
-      case "startHours":
-      case "endHours":
         sqlbuilder.order(query.sort.toString(), order);
         sqlbuilder.order("name", "ASC");
+        break;
+      case "startHours":
+      case "endHours": // TODO: Re-implement this
         break;
     }
   } else {

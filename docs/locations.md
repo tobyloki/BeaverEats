@@ -36,13 +36,16 @@
   - Sorts alphabetically by area name
 - [`usesDiningDollars`](https://beaver-eats-backend-demo.fly.dev/locations?sort=usesDiningDollars)
   - Sorts by name
-  - Prioritizes locations that accept dining dollars
+  - Prioritizes locations that don't accept dining dollars
+  - Set `order` to `desc` to reverse this
 - [`startHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=startHours)
   - Sorts by name
   - Prioritizes locations that open earlier
+  - Currently broken
 - [`endHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=endHours)
   - Sorts by name
   - Prioritizes locations that close later
+  - Currently bloken
 
 ### Ordering
 
