@@ -104,7 +104,21 @@ export async function getRestaurantsFullData() {
   return restaurants;
 }
 
-function getMenuForCoffeeShop(item) {
+function reduceText(node, dom) {
+  return [...node.childNodes]
+    .reduce((total, item) => {
+      if (item instanceof dom.window.HTMLBRElement) {
+        return total + " ";
+      } else if (item instanceof dom.window.HTMLElement) {
+        return total;
+      } else {
+        return total + item.textContent;
+      }
+    }, "")
+    .trim();
+}
+
+function getMenuForCoffeeShop(item, dom) {
   const data = [];
 
   let menuItem = {
@@ -127,19 +141,16 @@ function getMenuForCoffeeShop(item) {
         };
       }
 
-      menuItem.title = tag.textContent;
+      menuItem.title = tag.textContent.trim();
     } else if (tag.tagName === "P") {
       const text = tag.querySelectorAll("strong");
       if (text.length > 0) {
         const name = text[0].textContent.trim(),
-          description = tag.textContent
-            .replace(name, "")
-            .replace("\n", "")
-            .trim();
+          description = reduceText(tag, dom);
 
         menuItem.items.push({
           name,
-          description: description.length > 0 ? description : null,
+          description: description.length > 0 ? [description] : null,
         });
       }
     }
@@ -240,7 +251,7 @@ async function getMenu(url) {
       { document: iframeDocument } = iframeDom.window;
     menu = [...iframeDocument.querySelectorAll(".section")].map((section) => {
       return {
-        title: section.querySelector("h6").textContent,
+        title: reduceText(section.querySelector("h6"), iframeDom),
         items: [...section.querySelectorAll("p")].map((item) => {
           return {
             name: item.textContent,
@@ -264,7 +275,7 @@ async function getMenu(url) {
       }
       const tagCheck = item.querySelector("h4");
       if (tagCheck) {
-        const newData = getMenuForCoffeeShop(item);
+        const newData = getMenuForCoffeeShop(item, dom);
         menu.push(...newData);
       } else {
         const newData = getMenuForRestaurant(item);

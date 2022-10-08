@@ -40,7 +40,9 @@
           },
           {
             "name": "The CEO",
-            "description": ["Brie and white cheddar toasted on a ciabatta"]
+            "description": [
+              "Brie and white cheddar toasted on a ciabatta"
+            ]
           },
           {
             "name": "Series 63",
@@ -339,7 +341,9 @@
           },
           {
             "name": "Pizza-Dilla",
-            "description": ["cheese & pepperoni with marinara sauce"]
+            "description": [
+              "cheese & pepperoni with marinara sauce"
+            ]
           },
           {
             "name": "Quinoa Bowls"
@@ -363,18 +367,24 @@
         "items": [
           {
             "name": "Turkey Pesto",
-            "description": ["with tomatoes and provolone"]
+            "description": [
+              "with tomatoes and provolone"
+            ]
           },
           {
             "name": "Grilled Cheese"
           },
           {
             "name": "TBA",
-            "description": ["with provolone"]
+            "description": [
+              "with provolone"
+            ]
           },
           {
             "name": "Ham & Cheddar",
-            "description": ["with honey mustard"]
+            "description": [
+              "with honey mustard"
+            ]
           }
         ]
       }
@@ -889,7 +899,9 @@
         "items": [
           {
             "name": "Classic Basil Binary",
-            "description": ["Chicken, Provolone, Tomato, Pesto."]
+            "description": [
+              "Chicken, Provolone, Tomato, Pesto."
+            ]
           },
           {
             "name": "Gyro++",
@@ -926,7 +938,9 @@
           },
           {
             "name": "Grilled Cheese with Meat",
-            "description": ["Choose Turkey, Ham, or Plantfare."]
+            "description": [
+              "Choose Turkey, Ham, or Plantfare."
+            ]
           }
         ]
       },
@@ -1174,19 +1188,27 @@
         "items": [
           {
             "name": "PB&J",
-            "description": ["Peanut butter, marionberry jam, on white bread."]
+            "description": [
+              "Peanut butter, marionberry jam, on white bread."
+            ]
           },
           {
             "name": "Turkey Cranberry Cream Cheese Wrap",
-            "description": ["Turkey, cranberry, romaine, onion."]
+            "description": [
+              "Turkey, cranberry, romaine, onion."
+            ]
           },
           {
             "name": "Chicken Caesar Flatbread",
-            "description": ["Romaine, chicken, feta, caesar dressing."]
+            "description": [
+              "Romaine, chicken, feta, caesar dressing."
+            ]
           },
           {
             "name": "Pesto Flatbread",
-            "description": ["Provolone, pesto, tomato. Add turkey or bacon."]
+            "description": [
+              "Provolone, pesto, tomato. Add turkey or bacon."
+            ]
           },
           {
             "name": "Mediterranean Flatbread",
@@ -1290,11 +1312,15 @@
           },
           {
             "name": "Milk alternatives",
-            "description": ["Soy, Coconut, Oat, Breve"]
+            "description": [
+              "Soy, Coconut, Oat, Breve"
+            ]
           },
           {
             "name": "Espresso",
-            "description": ["can add one or two double shots."]
+            "description": [
+              "can add one or two double shots."
+            ]
           }
         ]
       }
@@ -1313,75 +1339,109 @@
     ],
     "menu": [
       {
-        "title": "\n\tCoffee + Drinks",
+        "title": "Coffee + Drinks",
         "items": [
           {
             "name": "Bear Brew",
-            "description": "Drip Coffee"
+            "description": [
+              "Drip Coffee"
+            ]
           },
           {
             "name": "Pony Express",
-            "description": "Americano"
+            "description": [
+              "Americano"
+            ]
           },
           {
             "name": "Polar Brew",
-            "description": "Cold Brew"
+            "description": [
+              "Cold Brew"
+            ]
           },
           {
             "name": "Llama Latte",
-            "description": "Regular Latte"
+            "description": [
+              "Regular Latte"
+            ]
           },
           {
             "name": "Pawppuccino",
-            "description": "Cappuccino12OZ 16OZ"
+            "description": [
+              "Cappuccino"
+            ]
           },
           {
             "name": "Cat-fe Au Lait",
-            "description": "Cafe Au Lait"
+            "description": [
+              "Cafe Au Lait"
+            ]
           },
           {
             "name": "Mustang Mocha",
-            "description": "Mocha"
+            "description": [
+              "Mocha"
+            ]
           },
           {
             "name": "White Tiger Mocha",
-            "description": "White Mocha"
+            "description": [
+              "White Mocha"
+            ]
           },
           {
             "name": "Zebra Mocha",
-            "description": "Black & White Mocha"
+            "description": [
+              "Black & White Mocha"
+            ]
           },
           {
             "name": "Cheetah Chai",
-            "description": "Chai Latte"
+            "description": [
+              "Chai Latte"
+            ]
           },
           {
             "name": "Manatee Matcha",
-            "description": "Matcha Latte"
+            "description": [
+              "Matcha Latte"
+            ]
           },
           {
             "name": "Camel Macchiato",
-            "description": "Caramel Macchiato"
+            "description": [
+              "Caramel Macchiato"
+            ]
           },
           {
             "name": "Steer-mer",
-            "description": "Steamer"
+            "description": [
+              "Steamer"
+            ]
           },
           {
             "name": "Cocoa Cow",
-            "description": "Hot Chocolate"
+            "description": [
+              "Hot Chocolate"
+            ]
           },
           {
             "name": "Arctic Fox",
-            "description": "White Hot Chocolate"
+            "description": [
+              "White Hot Chocolate"
+            ]
           },
           {
             "name": "Tail Wagger Tea",
-            "description": "Tea"
+            "description": [
+              "Tea"
+            ]
           },
           {
             "name": "London Frog",
-            "description": "London Fog"
+            "description": [
+              "London Fog"
+            ]
           }
         ]
       }
@@ -1860,7 +1920,7 @@
     ],
     "menu": [
       {
-        "title": " Make Cents Entree",
+        "title": "Make Cents Entree",
         "items": [
           {
             "name": "Make Cents Feta Salad"
@@ -2565,7 +2625,7 @@
         ]
       },
       {
-        "title": " Quesadillas",
+        "title": "Quesadillas",
         "items": [
           {
             "name": "Cheese Quesadilla"
@@ -3780,7 +3840,7 @@
         ]
       },
       {
-        "title": " Bowls~Toppings",
+        "title": "Bowls~Toppings",
         "items": [
           {
             "name": "Vegan Shredded Mozzarella"
@@ -3803,7 +3863,7 @@
         ]
       },
       {
-        "title": " Curry Bar Options",
+        "title": "Curry Bar Options",
         "items": [
           {
             "name": "Grilled Chicken Breast"
@@ -3820,7 +3880,7 @@
         ]
       },
       {
-        "title": " Pizza Bar",
+        "title": "Pizza Bar",
         "items": [
           {
             "name": "Sausage"
@@ -7983,7 +8043,7 @@
     ],
     "menu": [
       {
-        "title": "Proudly BrewingStarbucks Coffee",
+        "title": "Proudly Brewing Starbucks Coffee",
         "items": [
           {
             "name": "Coffee 12oz"
