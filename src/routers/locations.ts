@@ -131,9 +131,25 @@ locationsRouter.get("/:location/menus", async (req, res) => {
     stmt = await databaseUtil.database.prepare(sql),
     rows = await stmt.all<SQLMenuSection>(req.params.location).catch(() => []);
   res.json(
-    rows.map((row) => ({
-      name: row.name,
-    }))
+    await Promise.all(
+      rows.map(async (row) => {
+        const itemsSQL = `
+      SELECT name, description
+      FROM MenuItem
+      WHERE locationName = ?
+        AND menuSection = ?
+      ORDER BY name ASC
+    `,
+          itemsStmt = await databaseUtil.database.prepare(itemsSQL),
+          itemRows = await itemsStmt
+            .all<SQLMenuItem>(req.params.location, row.name)
+            .catch(() => []);
+        return {
+          title: row.name,
+          items: itemRows,
+        };
+      })
+    )
   );
 });
 

@@ -11,13 +11,20 @@
 ```json
 [
   {
-    "name": "Drinks"
-  },
-  {
-    "name": "Sandwiches"
+    "title": "Drinks",
+    "items": [
+      {
+        "name": "Coffee",
+        "description": "Example description"
+      }
+    ]
   }
 ]
 ```
+- `title` is the name of the menu section
+- `items` is a list of menu items
+  - `name` is the name of the menu item
+  - `description` is the description of the menu item
 
 ## Fetch all location menu items
 
