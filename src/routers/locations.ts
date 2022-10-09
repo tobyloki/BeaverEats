@@ -52,7 +52,18 @@ locationsRouter.get("/", async (req, res) => {
         sqlbuilder.order("name", "ASC");
         break;
       case "startHours":
-      case "endHours": // TODO: Re-implement this
+      case "endHours":
+        sqlbuilder.order(
+          `
+        (SELECT ${query.sort === "startHours" ? "start" : "end"}
+        FROM Hours
+        WHERE locationName = Location.name
+          AND start <= "${currentHoursFormatted}"
+          AND end >= "${currentHoursFormatted}"
+        LIMIT 1)
+        `,
+          order
+        );
         break;
     }
   } else {

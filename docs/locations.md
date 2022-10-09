@@ -1,7 +1,7 @@
 # Location
 
-* [Menu API](./locations_menus.md)
-* [Hours API](./locations_hours.md)
+- [Menu API](./locations_menus.md)
+- [Hours API](./locations_hours.md)
 
 ## Fetch all locations
 
@@ -41,11 +41,9 @@
 - [`startHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=startHours)
   - Sorts by name
   - Prioritizes locations that open earlier
-  - Currently broken
 - [`endHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=endHours)
   - Sorts by name
-  - Prioritizes locations that close later
-  - Currently bloken
+  - Prioritizes locations that close earlier
 
 ### Ordering
 

@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 dotenv.config();
-import { locationsRouter } from "./routers/locations.js";
+import { locations, hours } from "./routers/index.js";
 import scrape from "./util/scrape.js";
 import databaseUtil from "./util/db/index.js";
 
@@ -18,7 +18,8 @@ app.get("/", (req, res) => {
   res.json("200 OK");
 });
 
-app.use("/locations", locationsRouter);
+app.use("/locations", locations);
+app.use("/hours", hours);
 
 app.listen(process.env.PORT || 3000, () => {
   console.log(`Listening on port ${process.env.PORT || 3000}`);
@@ -27,16 +28,25 @@ app.listen(process.env.PORT || 3000, () => {
 async function updateDatabase() {
   databaseUtil
     .updateData(
-      await scrape().catch((err) => {
-        console.error("Failed to initialize scraper. Check logs for details.");
-        console.error(err);
-        return null;
-      })
+      await scrape()
+        .then(async (data) => {
+          await databaseUtil.database.run("BEGIN TRANSACTION");
+          return data;
+        })
+        .catch((err) => {
+          console.error(
+            "Failed to initialize scraper. Check logs for details."
+          );
+          console.error(err);
+          return null;
+        })
     )
-    .then(() => {
+    .then(async () => {
+      await databaseUtil.database.run("COMMIT TRANSACTION");
       console.log("Updated database successfully.");
     })
-    .catch((err) => {
+    .catch(async (err) => {
+      await databaseUtil.database.run("ROLLBACK TRANSACTION");
       console.error("Failed to update database. Check logs for details.");
       console.error(err);
     });
