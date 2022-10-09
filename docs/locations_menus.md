@@ -21,6 +21,7 @@
   }
 ]
 ```
+
 - `title` is the name of the menu section
 - `items` is a list of menu items
   - `name` is the name of the menu item

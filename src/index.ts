@@ -4,6 +4,7 @@ dotenv.config();
 import { locations, hours } from "./routers/index.js";
 import scrape from "./util/scrape.js";
 import databaseUtil from "./util/db/index.js";
+import moment from "moment-timezone";
 
 const app = express();
 
@@ -52,5 +53,15 @@ async function updateDatabase() {
     });
 }
 
-await updateDatabase();
-setInterval(updateDatabase, 1000 * 60 * 30);
+// Get time in milliseconds until next 30 minute interval
+const currentTime = moment(),
+  nextInterval = moment().add(30 - (currentTime.minute() % 30), "minutes"),
+  timeUntilNextInterval = nextInterval.diff(currentTime);
+
+if (timeUntilNextInterval > 1000 * 60 * 5) {
+  await updateDatabase();
+}
+setTimeout(() => {
+  updateDatabase();
+  setInterval(updateDatabase, 30 * 60 * 1000);
+}, timeUntilNextInterval);
