@@ -2,6 +2,7 @@ package com.example.beavereats
 
 import android.app.Activity
 import android.content.Context
+import android.graphics.Color
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,6 +13,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -20,6 +22,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.*
 import org.json.JSONArray
+import org.w3c.dom.Text
 import java.lang.Exception
 import java.time.LocalTime
 import kotlin.reflect.jvm.internal.impl.renderer.KeywordStringsGenerated
@@ -70,6 +73,7 @@ class MainActivity : AppCompatActivity() {
             // Apply the adapter to the spinner
             spinner.adapter = adapter
         }
+        spinner.setSelection(0, false)
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
                 val selectedItem = parent.getItemAtPosition(position).toString()
@@ -82,7 +86,7 @@ class MainActivity : AppCompatActivity() {
                     "name"
                 }
 
-                popUpLayout.visibility = View.GONE
+                popUpVisibility(false)
                 makeList()
 
             } // to close the onItemSelected
@@ -91,6 +95,7 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+
         context = this
         makeList()
     }
@@ -101,9 +106,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        popUpVisibility(true)
+        val id = item.itemId
+        if (id == R.id.nav_filter){
+            popUpVisibility(true)
+            return super.onOptionsItemSelected(item)
+        }
+        return true
 
-        return super.onOptionsItemSelected(item)
     }
 
     private fun popUpVisibility(bool : Boolean){
@@ -131,20 +140,19 @@ class MainActivity : AppCompatActivity() {
                         val item = data.getJSONObject(i)
                         val location = item.getString("name")
                         var hourStart = item.optString("startHours", "00:00 - ")
-                        if (hourStart == "null"){
-                            hourStart = "Hours Unknown"
-                        }
-                        else {
-                            hourStart = hourStart.slice(0 until 2) + ":" + hourStart.slice(2 until 4) + " - "
+                        hourStart = if (hourStart == "null"){
+                            "Hours Unknown"
+                        } else {
+                            hourStart.slice(0 until 2) + ":" + hourStart.slice(2 until 4) + " - "
                         }
                         var hourStop = item.optString("endHours", "24:00")
-                        if (hourStop == "null"){
-                            hourStop = ""
-                        }
-                        else {
-                            hourStop = hourStop.slice(0 until 2) + ":" + hourStop.slice(2 until 4)
+                        hourStop = if (hourStop == "null"){
+                            ""
+                        } else {
+                            hourStop.slice(0 until 2) + ":" + hourStop.slice(2 until 4)
                         }
                         val status = isOpen(hourStart, hourStop)
+
                         val listItem = RestaurantModel(location, hourStart, hourStop, status)
                         itemList.add(listItem)
                     } catch (e: Exception) {

@@ -36,7 +36,7 @@ class MenuAdapter (var context: Context, var restaurantName: String, var menus: 
             intent.putExtra("Restaurant", restaurantName)
             intent.putExtra("Title", menu.name)
             context.startActivity(intent)
-            Log.i(TAG, "item clicked")
+            Log.i(TAG, "Menu clicked")
         }
     }
 

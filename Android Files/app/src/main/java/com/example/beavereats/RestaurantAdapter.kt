@@ -2,6 +2,7 @@ package com.example.beavereats
 
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -29,11 +30,20 @@ class RestaurantAdapter (var context: Context, var restaurants: List<MainActivit
         holder.status.text = restaurant.status
 
 
+        // Changing color of statusDot based on if restaurant is open or closed
+
+        if (restaurant.status == "Open") {
+            holder.statusDot.setTextColor(Color.parseColor("#00FF00"))
+        }
+        else {
+            holder.statusDot.setTextColor(Color.parseColor("#FF0000"))
+        }
+
         holder.itemView.setOnClickListener {
             val intent = Intent(context, MenuActivity::class.java)
             intent.putExtra("Restaurant", restaurant.name)
             context.startActivity(intent)
-            Log.i(TAG, "item clicked")
+            Log.i(TAG, "Restaurant clicked")
         }
     }
 
@@ -47,6 +57,7 @@ class RestaurantAdapter (var context: Context, var restaurants: List<MainActivit
         val hourStart: TextView
         val hourStop: TextView
         val status: TextView
+        val statusDot: TextView
 
 
         init {
@@ -54,6 +65,7 @@ class RestaurantAdapter (var context: Context, var restaurants: List<MainActivit
             this.hourStart = itemView.findViewById(R.id.tvHourStart)
             this.hourStop = itemView.findViewById(R.id.tvHourStop)
             this.status = itemView.findViewById(R.id.tvStatus)
+            this.statusDot = itemView.findViewById(R.id.statusDot)
         }
     }
 }
