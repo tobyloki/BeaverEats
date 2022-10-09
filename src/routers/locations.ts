@@ -55,12 +55,12 @@ locationsRouter.get("/", async (req, res) => {
       case "endHours":
         sqlbuilder.order(
           `
-        (SELECT ${query.sort === "startHours" ? "start" : "end"}
+        IFNULL((SELECT ${query.sort === "startHours" ? "start" : "end"}
         FROM Hours
         WHERE locationName = Location.name
           AND start <= "${currentHoursFormatted}"
           AND end >= "${currentHoursFormatted}"
-        LIMIT 1)
+        LIMIT 1), "2359")
         `,
           order
         );
@@ -112,7 +112,7 @@ locationsRouter.get("/:location/hours", async (req, res) => {
   `,
     stmt = await databaseUtil.database.prepare(sql),
     rows = await stmt.all<SQLHours>(req.params.location).catch(() => []);
-  console.log(req.params);
+
   res.json(
     rows.map((row) => ({
       start: row.start,
