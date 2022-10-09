@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class MenuAdapter (var context: Context, var menus: List<MenuActivity.ListItem>) :   RecyclerView.Adapter<MenuAdapter.ViewHolder>() {
+class MenuAdapter (var context: Context, var restaurantName: String, var menus: List<MenuActivity.ListItem>) :   RecyclerView.Adapter<MenuAdapter.ViewHolder>() {
     private val TAG = MenuAdapter::class.java.simpleName
 
     override fun onCreateViewHolder(
@@ -33,7 +33,8 @@ class MenuAdapter (var context: Context, var menus: List<MenuActivity.ListItem>)
 
         holder.itemView.setOnClickListener {
             val intent = Intent(context, FoodActivity::class.java)
-            intent.putExtra("Restaurant", menu.name)
+            intent.putExtra("Restaurant", restaurantName)
+            intent.putExtra("Title", menu.name)
             context.startActivity(intent)
             Log.i(TAG, "item clicked")
         }

@@ -43,13 +43,13 @@ class FoodActivity : AppCompatActivity() {
         recyclerView.adapter = FoodAdapter(list)
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        var restaurantName = intent.getStringExtra("Restaurant")
-        // restaurantName = URLEncoder.encode(restaurantName, "utf-8")
+        var restaurantName : String = intent.getStringExtra("Restaurant") ?: ""
+        var menuName : String = intent.getStringExtra("Title") ?: ""
         supportActionBar!!.title = "$restaurantName - Menu"
 
         coroutineScope.launch {
             try {
-                val response = HttpApi.retrofitService.getFoodAsync().await()
+                val response = HttpApi.retrofitService.getFoodAsync(restaurantName, menuName).await()
                 Log.i(TAG, "getFoodAsync success: $response")
 
                 // convert response JSONArray to List<FoodModel>

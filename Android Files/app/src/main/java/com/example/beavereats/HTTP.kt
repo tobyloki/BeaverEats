@@ -14,10 +14,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.Headers
-import retrofit2.http.POST
+import retrofit2.http.*
 
 private const val BASE_URL = "https://beaver-eats-backend-demo.fly.dev"
 
@@ -39,13 +36,13 @@ interface HttpService {
     fun getRestaurantsAsync(): Deferred<String>
 
     // TODO: fix hardcoded JavaStop later
-    @GET("/locations/JavaStop/menus")
-    fun getMenuAsync(): Deferred<String>
+    @GET("/locations/{restaurant}/menus")
+    fun getMenuAsync(@Path("restaurant", encoded = true) restaurant : String): Deferred<String>
 
     // TODO: fix hardcoded JavaStop later
-    @GET("/locations/JavaStop/menus/Espresso")
-    fun getFoodAsync(): Deferred<String>
-
+    @GET("/locations/{restaurant}/menus/{menu}")
+    fun getFoodAsync(@Path("restaurant", encoded = true) restaurant : String,
+                    @Path("menu", encoded = true) menu : String): Deferred<String>
 
     // restaurantName = URLEncoder.encode(restaurantName, "utf-8")
 }

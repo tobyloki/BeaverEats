@@ -43,13 +43,13 @@ class MenuActivity : AppCompatActivity() {
         val list = mutableListOf<MenuActivity.ListItem>()
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        var restaurantName = intent.getStringExtra("Restaurant")
+        var restaurantName : String = intent.getStringExtra("Restaurant") ?: ""
         supportActionBar!!.title = "$restaurantName - Menu"
 
         context = this
         coroutineScope.launch {
             try {
-                val response = HttpApi.retrofitService.getMenuAsync().await()
+                val response = HttpApi.retrofitService.getMenuAsync(restaurantName).await()
                 Log.i(TAG, "getMenuAsync success: $response")
 
                 // convert response JSONArray to List<MenuModel>
@@ -77,7 +77,7 @@ class MenuActivity : AppCompatActivity() {
                 }
 
                 withContext(Dispatchers.Main) {
-                    recyclerView.adapter = MenuAdapter(context, list)
+                    recyclerView.adapter = MenuAdapter(context, restaurantName, list)
                 }
 
             } catch (e: Exception) {
