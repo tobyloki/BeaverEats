@@ -1,5 +1,6 @@
 package com.example.beavereats
 
+import android.app.Activity
 import android.content.Context
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -8,8 +9,12 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -17,6 +22,7 @@ import kotlinx.coroutines.*
 import org.json.JSONArray
 import java.lang.Exception
 import java.time.LocalTime
+import kotlin.reflect.jvm.internal.impl.renderer.KeywordStringsGenerated
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,17 +32,23 @@ class MainActivity : AppCompatActivity() {
     private val showError = MutableLiveData<Boolean>().apply {
         value = false
     }
+    private var sort = "name"
 
     private var viewModelJob = Job()
     private val coroutineScope = CoroutineScope(viewModelJob + Dispatchers.Main)
     private val TAG = MainActivity::class.java.simpleName
     private lateinit var context : Context
+    private lateinit var recyclerView : RecyclerView
+    private lateinit var popUpLayout : ConstraintLayout
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val recyclerView = findViewById<RecyclerView>(R.id.rvRestaurantList)
+        recyclerView = findViewById<RecyclerView>(R.id.rvRestaurantList)
+        popUpLayout = findViewById(R.id.popUpLayout)
+
+        popUpVisibility(false)
 
         recyclerView.focusable = View.NOT_FOCUSABLE
         recyclerView.layoutManager = GridLayoutManager(this, 1)
@@ -46,10 +58,68 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.adapter = RestaurantAdapter(this, list)
 
+        val spinner = findViewById<Spinner>(R.id.spinner)
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.planets_array,
+            android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            // Specify the layout to use when the list of choices appears
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            // Apply the adapter to the spinner
+            spinner.adapter = adapter
+        }
+        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
+                val selectedItem = parent.getItemAtPosition(position).toString()
+
+                sort = if (selectedItem == "End Hours"){
+                    "endHours"
+                } else if (selectedItem == "Start Hours") {
+                    "startHours"
+                } else {
+                    "name"
+                }
+
+                popUpLayout.visibility = View.GONE
+                makeList()
+
+            } // to close the onItemSelected
+
+            override fun onNothingSelected(parent: AdapterView<*>) {
+
+            }
+        }
         context = this
+        makeList()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.nav_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        popUpVisibility(true)
+
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun popUpVisibility(bool : Boolean){
+        if (bool) {
+            popUpLayout.visibility = View.VISIBLE
+        }
+        else {
+            popUpLayout.visibility = View.GONE
+        }
+    }
+
+    @RequiresApi(Build.VERSION_CODES.O)
+    fun makeList() {
         coroutineScope.launch {
             try {
-                val response = HttpApi.retrofitService.getRestaurantsAsync().await()
+                val response = HttpApi.retrofitService.getRestaurantsAsync(sort).await()
                 Log.i(TAG, "getRestaurantsAsync success: $response")
 
                 // convert response JSONArray to List<RestaurantModel>
@@ -102,19 +172,6 @@ class MainActivity : AppCompatActivity() {
 
             loading.postValue(false)
         }
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.nav_menu, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
-            R.id.nav_filter -> Toast.makeText(this, "Filter selected", Toast.LENGTH_SHORT).show()
-        }
-
-        return super.onOptionsItemSelected(item)
     }
 
     class ListItem {

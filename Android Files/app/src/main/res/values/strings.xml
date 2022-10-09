@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Beaver Eats</string>
+
+    <string-array name="planets_array">
+        <item>Name</item>
+        <item>Start Hours</item>
+        <item>End Hours</item>
+    </string-array>
 </resources>

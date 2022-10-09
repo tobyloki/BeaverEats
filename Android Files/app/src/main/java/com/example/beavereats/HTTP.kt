@@ -33,7 +33,7 @@ private val retrofit = Retrofit.Builder()
 // TODO (03) Implement the MarsApiService interface with @GET getProperties returning a String
 interface HttpService {
     @GET("/locations")
-    fun getRestaurantsAsync(): Deferred<String>
+    fun getRestaurantsAsync(@Query("sort", encoded = true) sort : String): Deferred<String>
 
     // TODO: fix hardcoded JavaStop later
     @GET("/locations/{restaurant}/menus")
