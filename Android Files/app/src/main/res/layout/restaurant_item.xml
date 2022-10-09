@@ -30,15 +30,32 @@
             app:srcCompat="@android:drawable/arrow_up_float" />
 
         <TextView
-            android:id="@+id/tvHours"
+            android:id="@+id/tvHourStart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="00:00 - 24:00"
+            android:text="00:00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvRestaurantName"
-            app:layout_constraintVertical_bias="0.515" />
+            app:layout_constraintTop_toBottomOf="@+id/tvRestaurantName" />
+
+        <TextView
+            android:id="@+id/tvDash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvHourStart"
+            app:layout_constraintTop_toBottomOf="@+id/tvRestaurantName" />
+
+        <TextView
+            android:id="@+id/tvHourStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24:00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvDash"
+            app:layout_constraintTop_toBottomOf="@+id/tvRestaurantName" />
 
         <TextView
             android:id="@+id/tvRestaurantName"
