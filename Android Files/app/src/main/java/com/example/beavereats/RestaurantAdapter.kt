@@ -1,14 +1,15 @@
 package com.example.beavereats
 
+import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import java.util.*
 
-class RestaurantAdapter (var restaurants: List<MainActivity.ListItem>) :   RecyclerView.Adapter<RestaurantAdapter.ViewHolder>() {
+class RestaurantAdapter (var context: Context, var restaurants: List<MainActivity.ListItem>) :   RecyclerView.Adapter<RestaurantAdapter.ViewHolder>() {
     private val TAG = RestaurantAdapter::class.java.simpleName
 
     override fun onCreateViewHolder(
@@ -22,13 +23,16 @@ class RestaurantAdapter (var restaurants: List<MainActivity.ListItem>) :   Recyc
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val restaurant = restaurants[position]
 
-        holder.location.text = restaurant.location
+        holder.location.text = restaurant.name
         holder.hourStart.text = restaurant.hourStart
         holder.hourStop.text = restaurant.hourStop
         holder.status.text = restaurant.status
 
 
         holder.itemView.setOnClickListener {
+            val intent = Intent(context, MenuActivity::class.java)
+            intent.putExtra("Restaurant", restaurant.name)
+            context.startActivity(intent)
             Log.i(TAG, "item clicked")
         }
     }

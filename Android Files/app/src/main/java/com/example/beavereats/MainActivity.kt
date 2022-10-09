@@ -1,5 +1,6 @@
 package com.example.beavereats
 
+import android.content.Context
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,14 +13,10 @@ import androidx.annotation.RequiresApi
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.*
 import org.json.JSONArray
 import java.lang.Exception
 import java.time.LocalTime
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +30,7 @@ class MainActivity : AppCompatActivity() {
     private var viewModelJob = Job()
     private val coroutineScope = CoroutineScope(viewModelJob + Dispatchers.Main)
     private val TAG = MainActivity::class.java.simpleName
+    private lateinit var context : Context
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,12 +40,13 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.focusable = View.NOT_FOCUSABLE
         recyclerView.layoutManager = GridLayoutManager(this, 1)
-        recyclerView.adapter = RestaurantAdapter(listOf())
+        recyclerView.adapter = RestaurantAdapter(this, listOf())
 
         val list = mutableListOf<ListItem>()
 
-        recyclerView.adapter = RestaurantAdapter(list)
+        recyclerView.adapter = RestaurantAdapter(this, list)
 
+        context = this
         coroutineScope.launch {
             try {
                 val response = HttpApi.retrofitService.getRestaurantsAsync().await()
@@ -60,15 +59,13 @@ class MainActivity : AppCompatActivity() {
                 for (i in 0 until data.length()) {
                     try {
                         val item = data.getJSONObject(i)
-                        // Log.i("MainActivity", "Data: $item")
                         val location = item.getString("name")
-                        var hourStart = item.optString("startHours", "00:00")
+                        var hourStart = item.optString("startHours", "00:00 - ")
                         if (hourStart == "null"){
                             hourStart = "Hours Unknown"
-
                         }
                         else {
-                            hourStart = hourStart.slice(0 until 2) + ":" + hourStart.slice(2 until 4)
+                            hourStart = hourStart.slice(0 until 2) + ":" + hourStart.slice(2 until 4) + " - "
                         }
                         var hourStop = item.optString("endHours", "24:00")
                         if (hourStop == "null"){
@@ -92,7 +89,9 @@ class MainActivity : AppCompatActivity() {
                     list.add(item)
                 }
 
-                recyclerView.adapter = RestaurantAdapter(list)
+                withContext(Dispatchers.Main) {
+                    recyclerView.adapter = RestaurantAdapter(context, list)
+                }
 
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -119,13 +118,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     class ListItem {
-        var location: String = ""
+        var name: String = ""
         var hourStart: String = ""
         var hourStop: String = ""
         var status: String = ""
 
         constructor(location: String, hourStart: String, hourStop: String, status: String) {
-            this.location = location
+            this.name = location
             this.hourStart = hourStart
             this.hourStop = hourStop
             this.status = status
@@ -136,7 +135,7 @@ class MainActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     fun isOpen(openTime: String, closeTime: String) : String{
         if (closeTime == "") {
-            return ("Unknown")
+            return ("Closed")
         }
 
         val openHour = openTime.slice(0 until 2)

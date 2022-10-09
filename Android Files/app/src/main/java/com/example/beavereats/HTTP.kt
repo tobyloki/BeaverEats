@@ -37,9 +37,10 @@ private val retrofit = Retrofit.Builder()
 interface HttpService {
     @GET("/locations")
     fun getRestaurantsAsync(): Deferred<String>
-    @POST("/restaurant")
-    @Headers("Content-Type: application/json")
-    fun createRestaurantAsync(@Body restaurant: RequestBody): Deferred<Response<Unit>>  // 204 response type should be Response<Unit> - https://stackoverflow.com/a/59636492/16762230
+
+    // TODO: fix hardcoded JavaStop later
+    @GET("/locations/JavaStop/menus")
+    fun getMenuAsync(): Deferred<String>
 }
 // TODO (04) Create the MarsApi object using Retrofit to implement the MarsApiService
 object HttpApi {
