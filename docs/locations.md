@@ -41,9 +41,11 @@
 - [`startHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=startHours)
   - Sorts by name
   - Prioritizes locations that open earlier
+  - `null` values are sorted last
 - [`endHours`](https://beaver-eats-backend-demo.fly.dev/locations?sort=endHours)
   - Sorts by name
   - Prioritizes locations that close earlier
+  - `null` values are sorted last
 
 ### Ordering
 
