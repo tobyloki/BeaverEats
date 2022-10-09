@@ -3,9 +3,9 @@ package com.example.beavereats
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
-import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import android.view.MenuItem
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.MutableLiveData
@@ -31,16 +31,16 @@ class FoodActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.menu_activity)
+        setContentView(R.layout.food_activity)
         val recyclerView = findViewById<RecyclerView>(R.id.rvFoodList)
 
         recyclerView.focusable = View.NOT_FOCUSABLE
         recyclerView.layoutManager = GridLayoutManager(this, 1)
         recyclerView.adapter = RestaurantAdapter(this, listOf())
 
-        val list = mutableListOf<MenuActivity.ListItem>()
+        val list = mutableListOf<FoodActivity.ListItem>()
 
-        recyclerView.adapter = MenuAdapter(list)
+        recyclerView.adapter = FoodAdapter(list)
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         var restaurantName = intent.getStringExtra("Restaurant")
@@ -49,40 +49,40 @@ class FoodActivity : AppCompatActivity() {
 
         coroutineScope.launch {
             try {
-                val response = HttpApi.retrofitService.getMenuAsync().await()
-                Log.i(TAG, "getMenuAsync success: $response")
+                val response = HttpApi.retrofitService.getFoodAsync().await()
+                Log.i(TAG, "getFoodAsync success: $response")
 
-                // convert response JSONArray to List<MenuModel>
+                // convert response JSONArray to List<FoodModel>
                 val data = JSONArray(response)
                 // loop through data
-                val itemList = mutableListOf<MenuModel>()
+                val itemList = mutableListOf<FoodModel>()
                 for (i in 0 until data.length()) {
                     try {
                         val item = data.getJSONObject(i)
-                        val name = item.getString("title")
-                        val listItem = MenuModel(name)
+                        val name = item.getString("name")
+                        val listItem = FoodModel(name)
                         itemList.add(listItem)
 
                     } catch (e: Exception) {
-                        Log.e(TAG, "parseMenu error: $e")
+                        Log.e(TAG, "parseFood error: $e")
                     }
                 }
 
                 // populate list
-                val list = mutableListOf<MenuActivity.ListItem>()
+                val list = mutableListOf<FoodActivity.ListItem>()
                 itemList.forEach {
                     val item =
-                        MenuActivity.ListItem(it.name)
+                        FoodActivity.ListItem(it.name)
                     list.add(item)
                 }
 
                 withContext(Dispatchers.Main) {
-                    recyclerView.adapter = MenuAdapter(list)
+                    recyclerView.adapter = FoodAdapter(list)
                 }
 
             } catch (e: Exception) {
                 e.printStackTrace()
-                Log.e(TAG, "getMenuAsync fail: ${e.localizedMessage}")
+                Log.e(TAG, "getFoodAsync fail: ${e.localizedMessage}")
 
                 showError.postValue(true)
             }

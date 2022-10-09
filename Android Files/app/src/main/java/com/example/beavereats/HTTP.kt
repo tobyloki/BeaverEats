@@ -41,6 +41,13 @@ interface HttpService {
     // TODO: fix hardcoded JavaStop later
     @GET("/locations/JavaStop/menus")
     fun getMenuAsync(): Deferred<String>
+
+    // TODO: fix hardcoded JavaStop later
+    @GET("/locations/JavaStop/menus/Espresso")
+    fun getFoodAsync(): Deferred<String>
+
+
+    // restaurantName = URLEncoder.encode(restaurantName, "utf-8")
 }
 // TODO (04) Create the MarsApi object using Retrofit to implement the MarsApiService
 object HttpApi {
@@ -48,3 +55,4 @@ object HttpApi {
         retrofit.create(HttpService::class.java)
     }
 }
+

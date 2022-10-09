@@ -15,9 +15,17 @@
         android:theme="@style/Theme.BeaverEats"
         tools:targetApi="31">
         <activity
+            android:name=".FoodActivity"
+            android:exported="false"
+            android:parentActivityName=".FoodActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MenuActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MenuActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

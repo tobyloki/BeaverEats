@@ -1,6 +1,7 @@
 package com.example.beavereats
 
-
+import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class MenuAdapter (var foods: List<MenuActivity.ListItem>) :   RecyclerView.Adapter<MenuAdapter.ViewHolder>() {
+class MenuAdapter (var context: Context, var menus: List<MenuActivity.ListItem>) :   RecyclerView.Adapter<MenuAdapter.ViewHolder>() {
     private val TAG = MenuAdapter::class.java.simpleName
 
     override fun onCreateViewHolder(
@@ -20,18 +21,26 @@ class MenuAdapter (var foods: List<MenuActivity.ListItem>) :   RecyclerView.Adap
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val food = foods[position]
+        val menu = menus[position]
 
-        holder.name.text = food.name
+        holder.name.text = menu.name
 
 
         holder.itemView.setOnClickListener {
             Log.i(TAG, "item clicked")
         }
+
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, FoodActivity::class.java)
+            intent.putExtra("Restaurant", menu.name)
+            context.startActivity(intent)
+            Log.i(TAG, "item clicked")
+        }
     }
 
     override fun getItemCount(): Int {
-        return foods.size
+        return menus.size
     }
 
     // create a class for the view holder

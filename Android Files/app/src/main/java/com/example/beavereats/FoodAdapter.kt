@@ -7,14 +7,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class FoodAdapter (var foods: List<FoodActivity.ListItem>) :   RecyclerView.Adapter<MenuAdapter.ViewHolder>() {
-    private val TAG = MenuAdapter::class.java.simpleName
+class FoodAdapter (var foods: List<FoodActivity.ListItem>) :   RecyclerView.Adapter<FoodAdapter.ViewHolder>() {
+    private val TAG = FoodAdapter::class.java.simpleName
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
     ): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.menu_item, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.food_item, parent, false)
         return ViewHolder(view)
     }
 

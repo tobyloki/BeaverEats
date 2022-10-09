@@ -1,5 +1,6 @@
 package com.example.beavereats
 
+import android.content.Context
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -27,6 +28,7 @@ class MenuActivity : AppCompatActivity() {
     private var viewModelJob = Job()
     private val coroutineScope = CoroutineScope(viewModelJob + Dispatchers.Main)
     private val TAG = MainActivity::class.java.simpleName
+    private lateinit var context : Context
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,13 +42,11 @@ class MenuActivity : AppCompatActivity() {
 
         val list = mutableListOf<MenuActivity.ListItem>()
 
-        recyclerView.adapter = MenuAdapter(list)
-
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         var restaurantName = intent.getStringExtra("Restaurant")
-        // restaurantName = URLEncoder.encode(restaurantName, "utf-8")
         supportActionBar!!.title = "$restaurantName - Menu"
 
+        context = this
         coroutineScope.launch {
             try {
                 val response = HttpApi.retrofitService.getMenuAsync().await()
@@ -77,7 +77,7 @@ class MenuActivity : AppCompatActivity() {
                 }
 
                 withContext(Dispatchers.Main) {
-                    recyclerView.adapter = MenuAdapter(list)
+                    recyclerView.adapter = MenuAdapter(context, list)
                 }
 
             } catch (e: Exception) {
